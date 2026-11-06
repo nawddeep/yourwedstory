@@ -1,0 +1,10 @@
+# System files
+.DS_Store
+
+# Agent files
+.agents/
+.agent/
+
+# Dependencies & environments
+node_modules/
+.env*

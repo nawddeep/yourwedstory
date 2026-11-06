@@ -66,20 +66,19 @@
     </section>
     <section class="frame section inquiry" id="contact" aria-labelledby="contact-title">
       <h2 id="contact-title">Get in touch</h2>
-      <form class="inquiry-form" method="post" aria-describedby="inquiry-status">
-        <p id="inquiry-status">Online inquiries are opening soon. In the meantime, reach us on <a href="https://www.instagram.com/yourwedstories/">Instagram</a>.</p>
-        <fieldset disabled>
-          <div class="inquiry-grid">
-            <label>Full name <input name="name" autocomplete="name" maxlength="120" required></label>
-            <label>Email <input type="email" name="email" autocomplete="email" maxlength="254" required></label>
-            <label>Phone <span>(optional)</span><input type="tel" name="phone" autocomplete="tel" maxlength="40"></label>
-            <label>Wedding date <span>(optional)</span><input type="date" name="date"></label>
-            <label class="inquiry-wide">Venue or city <span>(optional)</span><input name="location" maxlength="180"></label>
-            <label class="inquiry-wide">Tell us about your wedding <textarea name="message" rows="5" maxlength="2500" required></textarea></label>
-          </div>
-          <div hidden><label>Website <input name="website" tabindex="-1" autocomplete="off"></label></div>
-          <button type="submit">Send inquiry</button>
-        </fieldset>
+      <p class="inquiry-intro">Tell us a little about your wedding and we'll continue the conversation on WhatsApp. You can also reach us on <a href="https://www.instagram.com/yourwedstories/">Instagram</a>.</p>
+      <p class="contact-whatsapp"><a href="https://wa.me/918875005588" target="_blank" rel="noopener noreferrer">WhatsApp: +91 88750 05588</a></p>
+      <form class="inquiry-form" method="post">
+        <div class="inquiry-grid">
+          <label for="inquiry-name">Full name <input id="inquiry-name" name="name" autocomplete="name" maxlength="120" required></label>
+          <label for="inquiry-email">Email <input id="inquiry-email" type="email" name="email" autocomplete="email" maxlength="254" required></label>
+          <label for="inquiry-phone">Phone <span>(optional)</span><input id="inquiry-phone" type="tel" name="phone" autocomplete="tel" maxlength="40"></label>
+          <label for="inquiry-date">Wedding date <input id="inquiry-date" type="date" name="date" required></label>
+          <label for="inquiry-location" class="inquiry-wide">Venue or city <input id="inquiry-location" name="location" maxlength="180" required></label>
+          <label for="inquiry-message" class="inquiry-wide">Tell us about your wedding <textarea id="inquiry-message" name="message" rows="5" maxlength="2500" required></textarea></label>
+        </div>
+        <div hidden><label for="inquiry-website">Website <input id="inquiry-website" name="website" tabindex="-1" autocomplete="off"></label></div>
+        <button type="submit">Send inquiry</button>
       </form>
     </section>
   </main>
@@ -90,5 +89,6 @@
       <a href="https://www.behance.net/yourwedstories">Behance</a>
     </nav>
   </footer>
+  <script src="script.js" defer></script>
 </body>
 </html>

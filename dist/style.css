@@ -124,7 +124,8 @@ footer {
 .film a, .inquiry a { text-decoration: underline; text-underline-offset: .2em; }
 
 .inquiry { max-width: 56rem; }
-.inquiry-form fieldset { min-inline-size: 0; margin: 0; padding: 0; border: 0; }
+.contact-whatsapp { margin: .25rem 0 1.5rem; }
+.contact-whatsapp a:hover { text-decoration-thickness: 2px; }
 .inquiry-grid { gap: 1rem 1.5rem; }
 .inquiry-grid label { display: block; }
 .inquiry-grid label span { font-size: .9em; }
@@ -141,6 +142,12 @@ footer {
   color: var(--ink);
   font: inherit;
 }
+.inquiry-form input:focus-visible,
+.inquiry-form textarea:focus-visible,
+.inquiry-form button:focus-visible {
+  outline: 2px solid var(--ink);
+  outline-offset: 2px;
+}
 
 .inquiry-form textarea { resize: vertical; }
 .inquiry-form button {
@@ -151,8 +158,12 @@ footer {
   background: var(--ink);
   color: var(--light);
   font: inherit;
+  cursor: pointer;
 }
-.inquiry-form button:disabled { opacity: .65; }
+.inquiry-form button:disabled {
+  opacity: .65;
+  cursor: not-allowed;
+}
 .social-links { justify-content: center; flex-wrap: wrap; margin-top: 1rem; }
 .social-links a:hover { text-decoration: underline; }
 
