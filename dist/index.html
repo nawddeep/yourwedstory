@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Your Wed Stories</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="home">
+  <a class="skip" href="#content">Skip to content</a>
+  <header class="masthead">
+    <a class="logo" href="./" aria-label="Your Wed Stories home"><img src="images/yourwedstories-logo.png" width="780" height="281" alt="Your Wed Stories"></a>
+    <nav aria-label="Main navigation">
+      <a href="photography/">Photography</a>
+      <a href="weddings/">Weddings</a>
+      <a href="#films">Films</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+  <main id="content" tabindex="-1">
+    <h1 class="visually-hidden">Your Wed Stories</h1>
+    <div class="hero">
+      <img src="images/cover.jpg" srcset="images/cover-small.jpg 1000w, images/cover.jpg 2400w" sizes="100vw" width="2400" height="1600" alt="A couple stands on coastal rocks above the surf" fetchpriority="high">
+    </div>
+    <section class="frame section" aria-labelledby="photography-title">
+      <h2 id="photography-title"><a href="photography/">Photography</a></h2>
+      <div class="photo-grid photo-grid-three">
+      <figure><img class="photo photo-bansri" src="images/bansri.jpg" width="800" height="600" alt="A couple beneath a white scalloped arch" loading="lazy" decoding="async"></figure>
+      <figure><img class="photo photo-pranav" src="images/pranav-malini.jpg" width="600" height="800" alt="Pranav and Malini in a nighttime wedding portrait" loading="lazy" decoding="async"></figure>
+      <figure><img class="photo photo-rheema" src="images/rheema.jpg" width="800" height="600" alt="Black-and-white portrait of a couple facing each other" loading="lazy" decoding="async"></figure>
+      </div>
+    </section>
+    <section class="frame section" aria-labelledby="weddings-title">
+      <h2 id="weddings-title"><a href="weddings/">Weddings</a></h2>
+    <article class="wedding-card">
+      <a href="weddings/aditi-xavier/">
+        <img class="photo photo-celebration" src="images/aditi-celebration.jpg" width="1100" height="734" alt="Guests dance in a sunlit courtyard" loading="lazy" decoding="async">
+        <span>Aditi &amp; Xavier</span>
+      </a>
+    </article>
+    </section>
+    <section class="frame section" id="films" aria-labelledby="films-title">
+      <h2 id="films-title">Wedding films</h2>
+      <div class="film-grid">
+        <article class="film">
+          <iframe src="https://www.youtube-nocookie.com/embed/q8qiddUJ7oA" title="Wedding film 1" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe>
+          <h3>Wedding film 1</h3>
+          <a href="https://youtu.be/q8qiddUJ7oA">Watch on YouTube<span class="visually-hidden">: Wedding film 1</span></a>
+        </article>
+        <article class="film">
+          <iframe src="https://www.youtube-nocookie.com/embed/DAsjJI_gzKU" title="Wedding film 2" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe>
+          <h3>Wedding film 2</h3>
+          <a href="https://youtu.be/DAsjJI_gzKU">Watch on YouTube<span class="visually-hidden">: Wedding film 2</span></a>
+        </article>
+        <article class="film">
+          <iframe src="https://www.youtube-nocookie.com/embed/GMz1eTHX-Iw" title="Aditi &amp; Xavier" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe>
+          <h3>Aditi &amp; Xavier</h3>
+          <a href="https://youtu.be/GMz1eTHX-Iw">Watch on YouTube<span class="visually-hidden">: Aditi &amp; Xavier</span></a>
+        </article>
+        <article class="film">
+          <iframe src="https://www.youtube-nocookie.com/embed/dbPJZyxnxQg" title="Wedding film 4" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe>
+          <h3>Wedding film 4</h3>
+          <a href="https://youtu.be/dbPJZyxnxQg">Watch on YouTube<span class="visually-hidden">: Wedding film 4</span></a>
+        </article>
+      </div>
+    </section>
+    <section class="frame section inquiry" id="contact" aria-labelledby="contact-title">
+      <h2 id="contact-title">Get in touch</h2>
+      <form class="inquiry-form" method="post" aria-describedby="inquiry-status">
+        <p id="inquiry-status">Online inquiries are opening soon. In the meantime, reach us on <a href="https://www.instagram.com/yourwedstories/">Instagram</a>.</p>
+        <fieldset disabled>
+          <div class="inquiry-grid">
+            <label>Full name <input name="name" autocomplete="name" maxlength="120" required></label>
+            <label>Email <input type="email" name="email" autocomplete="email" maxlength="254" required></label>
+            <label>Phone <span>(optional)</span><input type="tel" name="phone" autocomplete="tel" maxlength="40"></label>
+            <label>Wedding date <span>(optional)</span><input type="date" name="date"></label>
+            <label class="inquiry-wide">Venue or city <span>(optional)</span><input name="location" maxlength="180"></label>
+            <label class="inquiry-wide">Tell us about your wedding <textarea name="message" rows="5" maxlength="2500" required></textarea></label>
+          </div>
+          <div hidden><label>Website <input name="website" tabindex="-1" autocomplete="off"></label></div>
+          <button type="submit">Send inquiry</button>
+        </fieldset>
+      </form>
+    </section>
+  </main>
+  <footer><a class="logo" href="./" aria-label="Your Wed Stories home"><img src="images/yourwedstories-logo.png" width="780" height="281" alt="Your Wed Stories"></a>
+    <nav class="social-links" aria-label="Social links">
+      <a href="https://www.instagram.com/yourwedstories/">Instagram</a>
+      <a href="https://www.youtube.com/@yourwedstories">YouTube</a>
+      <a href="https://www.behance.net/yourwedstories">Behance</a>
+    </nav>
+  </footer>
+</body>
+</html>
