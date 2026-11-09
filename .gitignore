@@ -8,3 +8,6 @@
 # Dependencies & environments
 node_modules/
 .env*
+
+# Scratch & temporary test files
+scratch/
