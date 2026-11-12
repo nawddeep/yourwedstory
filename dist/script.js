@@ -13,15 +13,16 @@ const WHATSAPP_NUMBER = '918875005588';
     'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'
   ];
 
-  // Validate a local ISO calendar date and reject past wedding dates.
+  // Validate date format DD/MM/YYYY and valid calendar date
   function parseAndValidateDate(dateStr) {
     if (!dateStr || typeof dateStr !== 'string') return null;
     var trimmed = dateStr.trim();
-    var match = trimmed.match(/^(\d{4})-(\d{2})-(\d{2})$/);
+    var match = trimmed.match(/^(\d{1,2})\/(\d{1,2})\/(\d{4})$/);
     if (!match) return null;
-    var year = Number(match[1]);
-    var month = Number(match[2]);
-    var day = Number(match[3]);
+
+    var day = parseInt(match[1], 10);
+    var month = parseInt(match[2], 10);
+    var year = parseInt(match[3], 10);
 
     if (month < 1 || month > 12) return null;
     if (year < 1900 || year > 2200) return null;
@@ -35,9 +36,6 @@ const WHATSAPP_NUMBER = '918875005588';
       return null;
     }
 
-    var today = new Date();
-    today.setHours(0, 0, 0, 0);
-    if (dateObj < today) return null;
     var dayFormatted = day < 10 ? '0' + day : '' + day;
     return dayFormatted + ' ' + MONTH_NAMES[month - 1] + ' ' + year;
   }
@@ -55,7 +53,7 @@ const WHATSAPP_NUMBER = '918875005588';
       var contactSection = document.getElementById('contact');
       if (contactSection) {
         e.preventDefault();
-        contactSection.scrollIntoView({ behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' });
+        contactSection.scrollIntoView({ behavior: 'smooth' });
         if (window.history && window.history.pushState) {
           window.history.pushState(null, null, '#contact');
         }
@@ -78,7 +76,7 @@ const WHATSAPP_NUMBER = '918875005588';
       var contactSection = document.getElementById('contact');
       if (contactSection) {
         setTimeout(function () {
-          contactSection.scrollIntoView({ behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' });
+          contactSection.scrollIntoView({ behavior: 'smooth' });
           var firstInput = document.getElementById('field-name');
           if (firstInput) {
             try {
@@ -116,8 +114,6 @@ const WHATSAPP_NUMBER = '918875005588';
       errorId: 'error-phone',
       validate: function (val) {
         if (!val.trim()) return 'Please enter your WhatsApp number.';
-        var digits = val.replace(/\D/g, '');
-        if (!/^\+?[\d\s().-]+$/.test(val.trim()) || digits.length < 7 || digits.length > 15) return 'Enter a phone number with 7–15 digits, including your country code.';
         return '';
       }
     },
@@ -141,9 +137,9 @@ const WHATSAPP_NUMBER = '918875005588';
       id: 'field-date',
       errorId: 'error-date',
       validate: function (val) {
-        if (!val.trim()) return 'Choose today or a future wedding date.';
+        if (!val.trim()) return 'Enter the date as DD/MM/YYYY.';
         var formatted = parseAndValidateDate(val);
-        if (!formatted) return 'Choose today or a future wedding date.';
+        if (!formatted) return 'Enter the date as DD/MM/YYYY.';
         return '';
       }
     },
@@ -151,7 +147,7 @@ const WHATSAPP_NUMBER = '918875005588';
       id: 'field-days',
       errorId: 'error-days',
       validate: function (val) {
-        if (!['1', '2', '3', '4', '5', '6+'].includes(val)) return 'Please select number of days.';
+        if (!val || !val.trim()) return 'Please select number of days.';
         return '';
       }
     }
@@ -268,29 +264,30 @@ const WHATSAPP_NUMBER = '918875005588';
       var fullMessage = lines.join('\n') + '\n\n' + closingSentence;
       var whatsappUrl = 'https://wa.me/' + WHATSAPP_NUMBER + '?text=' + encodeURIComponent(fullMessage);
 
-      // Keep the draft on this page. Opening WhatsApp is a separate, explicit action.
-      statusEl.replaceChildren();
-      var explanation = document.createElement('p');
-      explanation.textContent = 'Your message is ready. Open WhatsApp, review it and press Send to deliver your inquiry.';
-      var link = document.createElement('a');
-      link.href = whatsappUrl;
-      link.target = '_blank';
-      link.rel = 'noopener noreferrer';
-      link.className = 'action-link';
-      link.textContent = 'Open WhatsApp draft ↗';
-      statusEl.append(explanation, link);
-      link.focus();
+      // UI state during redirection
+      if (submitBtn) {
+        submitBtn.disabled = true;
+        submitBtn.textContent = 'Opening WhatsApp\u2026';
+      }
+      if (statusEl) {
+        statusEl.textContent = 'Opening WhatsApp with your enquiry\u2026';
+      }
 
+      try {
+        window.location.href = whatsappUrl;
+      } catch (err) {
+        if (statusEl) {
+          statusEl.innerHTML = '<a href="https://wa.me/' + WHATSAPP_NUMBER + '" target="_blank" rel="noopener noreferrer">WhatsApp didn\'t open. Message us at +91 88750 05588.</a>';
+        }
+      }
+
+      setTimeout(function () {
+        if (submitBtn) {
+          submitBtn.disabled = false;
+          submitBtn.textContent = 'SUBMIT INQUIRY';
+        }
+      }, 2000);
     });
-  }
-
-  if (form) {
-    form.hidden = false;
-    var dateInput = document.getElementById('field-date');
-    var now = new Date();
-    dateInput.min = [now.getFullYear(), String(now.getMonth() + 1).padStart(2, '0'), String(now.getDate()).padStart(2, '0')].join('-');
-    form.addEventListener('input', function () { statusEl.replaceChildren(); });
-    form.addEventListener('change', function () { statusEl.replaceChildren(); });
   }
 
   // Initialize deep link on page load
