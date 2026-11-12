@@ -47,6 +47,7 @@
       menu.classList.add('is-open');
       burger.setAttribute('aria-expanded', 'true');
       document.documentElement.classList.add('is-open');
+      document.querySelectorAll('body > header, body > main, body > footer').forEach(function (el) { el.inert = true; });
       if (closeBtn) {
         try {
           closeBtn.focus();
@@ -58,6 +59,7 @@
       menu.classList.remove('is-open');
       burger.setAttribute('aria-expanded', 'false');
       document.documentElement.classList.remove('is-open');
+      document.querySelectorAll('body > header, body > main, body > footer').forEach(function (el) { el.inert = false; });
 
       setTimeout(function () {
         if (!menu.classList.contains('is-open')) {
@@ -112,6 +114,10 @@
       }
     });
 
+    window.matchMedia('(min-width: 900px)').addEventListener('change', function (event) {
+      if (event.matches && menu.classList.contains('is-open')) closeMenu();
+    });
+
     // Clicking any link inside closes the menu
     menu.addEventListener('click', function (e) {
       var link = e.target.closest('a');
@@ -121,70 +127,60 @@
     });
   }
 
-  const NEWSLETTER_ENDPOINT = "";   // TODO: paste a Mailchimp/Buttondown/Formspree endpoint
-
-  function initNewsletter() {
-    var form = document.querySelector('.newsletter-form');
-    if (!form) return;
-
-    var input = document.getElementById('newsletter-email');
-    var submitBtn = form.querySelector('button[type="submit"]');
-    var status = form.querySelector('.newsletter-status');
-    if (!input || !status) return;
-
-    var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-
-    input.addEventListener('input', function () {
-      if (input.getAttribute('aria-invalid') === 'true') {
-        input.removeAttribute('aria-invalid');
-        status.textContent = '';
-        status.classList.remove('is-error');
-      }
+  function initFilms() {
+    document.querySelectorAll('[data-video]').forEach(function (link) {
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        var iframe = document.createElement('iframe');
+        iframe.src = 'https://www.youtube-nocookie.com/embed/' + link.dataset.video + '?autoplay=1';
+        iframe.title = link.getAttribute('aria-label');
+        iframe.allow = 'autoplay; encrypted-media; picture-in-picture; fullscreen';
+        iframe.referrerPolicy = 'strict-origin-when-cross-origin';
+        var fallback = link.cloneNode(true);
+        fallback.removeAttribute('data-video');
+        fallback.className = 'text-link';
+        fallback.textContent = 'Watch on YouTube ↗';
+        fallback.target = '_blank';
+        fallback.rel = 'noopener noreferrer';
+        link.replaceWith(iframe, fallback);
+        iframe.focus();
+      });
     });
+  }
 
-    form.addEventListener('submit', function (e) {
-      e.preventDefault();
-      var emailVal = (input.value || '').trim();
-
-      if (!emailVal || !emailRegex.test(emailVal)) {
-        input.setAttribute('aria-invalid', 'true');
-        status.classList.add('is-error');
-        status.textContent = 'Please enter a valid email address.';
-        input.focus();
-        return;
-      }
-
-      input.removeAttribute('aria-invalid');
-      status.classList.remove('is-error');
-
-      if (!NEWSLETTER_ENDPOINT) {
-        status.innerHTML = 'Newsletter signup opens soon \u2014 follow us on <a href="https://www.instagram.com/yourwedstories/" target="_blank" rel="noopener noreferrer">@yourwedstories</a> in the meantime.';
-        return;
-      }
-
-      if (submitBtn) submitBtn.disabled = true;
-      status.textContent = 'Subscribing\u2026';
-
-      fetch(NEWSLETTER_ENDPOINT, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ email: emailVal })
-      })
-        .then(function (res) {
-          if (!res.ok) throw new Error('Network error');
-          return res.json().catch(function () { return {}; });
-        })
-        .then(function () {
-          status.textContent = "You're on the list. Thank you.";
-          input.value = '';
-        })
-        .catch(function () {
-          status.classList.add('is-error');
-          status.textContent = 'Something went wrong. Please try again.';
-        })
-        .finally(function () {
-          if (submitBtn) submitBtn.disabled = false;
-        });
+  function initGallery() {
+    var dialog = document.createElement('dialog');
+    if (typeof dialog.showModal !== 'function') return;
+    dialog.className = 'photo-dialog';
+    dialog.setAttribute('aria-label', 'Full photograph');
+    var close = document.createElement('button');
+    close.type = 'button';
+    close.textContent = 'Close photograph ×';
+    var image = document.createElement('img');
+    dialog.append(close, image);
+    document.body.append(dialog);
+    var opener;
+    close.addEventListener('click', function () { dialog.close(); });
+    dialog.addEventListener('click', function (event) { if (event.target === dialog) dialog.close(); });
+    dialog.addEventListener('close', function () {
+      document.documentElement.classList.remove('photo-open');
+      if (opener) opener.focus();
+    });
+    document.querySelectorAll('.photo-grid img, .story-cover img').forEach(function (photo) {
+      var button = document.createElement('button');
+      button.className = 'photo-enlarge';
+      button.type = 'button';
+      button.setAttribute('aria-label', 'Enlarge: ' + photo.alt);
+      photo.replaceWith(button);
+      button.append(photo);
+      button.addEventListener('click', function () {
+        opener = button;
+        image.src = photo.src;
+        image.alt = photo.alt;
+        dialog.showModal();
+        document.documentElement.classList.add('photo-open');
+        close.focus();
+      });
     });
   }
 
@@ -208,7 +204,8 @@
   function init() {
     initEditorialMotion();
     initMobileMenu();
-    initNewsletter();
+    initGallery();
+    initFilms();
     initBackToTop();
   }
 
