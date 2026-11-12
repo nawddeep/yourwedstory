@@ -1718,13 +1718,7 @@ h2 a:hover, .wedding-card a:hover span, .back-link a:hover { text-decoration: un
 /* Portfolio and inquiry improvements */
 [hidden] { display: none !important; }
 .hero { position: relative; isolation: isolate; }
-.hero::after { content: ""; position: absolute; inset: 0; background: linear-gradient(transparent 25%, #171614b8); z-index: 0; pointer-events: none; }
-.hero-copy { position: absolute; bottom: clamp(32px, 8vh, 90px); left: var(--gutter); right: var(--gutter); color: #fffaf5; z-index: 1; max-width: 900px; }
-.hero-copy p { font-size: .8rem; letter-spacing: .12em; }
-.hero-copy h1 { font-size: clamp(2.5rem, 5.5vw, 5.5rem); margin-bottom: 1.5rem; line-height: 1.1; text-wrap: balance; }
 .action-link { display: inline-block; padding: .85rem 1.2rem; background: var(--ink); color: var(--light); border: 1px solid currentColor; min-height: 44px; font: inherit; }
-.hero-copy .action-link { background: var(--paper); color: var(--ink); }
-.hero-work { display: inline-block; margin: .75rem 1rem; padding-block: .5rem; text-decoration: underline; text-underline-offset: .2em; }
 .text-link, .form-note a, .legal-content a { text-decoration: underline; text-underline-offset: .2em; }
 .page-intro { max-width: 65ch; margin: 0 0 2rem; }
 .service-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem; margin-bottom: 1.5rem; }
@@ -1750,9 +1744,6 @@ html.photo-open { overflow: hidden; }
 @media (max-width: 767px) {
   .service-grid { grid-template-columns: 1fr; gap: .5rem; }
   .photo-grid-three, .photo-grid-two { grid-template-columns: 1fr; }
-  .hero-copy { bottom: 36px; }
-  .hero-copy h1 { font-size: clamp(2.2rem, 9vw, 3.7rem); }
-  .hero-work { margin-left: 0; margin-right: 0; display: block; width: fit-content; }
   .legal-header { flex-wrap: wrap; }
 }
 @media (prefers-reduced-motion: reduce) {
