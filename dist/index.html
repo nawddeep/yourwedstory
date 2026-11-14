@@ -7,7 +7,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;1,6..96,400&family=Lora:wght@400;500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css?v=20261114-stories-2">
+  <link rel="stylesheet" href="style.css?v=20261114-atelier-9">
   <style>
     /* Ensure matching background color (#f0e8de) across all browsers, bypassing cache */
     :root, html, body {
@@ -24,6 +24,7 @@
       filter: brightness(0) !important;
     }
   </style>
+  <link rel="stylesheet" href="atelier.css?v=2">
 </head>
 <body class="home" id="top">
   <a class="skip" href="#content">Skip to content</a>
@@ -55,7 +56,7 @@
       <a class="masthead__cta" href="#contact" data-open-inquiry>Get In Touch</a>
       <button class="masthead__burger" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
         <span></span>
-        <span></span>
+        <span></span><b>Menu</b>
       </button>
     </div>
   </header>
@@ -70,7 +71,7 @@
           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
         </button>
       </div>
-      <nav class="mobile-menu__nav" aria-label="Mobile navigation">
+      <div class="menu-photograph"><img src="images/collections/vatsala-aayush/008.jpg" alt="Vatsala and Aayush at their evening reception" width="1600" height="2400"><p>YOUR WED STORIES</p></div><nav class="mobile-menu__nav" aria-label="Main menu">
         <a href="our-work/">Our Work</a>
         <a href="#films">Films</a>
         <a href="about/">About Us</a>
@@ -92,42 +93,11 @@
   </div>
   <main id="content" tabindex="-1">
     <h1 class="visually-hidden">Your Wed Stories</h1>
-    <div class="hero">
+    <div class="hero hero-slider" role="region" aria-roledescription="carousel" aria-label="Selected wedding photographs">
       <img src="images/cover.jpg" srcset="images/cover-small.jpg 1000w, images/cover.jpg 2400w" sizes="100vw" width="2400" height="1600" alt="A couple embracing on coastal rocks above the sea" fetchpriority="high">
-    </div>
+<img class="hero-slide" src="images/collections/nigel-cyananda/005.jpg" width="1600" height="1067" alt="Nigel and Cyananda by the sea at sunset" loading="lazy" hidden><img class="hero-slide" src="images/collections/selected-frames/005.jpg" width="1600" height="1067" alt="A couple together in a palace garden" loading="lazy" hidden><div class="hero-slider__controls" hidden><button type="button" data-slide="0" aria-label="Show photograph 1" aria-pressed="true">01</button><button type="button" data-slide="1" aria-label="Show photograph 2" aria-pressed="false">02</button><button type="button" data-slide="2" aria-label="Show photograph 3" aria-pressed="false">03</button><button type="button" class="slider-play">Pause</button></div><p class="visually-hidden slider-status" aria-live="polite"></p>    </div>
 
-    <!-- =====================================================================
-         EDITORIAL / A MODERN APPROACH
-         ===================================================================== -->
-    <section class="editorial" aria-labelledby="editorial-title">
-      <h2 id="editorial-title" class="editorial-title">
-        <span class="line">A MODERN APPROACH</span>
-        <span class="line"><em>to an</em> AGE-OLD TRADITION</span>
-      </h2>
-      <div class="editorial-body editorial-grid">
-        <figure class="editorial-fig editorial-fig--left">
-          <img src="images/collections/vatsala-aayush/008.jpg" width="1600" height="2400" alt="Vatsala and Aayush together on a sweeping staircase" loading="lazy" decoding="async" srcset="images/collections/vatsala-aayush/008-small.jpg 700w, images/collections/vatsala-aayush/008.jpg 1600w" sizes="(max-width: 767px) 100vw, 65vw">
-        </figure>
-        <div class="editorial-copy">
-          <p>We photograph the whole gathering: the two of you, the friends who know every story, the parents trying not to cry. The portraits matter. So does everything happening just outside the frame.</p>
-          <p>From intimate ceremonies to week-long destination celebrations, we work closely with families, planners and artists to build images that feel effortless and entirely their own.</p>
-          <!-- If you have real, verifiable awards, add one sentence here. Do not invent them. -->
-        </div>
-        <figure class="editorial-fig editorial-fig--right">
-          <img src="images/collections/nigel-cyananda/002.jpg" width="1600" height="2400" alt="A couple playing together on a sunlit beach" loading="lazy" decoding="async" srcset="images/collections/nigel-cyananda/002-small.jpg 700w, images/collections/nigel-cyananda/002.jpg 1600w" sizes="(max-width: 767px) 100vw, 65vw">
-        </figure>
-      </div>
-      <!-- To unhide press strip once real publication logos are supplied: remove the hidden attribute and add <img> tags with valid logos -->
-      <!-- <div class="editorial-press" hidden>
-        <div class="editorial-press-slot"></div>
-        <div class="editorial-press-slot"></div>
-        <div class="editorial-press-slot"></div>
-        <div class="editorial-press-slot"></div>
-        <div class="editorial-press-slot"></div>
-      </div> -->
-    </section>
-
-    <section class="home-stories" id="our-work" aria-labelledby="work-title"><header class="work-heading"><h2 id="work-title">Our Work</h2><div><p>A handful of stories. Entirely their own.</p><a class="work-link" href="our-work/">Explore all stories</a></div></header><div class="project-grid"><article class="project"><a class="project-cover" href="our-work/nigel-cyananda/"><img class="" src="images/collections/nigel-cyananda/013.jpg" width="1600" height="1067" alt="A couple running hand in hand towards the sea" loading="lazy" decoding="async" srcset="images/collections/nigel-cyananda/013-small.jpg 700w, images/collections/nigel-cyananda/013.jpg 1600w" sizes="(max-width: 767px) 100vw, 65vw"><span class="project-open">View story</span></a><div class="project-caption"><h2><a href="our-work/nigel-cyananda/">Nigel &amp; Cyananda</a></h2><p>Salt air, bare feet, the last light.</p></div></article><article class="project"><a class="project-cover" href="our-work/aditi-xavier/"><img class="" src="images/collections/aditi-xavier/018.jpg" width="1499" height="1000" alt="Aditi and Xavier dancing beneath hanging marigolds" loading="lazy" decoding="async" srcset="images/collections/aditi-xavier/018-small.jpg 700w, images/collections/aditi-xavier/018.jpg 1499w" sizes="(max-width: 767px) 100vw, 65vw"><span class="project-open">View story</span></a><div class="project-caption"><h2><a href="our-work/aditi-xavier/">Aditi &amp; Xavier</a></h2><p>Marigolds, music and a house full of people.</p></div></article><article class="project"><a class="project-cover" href="our-work/pranav-malini/"><img class="" src="images/collections/selected-frames/001.jpg" width="1600" height="1067" alt="Pranav and Malini throwing clouds of colour into the air" loading="lazy" decoding="async" srcset="images/collections/selected-frames/001-small.jpg 700w, images/collections/selected-frames/001.jpg 1600w" sizes="(max-width: 767px) 100vw, 65vw"><span class="project-open">View story</span></a><div class="project-caption"><h2><a href="our-work/pranav-malini/">Pranav &amp; Malini</a></h2><p>A little colour. Then all of it.</p></div></article><article class="project"><a class="project-cover" href="our-work/vatsala-aayush/"><img class="" src="images/collections/vatsala-aayush/019.jpg" width="1600" height="1067" alt="Vatsala and Aayush raising a toast with their guests" loading="lazy" decoding="async" srcset="images/collections/vatsala-aayush/019-small.jpg 700w, images/collections/vatsala-aayush/019.jpg 1600w" sizes="(max-width: 767px) 100vw, 65vw"><span class="project-open">View story</span></a><div class="project-caption"><h2><a href="our-work/vatsala-aayush/">Vatsala &amp; Aayush</a></h2><p>Dressed for the evening. Staying for the dance.</p></div></article></div></section>
+<section class="atelier-intro" aria-labelledby="atelier-title"><p class="atelier-eyebrow">YOUR WED STORIES · PHOTOGRAPHY &amp; FILM</p><h2 id="atelier-title">A celebration of people.<br><em>A sense of place.</em></h2><div class="atelier-intro__bottom"><p>Wedding days move quickly. We pay attention to the way they feel: the anticipation, the familiar faces, the moments nobody planned.</p><a class="atelier-link" href="our-work/">Discover our work</a></div></section><section class="atelier-spread" aria-label="From our photographic stories"><figure><img src="images/collections/aditi-xavier/034.jpg" srcset="images/collections/aditi-xavier/034-small.jpg 700w, images/collections/aditi-xavier/034.jpg 1357w" sizes="(max-width: 767px) 100vw, 50vw" width="1357" height="1000" alt="Aditi and Xavier together in an ornate palace doorway" loading="lazy" decoding="async"><figcaption>Aditi &amp; Xavier</figcaption></figure><div><p class="atelier-eyebrow">THE WAY WE SEE IT</p><h2>Beautifully composed.<br><em>Entirely yourselves.</em></h2><p>There is room for a considered portrait and a completely unguarded laugh. We look for both, following the people and the small details that give a celebration its character.</p><a class="atelier-link" href="about/">Meet the studio</a></div><figure><img src="images/collections/vatsala-aayush/008.jpg" srcset="images/collections/vatsala-aayush/008-small.jpg 700w, images/collections/vatsala-aayush/008.jpg 1600w" sizes="(max-width: 767px) 100vw, 50vw" width="1600" height="2400" alt="Vatsala and Aayush on the staircase at their evening reception" loading="lazy" decoding="async"><figcaption>Vatsala &amp; Aayush</figcaption></figure></section><section class="atelier-panorama" aria-label="By the sea"><img src="images/collections/nigel-cyananda/005.jpg" srcset="images/collections/nigel-cyananda/005-small.jpg 700w, images/collections/nigel-cyananda/005.jpg 1600w" sizes="(max-width: 767px) 100vw, 50vw" width="1600" height="1067" alt="Nigel and Cyananda together at the edge of the sea at sunset" loading="lazy" decoding="async"><p>THE PLACES WE GO.<br><em>The people we remember.</em></p></section><section class="atelier-work" id="our-work" aria-labelledby="work-title"><header><p class="atelier-eyebrow">SELECTED STORIES</p><h2 id="work-title">The art of <em>being there.</em></h2><a class="atelier-link" href="our-work/">View the portfolio</a></header><div class="atelier-stories"><article><a href="our-work/aditi-xavier/"><img src="images/collections/aditi-xavier/040.jpg" srcset="images/collections/aditi-xavier/040-small.jpg 700w, images/collections/aditi-xavier/040.jpg 737w" sizes="(max-width: 767px) 100vw, 50vw" width="737" height="1000" alt="Aditi &amp; Xavier photographic story" loading="lazy" decoding="async"><p class="atelier-eyebrow">THE WEDDING</p><h3>Aditi &amp; Xavier</h3><span class="atelier-link">Explore the story</span></a></article><article><a href="our-work/nigel-cyananda/"><img src="images/collections/nigel-cyananda/011.jpg" srcset="images/collections/nigel-cyananda/011-small.jpg 700w, images/collections/nigel-cyananda/011.jpg 1600w" sizes="(max-width: 767px) 100vw, 50vw" width="1600" height="2400" alt="Nigel &amp; Cyananda photographic story" loading="lazy" decoding="async"><p class="atelier-eyebrow">BY THE SEA</p><h3>Nigel &amp; Cyananda</h3><span class="atelier-link">Explore the story</span></a></article><article><a href="our-work/vatsala-aayush/"><img src="images/collections/vatsala-aayush/013.jpg" srcset="images/collections/vatsala-aayush/013-small.jpg 700w, images/collections/vatsala-aayush/013.jpg 1600w" sizes="(max-width: 767px) 100vw, 50vw" width="1600" height="2400" alt="Vatsala &amp; Aayush photographic story" loading="lazy" decoding="async"><p class="atelier-eyebrow">AFTER DARK</p><h3>Vatsala &amp; Aayush</h3><span class="atelier-link">Explore the story</span></a></article></div></section><section class="atelier-note"><figure><img src="images/collections/pranav-malini/017.jpg" srcset="images/collections/pranav-malini/017-small.jpg 700w, images/collections/pranav-malini/017.jpg 1600w" sizes="(max-width: 767px) 100vw, 50vw" width="1600" height="1067" alt="Friends embracing during a sunlit Holi celebration" loading="lazy" decoding="async"></figure><div><p class="atelier-eyebrow">MORE THAN THE PORTRAITS</p><h2>All the people<br><em>who make it yours.</em></h2><p>The friend who starts the dancing. The parent watching quietly. The joy that spills beyond the ceremony. Their place in your story matters as much as the two of you.</p><a class="atelier-link" href="about/">Our approach</a></div></section>
     <section class="frame section" id="films" aria-labelledby="films-title">
       <h2 id="films-title">Wedding films</h2>
       <div class="film-grid">
@@ -310,5 +280,6 @@
   <script src="home.js" defer></script>
   <script src="our-work.js?v=1" defer></script>
   <script src="hero-grain.js?v=1" defer></script>
+<script src="atelier-slider.js" defer></script>
 </body>
 </html>

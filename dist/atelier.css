@@ -1,0 +1,76 @@
+/* Photo-led studio homepage, in the established Your Wed Stories palette. */
+.atelier-eyebrow { font-family: inherit; font-size: 12px; letter-spacing: .16em; line-height: 1.6; margin: 0 0 24px; }
+.atelier-link { display: inline-flex; align-items: center; min-height: 44px; font-size: 18px; text-decoration: underline; text-underline-offset: 7px; }
+.atelier-intro { max-width: 1120px; margin: auto; padding: 88px var(--gutter) 72px; }
+.atelier-intro h2 { font-size: clamp(48px,6.3vw,88px); font-weight: 400; line-height: 1.05; letter-spacing: -.025em; }
+.atelier-intro__bottom { display: flex; align-items: end; justify-content: space-between; gap: 48px; margin-top: 36px; }
+.atelier-intro__bottom p { max-width: 460px; font-size: 21px; line-height: 1.6; margin: 0; }
+.atelier-spread { display: grid; grid-template-columns: 1fr 1.05fr .8fr; align-items: center; gap: 5%; padding: 24px var(--gutter) 88px; max-width: 1600px; margin: auto; }
+.atelier-spread figure { min-width: 0; }
+.atelier-spread figure img { width: 100%; aspect-ratio: 3 / 4; object-fit: cover; }
+.atelier-spread figure:last-child { margin-top: 140px; }
+.atelier-spread figcaption { font-style: italic; font-size: 17px; margin-top: 12px; }
+.atelier-spread h2, .atelier-note h2 { font-size: clamp(34px,3.5vw,52px); font-weight: 400; line-height: 1.12; margin-bottom: 24px; }
+.atelier-spread > div > p:not(.atelier-eyebrow), .atelier-note > div > p:not(.atelier-eyebrow) { font-size: 19px; line-height: 1.65; }
+.atelier-panorama { position: relative; }
+.atelier-panorama img { width: 100%; height: 68svh; min-height: 380px; max-height: 800px; object-fit: cover; }
+.atelier-panorama::after { content: ''; position: absolute; inset: 0; background: linear-gradient(transparent 40%,#17161480); pointer-events: none; }
+.atelier-panorama > p { position: absolute; z-index: 1; bottom: 36px; left: var(--gutter); margin: 0; color: var(--light); font-size: clamp(22px,3vw,44px); line-height: 1.3; }
+.atelier-work { max-width: 1500px; margin: auto; padding: 80px var(--gutter); }
+.atelier-work header { text-align: center; margin-bottom: 40px; }
+.atelier-work header h2 { font-weight: 400; font-size: clamp(44px,5vw,72px); line-height: 1.1; margin-bottom: 18px; }
+.atelier-stories { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 28px; }
+.atelier-stories article { min-width: 0; }
+.atelier-stories img { width: 100%; aspect-ratio: 3 / 4; object-fit: cover; }
+.atelier-stories .atelier-eyebrow { margin: 20px 0 6px; font-size: 11px; }
+.atelier-stories h3 { font-size: clamp(27px,2.7vw,40px); font-weight: 400; margin: 0 0 6px; line-height: 1.15; }
+.atelier-stories article:nth-child(2) { margin-top: 56px; }
+.atelier-note { display: grid; grid-template-columns: 1.2fr 1fr; gap: 8%; align-items: center; max-width: 1400px; margin: auto; padding: 0 var(--gutter) 88px; }
+.atelier-note img { aspect-ratio: 4 / 3; object-fit: cover; }
+.atelier-note > div { max-width: 440px; }
+@media (max-width: 767px) {
+ .atelier-intro { padding-block: 48px; }
+ .atelier-intro__bottom { display: block; margin-top: 24px; }
+ .atelier-intro__bottom p { font-size: 19px; }
+ .atelier-intro__bottom a { margin-top: 20px; }
+ .atelier-spread { grid-template-columns: 1fr 1fr; gap: 24px 16px; padding-bottom: 48px; }
+ .atelier-spread > div { grid-column: 1 / -1; grid-row: 2; max-width: 520px; }
+ .atelier-spread figure:last-child { margin-top: 50px; }
+ .atelier-spread figcaption { font-size: 15px; }
+ .atelier-spread h2, .atelier-note h2 { font-size: 39px; }
+ .atelier-panorama img { height: 52svh; min-height: 340px; }
+ .atelier-panorama > p { bottom: 24px; }
+ .atelier-work { padding-block: 48px; }
+ .atelier-stories { grid-template-columns: 1fr; gap: 32px; }
+ .atelier-stories article:nth-child(2) { margin-top: 0; }
+ .atelier-stories img { aspect-ratio: 4 / 5; }
+ .atelier-note { grid-template-columns: 1fr; gap: 28px; padding-bottom: 48px; }
+}
+.home .masthead__nav, .home .masthead__social, .home .masthead__cta { display: none; }
+.home .masthead__inner { justify-content: space-between; }
+.home .masthead__burger { display: flex; width: auto; min-width: 90px; align-items: center; justify-content: center; gap: 8px; }
+.home .masthead__burger > span { display: none; }
+.home .masthead__burger b { font: 400 19px 'EB Garamond',Georgia,serif; letter-spacing: .08em; }
+.home .mobile-menu__inner { max-width: none; width: 100%; min-height: 100%; padding: 32px var(--gutter); display: grid; grid-template-columns: 1fr 1fr; column-gap: 10%; align-content: center; }
+.home .mobile-menu__top { grid-column: 1 / -1; width: 100%; margin-bottom: 24px; }
+.home .menu-photograph { grid-column: 1; grid-row: 2 / 5; max-width: 430px; justify-self: center; }
+.home .menu-photograph img { height: min(62svh,650px); width: 100%; object-fit: cover; }
+.home .menu-photograph p { font-size: 12px; letter-spacing: .15em; margin-top: 12px; }
+.home .mobile-menu__nav { grid-column: 2; text-align: left; align-items: start; margin: 0; }
+.home .mobile-menu__nav a { font-size: clamp(32px,4vw,64px); line-height: 1.2; padding-block: 8px; }
+.home .mobile-menu__social, .home .mobile-menu__cta { grid-column: 2; justify-content: start; justify-self: start; }
+.hero-slider { position: relative; overflow: hidden; }
+.hero-slider > img.hero-slide { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; opacity: 0; transition: opacity 1.2s ease; }
+.hero-slider > img.hero-slide.is-active { opacity: 1; }
+.hero-slider__controls { position: absolute; bottom: 30px; right: var(--gutter); z-index: 5; display: flex; gap: 8px; color: var(--light); }
+.hero-slider__controls[hidden] { display: none; }
+.hero-slider__controls button { font: inherit; font-size: 16px; min-width: 44px; min-height: 44px; padding: 8px 12px; color: inherit; background: #17161480; border: 1px solid transparent; cursor: pointer; }
+.hero-slider__controls button[aria-pressed="true"] { border-color: currentColor; }
+@media (max-width: 767px) {
+ .home .mobile-menu__inner { display: flex; flex-direction: column; align-items: stretch; justify-content: start; padding-top: 24px; }
+ .home .menu-photograph { display: none; }
+ .home .mobile-menu__nav { margin-top: 24px; }
+ .home .mobile-menu__nav a { font-size: 42px; }
+ .hero-slider__controls { bottom: 20px; }
+}
+@media (prefers-reduced-motion: reduce) { .hero-slider > img.hero-slide { transition: none; } }

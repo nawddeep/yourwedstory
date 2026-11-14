@@ -29,13 +29,14 @@
   bar.append(caption, controls);
   dialog.append(bar, image, status, original);
   document.body.append(dialog);
+  var activeLinks = links;
   var index = 0;
   var opener;
   var savedOverflow;
   function show(at) {
-    index = (at + links.length) % links.length;
-    var link = links[index];
-    caption.textContent = link.dataset.title + ' · ' + (index + 1) + ' of ' + links.length;
+    index = (at + activeLinks.length) % activeLinks.length;
+    var link = activeLinks[index];
+    caption.textContent = link.dataset.title + ' · ' + (index + 1) + ' of ' + activeLinks.length;
     status.textContent = 'Loading photograph…';
     image.alt = link.querySelector('img').alt;
     image.src = link.href;
@@ -49,7 +50,8 @@
       event.preventDefault();
       opener = link;
       savedOverflow = document.documentElement.style.overflow;
-      show(at);
+      activeLinks = links.filter(function (item) { return !item.hidden; });
+      show(activeLinks.indexOf(link));
       dialog.showModal();
       document.documentElement.style.overflow = 'hidden';
       close.focus();
