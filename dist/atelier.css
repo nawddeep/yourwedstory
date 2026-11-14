@@ -194,3 +194,33 @@
 .signature-portfolio { isolation: isolate; }
 .signature-portfolio header { z-index: 0; }
 .signature-portfolio__grid { position: relative; z-index: 1; }
+
+.story-film { position:relative; display:grid; grid-template-columns:1fr 1fr; background:#F9F7F4; min-height:100svh; }
+.story-film__media { position:sticky; top:104px; height:calc(100svh - 104px); overflow:hidden; align-self:start; }
+.story-film video { width:100%; height:100%; object-fit:cover; display:block; }
+.story-film__words { padding:clamp(50px,10vw,150px) 8%; display:flex; flex-direction:column; justify-content:center; min-height:120svh; }
+.story-film h2 { font-family:"Bodoni Moda",Didot,serif; font-weight:400; font-size:clamp(34px,4.5vw,78px); line-height:1.12; letter-spacing:-.035em; margin-bottom:40px; }
+.story-film__words > p:last-child { font-size:20px; line-height:1.6; max-width:28ch; }
+.story-film__toggle { position:absolute; bottom:20px; right:20px; background:#17161470; color:white; border:1px solid #ffffff70; padding:8px 14px; cursor:pointer; }
+@media(max-width:650px) { .story-film { display:block; } .story-film__media { top:0; height:65svh; position:relative; } .story-film__words { min-height:0; padding:60px 24px; } .story-film h2 { font-size:12vw; } }
+
+/* Full-bleed background film; the page copy scrolls over its pinned layer. */
+.story-film { display:block; min-height:150svh; position:relative; isolation:isolate; background:#171614; color:#F9F7F4; }
+.story-film__media { position:sticky; top:0; width:100%; height:100svh; margin-bottom:-100svh; z-index:-1; }
+.story-film__media::after { content:''; position:absolute; inset:0; background:linear-gradient(90deg,#0007,#0002); pointer-events:none; }
+.story-film video { object-fit:cover; width:100%; height:100%; }
+.story-film__words { position:relative; min-height:150svh; padding:15svh 8%; justify-content:center; max-width:950px; }
+.story-film h2 { font-size:clamp(48px,7vw,110px); text-shadow:0 2px 24px #0003; }
+.story-film__toggle { z-index:2; }
+@media(max-width:650px) {
+ .story-film { min-height:130svh; }
+ .story-film__media { position:sticky; top:0; height:100svh; margin-bottom:-100svh; }
+ .story-film__words { min-height:130svh; padding:12svh 24px; }
+ .story-film h2 { font-size:12vw; }
+}
+
+/* Contain the pinned film and give following content an opaque surface. */
+.story-film { overflow:clip; isolation:isolate; }
+.story-film__media { z-index:0; }
+.story-film__words { z-index:1; }
+.story-film + section { position:relative; z-index:1; background:#F9F7F4; }
