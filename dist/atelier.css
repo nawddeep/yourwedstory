@@ -224,3 +224,5 @@
 .story-film__media { z-index:0; }
 .story-film__words { z-index:1; }
 .story-film + section { position:relative; z-index:1; background:#F9F7F4; }
+
+.story-film { margin-top: clamp(24px, 4vw, 56px); }
