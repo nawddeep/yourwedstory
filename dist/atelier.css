@@ -226,3 +226,8 @@
 .story-film + section { position:relative; z-index:1; background:#F9F7F4; }
 
 .story-film { margin-top: clamp(24px, 4vw, 56px); }
+
+.story-film__toggle { display:none !important; }
+.story-film video::-webkit-media-controls,
+.story-film video::-webkit-media-controls-panel,
+.story-film video::-webkit-media-controls-start-playback-button { display:none !important; -webkit-appearance:none; }
