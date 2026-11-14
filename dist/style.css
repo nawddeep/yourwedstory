@@ -5,12 +5,12 @@
 }
 
 :root {
-  --paper: #f0e8de;
+  --paper: #F9F7F4;
   --ink: #171614;
   --ink-soft: #2B2926;
   --light: #fff4ee;
-  --cream: #f0e8de;
-  --panel-bg: #f0e8de;
+  --cream: #F9F7F4;
+  --panel-bg: #F9F7F4;
   --olive: #6E6F3D;
   --olive-deep: #5A5B30;
   --panel-ink: #3A3A30;
@@ -1771,7 +1771,7 @@ h2 a:hover, .wedding-card a:hover span, .back-link a:hover { text-decoration: un
 .journal-link { display: inline-flex; align-items: center; min-height: 44px; gap: 20px; padding-block: 10px; text-decoration: underline; text-underline-offset: 6px; font-size: 19px; }
 .journal-place { position: relative; min-height: 650px; display: flex; align-items: center; justify-content: flex-end; isolation: isolate; }
 .journal-place > img { position: absolute; inset: 0; z-index: -2; width: 100%; height: 100%; object-fit: cover; }
-.journal-place::before { content: ""; position: absolute; inset: 0; z-index: -1; background: linear-gradient(90deg, transparent 10%, #f0e8deee 65%); }
+.journal-place::before { content: ""; position: absolute; inset: 0; z-index: -1; background: linear-gradient(90deg, transparent 10%, #F9F7F4ee 65%); }
 .journal-place > div { width: min(550px, 50%); padding: 70px var(--gutter) 70px 25px; }
 .journal-place p:not(.journal-label) { font-size: 21px; line-height: 1.6; }
 .journal-closing { display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: center; padding-block: 100px; }
@@ -1806,7 +1806,7 @@ h2 a:hover, .wedding-card a:hover span, .back-link a:hover { text-decoration: un
   .journal-craft--reverse { padding-bottom: 56px; }
   .journal-craft--reverse figure { order: 2; }
   .journal-place { min-height: 600px; align-items: flex-end; }
-  .journal-place::before { background: linear-gradient(transparent 0%, #f0e8deed 60%); }
+  .journal-place::before { background: linear-gradient(transparent 0%, #F9F7F4ed 60%); }
   .journal-place > div { width: 100%; padding: 160px var(--gutter) 40px; }
   .journal-closing { grid-template-columns: 1fr; gap: 36px; padding-block: 56px; }
   .journal-closing img { aspect-ratio: 4 / 3; }
@@ -1871,8 +1871,8 @@ h2 a:hover, .wedding-card a:hover span, .back-link a:hover { text-decoration: un
 .portfolio-opening { padding: 42px var(--gutter) 0; }
 .portfolio-opening > figure { width: 76%; max-width: 1120px; margin-inline: auto; }
 .portfolio-opening > figure img { width: 100%; aspect-ratio: 2 / 1; object-fit: cover; }
-.portfolio-title { display: grid; grid-template-columns: 1fr auto 1fr; align-items: end; gap: 24px; padding: 12px 0 32px; border-bottom: 1px solid var(--panel-line); }
-.portfolio-title h1 { font-size: clamp(100px, 17vw, 260px); line-height: 1; font-weight: 400; letter-spacing: -.065em; white-space: nowrap; }
+.portfolio-title { display: grid; grid-template-columns: minmax(0, 1fr); align-items: end; gap: 24px; padding: 12px 0 32px; border-bottom: 1px solid var(--panel-line); }
+.portfolio-title h1 { grid-column: 1 / -1; justify-self: center; text-align: center; font-size: clamp(100px, 17vw, 260px); line-height: 1; font-weight: 400; letter-spacing: -.065em; white-space: nowrap; }
 .portfolio-title p { font-size: 14px; line-height: 1.45; margin: 0 0 20px; }
 .portfolio-title p:first-child { max-width: 130px; font-size: 11px; letter-spacing: .13em; }
 .portfolio-title p:last-child { justify-self: end; }
@@ -2055,7 +2055,7 @@ h2 a:hover, .wedding-card a:hover span, .back-link a:hover { text-decoration: un
 }
 .photo-mosaic.exhibition-wall .mosaic-photo:hover span,
 .photo-mosaic.exhibition-wall .mosaic-photo:focus-visible span { opacity: 1; }
-.photo-mosaic.exhibition-wall .mosaic-photo[hidden] { display: none; }
+.photo-mosaic.exhibition-wall .mosaic-photo[hidden] { display: none !important; }
 @media (min-width: 1700px) {
  .photo-mosaic.exhibition-wall, .photo-mosaic.exhibition-wall.is-filtered { columns: 5; }
 }
@@ -2120,3 +2120,8 @@ h2 a:hover, .wedding-card a:hover span, .back-link a:hover { text-decoration: un
  .home-mosaic .photo-mosaic.exhibition-wall { grid-template-columns: repeat(2,minmax(0,1fr)); grid-template-rows: repeat(4,minmax(0,1fr)); height: 68svh; min-height: 400px; }
  .home-mosaic .photo-mosaic.exhibition-wall .mosaic-photo:nth-child(n) { grid-area: auto; grid-row: auto; grid-column: auto; }
 }
+
+/* Gentle editorial reveals, enabled only after JavaScript initializes. */
+.motion-reveal { opacity:0; transform:translateY(24px); transition:opacity .8s ease-out var(--motion-delay,0ms), transform 1s cubic-bezier(.2,.65,.3,1) var(--motion-delay,0ms); }
+.motion-reveal.motion-visible { opacity:1; transform:translateY(0); }
+@media(prefers-reduced-motion:reduce) { .motion-reveal { opacity:1; transform:none; transition:none; } }
