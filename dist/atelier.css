@@ -184,3 +184,13 @@
 .home .site-footer { border-top: 1px solid #d8d4ce; }
 
 .home .site-footer__bottom, .home .site-footer__copy, .home .site-footer__legal, .home .site-footer__legal a, .home .site-footer__legal span { color: #000; }
+
+/* Let the portfolio title meet the photographs with a gentle overlap. */
+.signature-portfolio header { transform: translateY(clamp(12px, 2vw, 30px)); }
+.signature-portfolio header.motion-reveal { transform: translateY(calc(24px + clamp(12px, 2vw, 30px))); }
+.signature-portfolio header.motion-visible { transform: translateY(clamp(12px, 2vw, 30px)); }
+
+/* Photographs cover the overlapping lower edge of the portfolio title. */
+.signature-portfolio { isolation: isolate; }
+.signature-portfolio header { z-index: 0; }
+.signature-portfolio__grid { position: relative; z-index: 1; }
