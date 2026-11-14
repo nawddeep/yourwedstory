@@ -231,3 +231,9 @@
 .story-film video::-webkit-media-controls,
 .story-film video::-webkit-media-controls-panel,
 .story-film video::-webkit-media-controls-start-playback-button { display:none !important; -webkit-appearance:none; }
+
+.home #films-title { font-family:"Bodoni Moda",Didot,serif; font-weight:400; text-align:center; width:100%; letter-spacing:.035em; word-spacing:.14em; }
+
+.home #films-title { font-size: clamp(30px, 5vw, 72px); line-height: 1.15; margin-bottom: 40px; }
+
+.home .inquiry-section#contact { border-top: 1px solid #d8d4ce !important; }
