@@ -2125,3 +2125,12 @@ h2 a:hover, .wedding-card a:hover span, .back-link a:hover { text-decoration: un
 .motion-reveal { opacity:0; transform:translateY(24px); transition:opacity .8s ease-out var(--motion-delay,0ms), transform 1s cubic-bezier(.2,.65,.3,1) var(--motion-delay,0ms); }
 .motion-reveal.motion-visible { opacity:1; transform:translateY(0); }
 @media(prefers-reduced-motion:reduce) { .motion-reveal { opacity:1; transform:none; transition:none; } }
+
+.work-viewer { position:fixed; padding:32px 64px; }
+.work-viewer__bar { margin:0; }
+.work-viewer__bar > p { position:absolute; width:1px; height:1px; overflow:hidden; clip-path:inset(50%); }
+.work-viewer button.work-viewer__previous, .work-viewer button.work-viewer__next { position:absolute; top:50%; transform:translateY(-50%); width:48px; min-width:48px; height:64px; padding:0; border:0; font:48px/1 Georgia,serif; z-index:2; }
+.work-viewer__previous { left:8px; }
+.work-viewer__next { right:8px; }
+.work-viewer button.work-viewer__close { position:absolute; right:12px; top:4px; border:0; min-width:36px; font:28px/1 Arial,sans-serif; padding:4px; }
+@media(max-width:600px) { .work-viewer { padding:40px 40px 16px; } .work-viewer__previous { left:0; } .work-viewer__next { right:0; } }

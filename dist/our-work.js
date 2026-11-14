@@ -24,7 +24,9 @@
   var next = document.createElement('button');
   var close = document.createElement('button');
   [previous, next, close].forEach(function (b) { b.type = 'button'; });
-  previous.textContent = 'Previous'; next.textContent = 'Next'; close.textContent = 'Close';
+  previous.textContent = '‹'; next.textContent = '›'; close.textContent = '×';
+  previous.className = 'work-viewer__previous'; next.className = 'work-viewer__next'; close.className = 'work-viewer__close';
+  previous.setAttribute('aria-label', 'Previous photograph'); next.setAttribute('aria-label', 'Next photograph'); close.setAttribute('aria-label', 'Close photograph viewer');
   controls.append(previous, next, close);
   bar.append(caption, controls);
   dialog.append(bar, image, status, original);
@@ -57,6 +59,9 @@
       close.focus();
     });
   });
+  var touchX;
+  image.addEventListener('touchstart', function(e) { touchX = e.changedTouches[0].clientX; }, { passive: true });
+  image.addEventListener('touchend', function(e) { var dx = e.changedTouches[0].clientX - touchX; if (Math.abs(dx) > 50) show(index + (dx < 0 ? 1 : -1)); }, { passive: true });
   previous.addEventListener('click', function () { show(index - 1); });
   next.addEventListener('click', function () { show(index + 1); });
   close.addEventListener('click', function () { dialog.close(); });
