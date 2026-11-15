@@ -109,3 +109,24 @@
  .folio-triptych a { width:100%; }
  .folio-highlights .folio-controls { margin-top:20px; }
 }
+
+/* Compact album features: three portrait covers with generous gutters. */
+.folio-landing .folio-features { max-width:none; padding:56px var(--gutter) 64px; }
+.folio-landing .folio-albums { width:62vw; max-width:1240px; grid-template-columns:repeat(3,minmax(0,1fr)); gap:32px 5.5vw; align-items:start; }
+.folio-landing .folio-albums article,
+.folio-landing .folio-albums article:last-child:nth-child(odd) { grid-column:auto; width:100%; padding-top:0; justify-self:stretch; }
+.folio-landing .folio-albums img { display:block; aspect-ratio:3/4; width:100%; height:auto; object-fit:cover; }
+.folio-landing .folio-albums p { font-size:10px; letter-spacing:.12em; margin:16px 0 8px; min-height:0; }
+.folio-landing .folio-albums h3 { font:400 12px/1.7 Arial,sans-serif; letter-spacing:.13em; text-transform:uppercase; margin:0; min-height:42px; }
+.folio-landing .folio-albums span { font-size:16px; font-style:italic; text-decoration:none; min-height:44px; }
+.folio-landing .folio-albums a:hover span { text-decoration:underline; text-underline-offset:5px; }
+.folio-landing .folio-albums a:focus-visible { outline:2px solid var(--olive-deep); outline-offset:6px; }
+@media(min-width:768px) and (max-width:1100px) {
+ .folio-landing .folio-albums { width:82vw; column-gap:4vw; }
+}
+@media(max-width:767px) {
+ .folio-landing .folio-features { padding:36px 20px 48px; }
+ .folio-landing .folio-albums { width:100%; grid-template-columns:repeat(2,minmax(0,1fr)); gap:28px 16px; }
+ .folio-landing .folio-albums h3 { font-size:11px; letter-spacing:.06em; min-height:38px; }
+ .folio-landing .folio-albums p { font-size:9px; line-height:1.5; min-height:27px; }
+}
