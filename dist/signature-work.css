@@ -1,10 +1,17 @@
+@font-face {
+ font-family: 'Silk Serif Extra Light';
+ src: url('https://static.showit.co/file/U7hvBvUGQ9C_81aQRRu9jA/42510/silktype_-_silkserif-extralight.woff') format('woff');
+ font-style: normal;
+ font-weight: 400;
+ font-display: swap;
+}
 /* Signature work — photographs sit in front of the masthead's lower edge. */
 .home .signature-portfolio { padding:24px var(--gutter) 56px; background:#343432; color:#fffdf8; isolation:isolate; scroll-margin-top:96px; }
 .home .signature-portfolio header,
 .home .signature-portfolio header.motion-reveal,
 .home .signature-portfolio header.motion-visible { position:relative; z-index:0; transform:none; opacity:1; text-align:center; }
 .home .signature-portfolio header p { margin:0 0 42px; font:400 11px/1.5 Arial,sans-serif; letter-spacing:.15em; }
-.home .signature-portfolio h2 { font-family:'Bodoni Moda',Didot,serif; font-size:clamp(60px,11.6vw,238px); line-height:.85; font-weight:400; letter-spacing:-.05em; margin:0 0 -.13em; }
+.home .signature-portfolio h2 { font-family:'Silk Serif Extra Light',Didot,serif; font-size:clamp(60px,11.6vw,238px); line-height:.85; font-weight:400; letter-spacing:0; margin:0 0 -.13em; }
 .home .signature-portfolio__grid { width:min(100%,64vw); max-width:1280px; margin:0 auto; grid-template-columns:repeat(2,minmax(0,1fr)); gap:0; position:relative; z-index:1; }
 .home .signature-portfolio__card { min-width:0; }
 .home .signature-portfolio__card img { width:100%; height:auto; max-height:none; aspect-ratio:2/3; object-fit:cover; }
@@ -28,3 +35,13 @@
 }
 @media(hover:none) { .home .signature-portfolio .signature-portfolio__card > span, .home .signature-portfolio__card::after { opacity:1; } }
 @media(prefers-reduced-motion:reduce) { .home .signature-portfolio .signature-portfolio__card > span, .home .signature-portfolio__card::after { transition:none; } }
+
+/* Alternate photographic previews: keyboard and pointer share the same state. */
+.home .signature-portfolio__card .signature-portfolio__preview { position:absolute; inset:0; width:100%; height:100%; aspect-ratio:auto; opacity:0; object-fit:cover; transition:opacity .55s ease,transform 1.1s ease; }
+.home .signature-portfolio__card:hover .signature-portfolio__preview,
+.home .signature-portfolio__card:focus-visible .signature-portfolio__preview { opacity:1; }
+.home .signature-portfolio .signature-portfolio__card > span { font-family:'Silk Serif Extra Light',Didot,serif; text-transform:uppercase; font-size:clamp(32px,4.5vw,80px); letter-spacing:0; }
+.home .signature-portfolio__card::after { background:linear-gradient(#17161408,#17161450 45%,#17161485); }
+@media(max-width:767px) { .home .signature-portfolio .signature-portfolio__card > span { font-size:24px; } }
+@media(hover:none) { .home .signature-portfolio__card:hover .signature-portfolio__preview { opacity:0; } }
+@media(prefers-reduced-motion:reduce) { .home .signature-portfolio__card .signature-portfolio__preview { transition:none; } }
