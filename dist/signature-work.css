@@ -1,0 +1,30 @@
+/* Signature work — photographs sit in front of the masthead's lower edge. */
+.home .signature-portfolio { padding:24px var(--gutter) 56px; background:#343432; color:#fffdf8; isolation:isolate; scroll-margin-top:96px; }
+.home .signature-portfolio header,
+.home .signature-portfolio header.motion-reveal,
+.home .signature-portfolio header.motion-visible { position:relative; z-index:0; transform:none; opacity:1; text-align:center; }
+.home .signature-portfolio header p { margin:0 0 42px; font:400 11px/1.5 Arial,sans-serif; letter-spacing:.15em; }
+.home .signature-portfolio h2 { font-family:'Bodoni Moda',Didot,serif; font-size:clamp(60px,11.6vw,238px); line-height:.85; font-weight:400; letter-spacing:-.05em; margin:0 0 -.13em; }
+.home .signature-portfolio__grid { width:min(100%,64vw); max-width:1280px; margin:0 auto; grid-template-columns:repeat(2,minmax(0,1fr)); gap:0; position:relative; z-index:1; }
+.home .signature-portfolio__card { min-width:0; }
+.home .signature-portfolio__card img { width:100%; height:auto; max-height:none; aspect-ratio:2/3; object-fit:cover; }
+.home .signature-portfolio__card--wide img { aspect-ratio:3/2; height:auto; max-height:none; }
+.home .signature-portfolio__card::after { background:linear-gradient(transparent,#17161470); opacity:0; transition:opacity .25s; }
+.home .signature-portfolio .signature-portfolio__card > span { opacity:0; transition:opacity .25s; color:#fffdf8; font-size:clamp(32px,4vw,70px); }
+.home .signature-portfolio .signature-portfolio__card:hover > span,
+.home .signature-portfolio .signature-portfolio__card:focus-visible > span,
+.home .signature-portfolio__card:hover::after,
+.home .signature-portfolio__card:focus-visible::after { opacity:1; }
+.home .signature-portfolio__card:focus-visible { outline:3px solid #fffdf8; outline-offset:6px; z-index:2; }
+.home .signature-portfolio__button { text-transform:uppercase; min-height:48px; margin-top:32px; }
+@media(max-width:767px) {
+ .home .signature-portfolio { padding:28px 20px 36px; }
+ .home .signature-portfolio header p { margin-bottom:24px; font-size:10px; }
+ .home .signature-portfolio h2 { font-size:12.4vw; }
+ .home .signature-portfolio__grid { width:100%; }
+ .home .signature-portfolio .signature-portfolio__card > span { opacity:1; top:auto; bottom:16px; transform:none; font-size:23px; }
+ .home .signature-portfolio__card::after { opacity:1; }
+ .home .signature-portfolio__card small { font-size:8px; margin-top:8px; padding:8px; }
+}
+@media(hover:none) { .home .signature-portfolio .signature-portfolio__card > span, .home .signature-portfolio__card::after { opacity:1; } }
+@media(prefers-reduced-motion:reduce) { .home .signature-portfolio .signature-portfolio__card > span, .home .signature-portfolio__card::after { transition:none; } }
