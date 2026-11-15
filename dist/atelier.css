@@ -225,7 +225,7 @@
 .story-film__words { z-index:1; }
 .story-film + section { position:relative; z-index:1; background:#F9F7F4; }
 
-.story-film { margin-top: clamp(24px, 4vw, 56px); }
+.story-film { margin-top: 0; }
 
 .story-film__toggle { display:none !important; }
 .story-film video::-webkit-media-controls,
@@ -265,4 +265,48 @@
  .home .site-footer__gallery { grid-template-columns:repeat(4,minmax(0,1fr)); gap:6px; margin-top:20px; }
  .home .site-footer__gallery-item { height:90px; }
  .home .site-footer__newsletter h2 { font-size:30px; }
+}
+/* Restore the original compact proportions of the wedding-photo CTA. */
+.home .atelier-spread {
+ max-width:1280px; grid-template-columns:1fr 1.12fr .8fr;
+ gap:5%; padding:40px 40px 56px; align-items:center;
+}
+.home .atelier-spread figure img { width:100%; aspect-ratio:3/4; max-height:440px; object-fit:cover; }
+.home .atelier-spread figure:last-child { margin-top:70px; }
+.home .atelier-spread figure:last-child img { max-height:360px; }
+.home .atelier-spread h2 { font-size:clamp(30px,2.8vw,42px); line-height:1.15; margin-bottom:22px; }
+.home .atelier-spread > div > p:not(.atelier-eyebrow) { font-size:18px; line-height:1.6; }
+.home .atelier-spread figcaption { font-size:16px; margin-top:10px; }
+@media(max-width:767px) {
+ .home .atelier-spread { grid-template-columns:1fr 1fr; gap:24px 16px; padding:28px 20px 40px; }
+ .home .atelier-spread > div { grid-column:1 / -1; grid-row:2; }
+ .home .atelier-spread figure:last-child { margin-top:32px; }
+ .home .atelier-spread figure img { max-height:280px; }
+ .home .atelier-spread figure:last-child img { max-height:250px; }
+ .home .atelier-spread h2 { font-size:34px; }
+}
+/* Fill the page width while keeping the CTA's compact height. */
+.home .atelier-spread { max-width:none; width:100%; padding-inline:var(--gutter); grid-template-columns:1fr 1.12fr .8fr; }
+.home .atelier-spread figure { width:100%; }
+.home .atelier-spread figure img { width:100%; height:440px; max-height:440px; aspect-ratio:auto; object-fit:cover; }
+.home .atelier-spread figure:last-child img { height:360px; max-height:360px; }
+@media(max-width:767px) {
+ .home .atelier-spread { grid-template-columns:1fr 1fr; padding-inline:20px; }
+ .home .atelier-spread figure img { height:250px; max-height:250px; }
+ .home .atelier-spread figure:last-child img { height:220px; max-height:220px; }
+}
+/* Larger, page-filling studio CTA. */
+.home .atelier-spread { padding-block:56px 72px; }
+.home .atelier-spread figure img { height:clamp(520px,42vw,760px); max-height:760px; }
+.home .atelier-spread figure:last-child { margin-top:90px; }
+.home .atelier-spread figure:last-child img { height:clamp(440px,35vw,640px); max-height:640px; }
+.home .atelier-spread h2 { font-size:clamp(38px,3.2vw,58px); }
+.home .atelier-spread > div > p:not(.atelier-eyebrow) { font-size:21px; }
+@media(max-width:767px) {
+ .home .atelier-spread { padding-block:36px 48px; }
+ .home .atelier-spread figure img { height:340px; max-height:340px; }
+ .home .atelier-spread figure:last-child { margin-top:40px; }
+ .home .atelier-spread figure:last-child img { height:300px; max-height:300px; }
+ .home .atelier-spread h2 { font-size:36px; }
+ .home .atelier-spread > div > p:not(.atelier-eyebrow) { font-size:19px; }
 }
