@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&display=swap');
+@font-face{font-family:'Mr Eaves Mod Regular';src:url('https://static.showit.co/file/geRs3Pc-SzCQKoX0iTm3aQ/42510/mreavesmodot-reg.woff') format('woff');font-style:normal;font-weight:400;font-display:swap;}
+@font-face{font-family:'Silk Serif Extra Light';src:url('https://static.showit.co/file/U7hvBvUGQ9C_81aQRRu9jA/42510/silktype_-_silkserif-extralight.woff') format('woff');font-style:normal;font-weight:400;font-display:swap;}
+@font-face{font-family:'Switzer Extra Light';src:url('https://static.showit.co/file/T3KTvkBqSvi8YFFEz-A9_g/42510/switzer-extralight.woff') format('woff');font-style:normal;font-weight:400;font-display:swap;}
+@font-face{font-family:'Silk Serif Extra Light Italic';src:url('https://static.showit.co/file/raQY-lALRN-xdXLeF1B4jQ/42510/silk_serif_extralight_italic.woff') format('woff');font-style:normal;font-weight:400;font-display:swap;}
+@font-face{font-family:'Switzer Light';src:url('https://static.showit.co/file/o-FBVO3SRmSs8AqSYJ7XAw/42510/switzer-light.woff') format('woff');font-style:normal;font-weight:400;font-display:swap;}
+@font-face{font-family:'Quarto Light Italic';src:url('https://static.showit.co/file/X0UTEDSmTH-M5cYXuegtbQ/42510/quarto-lightitalic_4.woff') format('woff');font-style:normal;font-weight:400;font-display:swap;}
+@font-face{font-family:'Silk Serif Light Italic';src:url('https://static.showit.co/file/jqlDmUYyTzWlQjc-GmZuIg/42510/silktype_-_silk_serif_light_italic.woff') format('woff');font-style:normal;font-weight:400;font-display:swap;}
+@font-face{font-family:'Canela Thin';src:url('https://static.showit.co/file/LxYEMBMpT0mrI72NE5d_2g/42510/canela-thin.woff') format('woff');font-style:normal;font-weight:400;font-display:swap;}
+@font-face{font-family:'BonVivant';src:url('https://static.showit.co/file/tFLyWtYrSZiykLrVRccORw/shared/bonvivant.woff') format('woff');font-style:normal;font-weight:400;font-display:swap;}
+@font-face{font-family:'Silk Serif Light';src:url('https://static.showit.co/file/isghUxuMSnCeRaV4Mv-ztQ/42510/silktype_-_silkserif-light.woff') format('woff');font-style:normal;font-weight:400;font-display:swap;}
+@font-face{font-family:'Futura PT Demi';src:url('https://static.showit.co/file/vhGTwcSJQhaWkULwJtpM2w/shared/futurapt-demi.woff') format('woff');font-style:normal;font-weight:400;font-display:swap;}
+@font-face{font-family:'Sackers Medium';src:url('https://static.showit.co/file/O-9v8IykT_OH3Z0LbFU1ZQ/42510/sackersgothicmediumat.woff') format('woff');font-style:normal;font-weight:400;font-display:swap;}
+@font-face{font-family:'Quarto Light';src:url('https://static.showit.co/file/n_nKvFzbQFO0Oy0S-UEATQ/42510/quarto-light_7.woff') format('woff');font-style:normal;font-weight:400;font-display:swap;}
+
+/* Single authority for type roles; !important overrides legacy component font shorthands. */
+:root { --font-display:'Silk Serif Light',Didot,serif; --font-body:'Quarto Light',Georgia,serif; --font-label:'Mr Eaves Mod Regular',Arial,sans-serif; }
+body { font-family:var(--font-body); }
+p,li,dd,dt,figcaption,input,textarea,select { font-family:var(--font-body) !important; }
+h1,h2,h3,h4,h5,h6 { font-family:var(--font-display) !important; font-weight:400; }
+h1,h2 { text-wrap:balance; }
+em,i { font-family:'Quarto Light Italic',Georgia,serif !important; font-style:normal; }
+h1 em,h2 em { font-family:'Silk Serif Extra Light Italic',Didot,serif !important; }
+h3 em,h4 em { font-family:'Silk Serif Light Italic',Didot,serif !important; }
+body .signature-portfolio h2,body .folio-banner h1,body .folio-highlights h2,body .about-opening h1,body .people-intro--home h2 { font-family:'Silk Serif Extra Light',Didot,serif !important; }
+body .signature-portfolio__card>span { font-family:'Silk Serif Extra Light',Didot,serif !important; }
+/* Navigation and functional labels. */
+nav a,button,label,.masthead__cta,.people-button,.about-contact,.signature-portfolio__button,.signature-portfolio small,.atelier-eyebrow,.people-kicker,.about-eyebrow,.folio-kicker,.folio-highlights header p,.signature-portfolio header p,.inquiry-eyebrow,.inquiry-submit-btn,.footer-field>span,.site-footer__links a,.site-footer__legal,.site-footer__copy,.folio-browse a,.folio-albums p,.folio-albums h3,.back-to-top,.mobile-menu__close,.masthead__burger b { font-family:var(--font-label) !important; }
+body .mobile-menu__nav>a:not(.menu-secondary) { font-family:'Silk Serif Light',Didot,serif !important; font-weight:400; }
+body .mobile-menu__nav>.menu-secondary { font-family:var(--font-label) !important; }
+/* Accent families mirror the reference's restrained supporting roles. */
+body .story-film h2 { font-family:'Switzer Extra Light',Arial,sans-serif !important; font-weight:400; }
+body .folio-introduction,body .people-home-introduction { font-family:'Switzer Light',Arial,sans-serif !important; }
+blockquote,body .about-narrative blockquote { font-family:'Canela Thin',Georgia,serif !important; }
+body .about-profile figcaption { font-family:'BonVivant',cursive !important; font-size:30px; line-height:1.5; font-style:normal; }
+body .site-footer__copy,body .site-footer__legal { font-family:'Sackers Medium',Arial,sans-serif !important; }
+body .newsletter-submit,body .follow-btn { font-family:'Futura PT Demi',Arial,sans-serif !important; font-weight:400; }
+body .newsletter-status,body .inquiry-status { font-family:'Nunito',Arial,sans-serif !important; }
+body .folio-albums span,body .folio-browse>span { font-family:'Quarto Light Italic',Georgia,serif !important; font-style:normal; }
+@media(max-width:767px){ body .about-profile figcaption { font-size:27px; } }
+body .atelier-spread h2 em { font-family:'Silk Serif Light Italic',Didot,serif !important; }
