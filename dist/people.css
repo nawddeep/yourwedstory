@@ -83,3 +83,8 @@
 }
 
 .people-intro--home h2 em { display:inline-block; margin-right:.14em; }
+
+/* Lower Vijay's portrait while retaining the stagger with Harsha. */
+@media(min-width:768px) {
+ .people-intro--home > .people-portrait--vijay { margin-top:clamp(80px,7vw,144px); }
+}
