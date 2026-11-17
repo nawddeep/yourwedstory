@@ -221,8 +221,27 @@
 
 (function () {
  var header = document.querySelector('.home .masthead');
- if (!header) return;
- function updateHeader() { header.classList.toggle('is-scrolled', window.scrollY > 40); }
- window.addEventListener('scroll', updateHeader, { passive: true });
+ var hero = document.querySelector('.home .hero');
+ if (!header || !hero) return;
+ var scheduled = false;
+ function updateHeader() {
+  scheduled = false;
+  var show = hero.getBoundingClientRect().bottom <= 0;
+  if (!show && header.classList.contains('is-scrolled')) {
+   var active = document.activeElement;
+   if (header.contains(active) && !active.closest('.masthead__burger')) {
+    var trigger = header.querySelector('.masthead__burger');
+    if (trigger) trigger.focus({ preventScroll: true });
+   }
+  }
+  header.classList.toggle('is-scrolled', show);
+ }
+ function scheduleHeader() {
+  if (!scheduled) { scheduled = true; requestAnimationFrame(updateHeader); }
+ }
+ window.addEventListener('scroll', scheduleHeader, { passive: true });
+ window.addEventListener('resize', scheduleHeader, { passive: true });
+ window.addEventListener('pageshow', scheduleHeader);
+ if ('ResizeObserver' in window) new ResizeObserver(scheduleHeader).observe(hero);
  updateHeader();
 })();
