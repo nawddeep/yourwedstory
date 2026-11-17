@@ -1,0 +1,9 @@
+{
+  "intent": "Dense five-column square photo mosaic inspired by supplied HOTC reference, warm paper gutters, typographic centre tile, colour and monochrome photographs interleaved. Home 19 photographs; portfolio 49 with collection filters and links to all 203 source frames.",
+  "constraints": [
+    "Preserve homepage hero byte-for-byte",
+    "No arrows or changes outside galleries",
+    "Two columns on mobile",
+    "Native image links and accessible fullscreen viewer"
+  ]
+}

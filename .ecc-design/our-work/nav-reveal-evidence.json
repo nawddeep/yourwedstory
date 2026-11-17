@@ -1,0 +1,53 @@
+{
+  "contract": "nav-reveal-contract.json",
+  "targetViewports": [
+    "1440x900",
+    "390x844"
+  ],
+  "accessibility": {
+    "status": "pass",
+    "evidence": "Hidden navigation uses display:none before hero end; two-line trigger opens menu and restores focus on closing. CSS disables new transitions and animations for reduced-motion preference."
+  },
+  "responsive": {
+    "status": "pass",
+    "evidence": "1440px desktop and 390px mobile render with no horizontal overflow; contact, logo and menu align in existing tracks."
+  },
+  "contentStates": {
+    "loading": {
+      "status": "not-applicable",
+      "reason": "Local scroll-driven navigation; no data requests, submission or account permission state."
+    },
+    "empty": {
+      "status": "not-applicable",
+      "reason": "Local scroll-driven navigation; no data requests, submission or account permission state."
+    },
+    "error": {
+      "status": "not-applicable",
+      "reason": "Local scroll-driven navigation; no data requests, submission or account permission state."
+    },
+    "partial": {
+      "status": "not-applicable",
+      "reason": "Local scroll-driven navigation; no data requests, submission or account permission state."
+    },
+    "permission": {
+      "status": "not-applicable",
+      "reason": "Local scroll-driven navigation; no data requests, submission or account permission state."
+    },
+    "success": {
+      "status": "pass",
+      "evidence": "At desktop scroll 898 hero bottom was 2px and navbar unfilled; at 902 hero bottom was -2px and filled navbar active. Mobile drawer opened and closed."
+    }
+  },
+  "renderedEvidence": [
+    {
+      "viewport": "1440x900",
+      "artifact": "nav-reveal-desktop.jpg",
+      "observation": "Filled navbar after hero with studio logo, links and contact."
+    },
+    {
+      "viewport": "390x844",
+      "artifact": "nav-reveal-mobile.jpg",
+      "observation": "Mobile filled header with two-line trigger and visible focus after drawer closes."
+    }
+  ]
+}

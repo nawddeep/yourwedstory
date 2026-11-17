@@ -1,0 +1,12 @@
+{
+  "intent": "Portrait-led homepage studio CTA and About page introducing Harsha Sawnani and Vijay Sawnani, using portraits named in supplied public Drive folder. Offset portrait composition and centred editorial typography inspired by reference.",
+  "constraints": [
+    "No invented biographies, titles or awards",
+    "Names transcribed from filenames",
+    "Scoped stylesheet; existing navigation and inquiry preserved"
+  ],
+  "viewports": [
+    "1440x900",
+    "390x844"
+  ]
+}

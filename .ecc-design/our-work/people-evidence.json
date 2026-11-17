@@ -1,0 +1,53 @@
+{
+  "contract": "people-contract.json",
+  "targetViewports": [
+    "1440x900",
+    "390x844"
+  ],
+  "accessibility": {
+    "status": "pass",
+    "evidence": "Semantic headings, captioned portraits and descriptive alt text; native CTA links; no new motion or custom controls."
+  },
+  "responsive": {
+    "status": "pass",
+    "evidence": "About rendered at 1440 and 390 with scrollWidth matching viewport; portrait names remain visible."
+  },
+  "contentStates": {
+    "loading": {
+      "status": "not-applicable",
+      "reason": "Static local portrait and text sections have no remote data request, permissions, forms or filtering; intrinsic image dimensions reserve space."
+    },
+    "empty": {
+      "status": "not-applicable",
+      "reason": "Static local portrait and text sections have no remote data request, permissions, forms or filtering; intrinsic image dimensions reserve space."
+    },
+    "error": {
+      "status": "not-applicable",
+      "reason": "Static local portrait and text sections have no remote data request, permissions, forms or filtering; intrinsic image dimensions reserve space."
+    },
+    "partial": {
+      "status": "not-applicable",
+      "reason": "Static local portrait and text sections have no remote data request, permissions, forms or filtering; intrinsic image dimensions reserve space."
+    },
+    "permission": {
+      "status": "not-applicable",
+      "reason": "Static local portrait and text sections have no remote data request, permissions, forms or filtering; intrinsic image dimensions reserve space."
+    },
+    "success": {
+      "status": "pass",
+      "evidence": "Both named Drive portraits imported and visually inspected. Homepage studio CTA links to About; About contact and portfolio links resolve."
+    }
+  },
+  "renderedEvidence": [
+    {
+      "viewport": "1440x900",
+      "artifact": "people-desktop.jpg",
+      "observation": "Two offset real studio portraits with confirmed names and centred introduction."
+    },
+    {
+      "viewport": "390x844",
+      "artifact": "people-mobile.jpg",
+      "observation": "Introduction above a two-column portrait pair, without horizontal overflow."
+    }
+  ]
+}

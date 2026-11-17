@@ -1,0 +1,13 @@
+{
+  "direction": "Photographic exhibition with a repeating six-frame composition: large landscape lead, tall portrait, intimate smaller frames. No centre slogan tile. Preserve source order and native modal links; filtered view returns to an even grid.",
+  "viewports": [
+    "1440x900",
+    "390x844"
+  ],
+  "constraints": [
+    "Homepage hero unchanged",
+    "Existing palette and EB Garamond",
+    "No arrows",
+    "No new dependencies"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "contract": "mosaic-contract.json: close-set photo wall, collection filters and fullscreen viewer. Homepage hero preserved.",
+  "targetViewports": [
+    "1440x900",
+    "390x844"
+  ],
+  "accessibility": {
+    "status": "pass",
+    "evidence": "Native anchors remain usable without JavaScript. Text-only modal controls, initial Close focus, error announcement, Next recovery, and delayed focus restoration tested at 390px. All local image elements have alt text."
+  },
+  "responsive": {
+    "status": "pass",
+    "evidence": "Mosaic rendered with five equal columns at 1440px and two at 390px; no horizontal overflow at either viewport."
+  },
+  "contentStates": {
+    "loading": {
+      "status": "pass",
+      "evidence": "Viewer displays Loading photograph before full-resolution image loads; image dimensions reserve gallery space."
+    },
+    "empty": {
+      "status": "not-applicable",
+      "reason": "Static curated collection has no search/query or user-created dataset; no empty query state."
+    },
+    "error": {
+      "status": "pass",
+      "evidence": "Replaced viewer source with invalid image data; actual error message offered original link or another image."
+    },
+    "partial": {
+      "status": "pass",
+      "evidence": "After image error, Next loaded a different image successfully without closing viewer."
+    },
+    "success": {
+      "status": "pass",
+      "evidence": "Home mosaic 19 photos and title tile; Our Work 49 photos and title tile. Aditi filter displayed 12 photographs; viewer caption reported 1 of 12 and opened successfully. All local gallery links resolve. All 203 images remain in complete story galleries."
+    },
+    "permission": {
+      "status": "not-applicable",
+      "reason": "Images imported from the supplied publicly accessible Drive folders. Public static galleries require no account or runtime Drive access. Two website backup archives excluded."
+    }
+  },
+  "renderedEvidence": [
+    {
+      "viewport": "1440x900",
+      "artifact": "mosaic-desktop.jpg",
+      "observation": "Five-column square mosaic with narrow paper gutters and centred typography tile, mixed colour and monochrome."
+    },
+    {
+      "viewport": "390x844",
+      "artifact": "mosaic-mobile.jpg",
+      "observation": "Two-column mosaic with wrapping text filter controls and no horizontal overflow."
+    }
+  ]
+}

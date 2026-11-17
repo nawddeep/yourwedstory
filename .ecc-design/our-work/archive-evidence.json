@@ -1,0 +1,53 @@
+{
+  "contract": "drive-refresh.json: all 305 source images in complete albums; new Zainab 18, Arushi 56, Pranav wedding 28; aligned feature covers and reference-like mobile centre highlight.",
+  "targetViewports": [
+    "1440x900",
+    "390x844"
+  ],
+  "accessibility": {
+    "status": "pass",
+    "evidence": "Manual Previous/Next buttons update the live counter. Highlight and Editorial images open the existing modal viewer. Native links, existing Close focus and keyboard controls retained."
+  },
+  "responsive": {
+    "status": "pass",
+    "evidence": "Portfolio at 1440 and 390 has no horizontal overflow. Mobile centre Highlight is 80vw with clipped side previews. New Arushi album fits 390px."
+  },
+  "contentStates": {
+    "loading": {
+      "status": "pass",
+      "evidence": "Viewer displays Loading photograph before full-resolution image loads; image dimensions reserve gallery space."
+    },
+    "empty": {
+      "status": "not-applicable",
+      "reason": "Static curated collection has no search/query or user-created dataset; no empty query state."
+    },
+    "error": {
+      "status": "pass",
+      "evidence": "Replaced viewer source with invalid image data; actual error message offered original link or another image."
+    },
+    "partial": {
+      "status": "pass",
+      "evidence": "After image error, Next loaded a different image successfully without closing viewer."
+    },
+    "success": {
+      "status": "pass",
+      "evidence": "All 305 source image paths are present in complete album HTML; local links validated. Arushi modal opens with 56 frame links. New albums linked from both portfolio and Weddings; nine Highlights."
+    },
+    "permission": {
+      "status": "not-applicable",
+      "reason": "Images imported from the supplied publicly accessible Drive folders. Public static galleries require no account or runtime Drive access. Two website backup archives excluded."
+    }
+  },
+  "renderedEvidence": [
+    {
+      "viewport": "1440x900",
+      "artifact": "archive-desktop.jpg",
+      "observation": "Aligned two-column wedding album covers and headings."
+    },
+    {
+      "viewport": "390x844",
+      "artifact": "archive-mobile.jpg",
+      "observation": "Large mobile centre Highlight with adjacent image previews."
+    }
+  ]
+}

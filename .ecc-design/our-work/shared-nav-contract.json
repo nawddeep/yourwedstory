@@ -1,0 +1,14 @@
+{
+  "surface": "All interior page navigation",
+  "constraints": [
+    "Shared homepage alignment",
+    "Relative links work at each folder depth",
+    "Interior navbar visible at load",
+    "Drawer keyboard support preserved",
+    "Homepage hero reveal unchanged"
+  ],
+  "targetViewports": [
+    "1440x900",
+    "390x844"
+  ]
+}

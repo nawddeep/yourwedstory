@@ -1,0 +1,14 @@
+{
+  "purpose": "Wedding studio homepage with photographs as the primary experience",
+  "direction": "An intimate photographic journal: quiet introduction with contact-strip, asymmetric album spread, three story covers; immersive olive menu with responsive photographic previews. Original coastal hero starts the slideshow.",
+  "constraints": [
+    "Existing EB Garamond, cream, ink and olive",
+    "No arrows; no new hero marketing overlay",
+    "Accessible manual slideshow with pause; reduced motion",
+    "Original Drive imagery; existing forms and films preserved"
+  ],
+  "viewports": [
+    "1440x900",
+    "390x844"
+  ]
+}

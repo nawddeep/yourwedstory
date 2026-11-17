@@ -1,0 +1,53 @@
+{
+  "contract": "type-contract.json",
+  "targetViewports": [
+    "1440x900",
+    "390x844"
+  ],
+  "accessibility": {
+    "status": "pass",
+    "evidence": "Existing contrast and labels preserved; native About link focus outline remains visible at 2px. Body copy uses readable Quarto with existing line heights."
+  },
+  "responsive": {
+    "status": "pass",
+    "evidence": "Homepage, About and portfolio browser checks show no horizontal overflow; About and portfolio report no clipped headings or paragraphs."
+  },
+  "contentStates": {
+    "loading": {
+      "status": "not-applicable",
+      "reason": "Typography-only change; existing page data and form submission states are unchanged."
+    },
+    "empty": {
+      "status": "not-applicable",
+      "reason": "Typography-only change; existing page data and form submission states are unchanged."
+    },
+    "error": {
+      "status": "not-applicable",
+      "reason": "Typography-only change; existing page data and form submission states are unchanged."
+    },
+    "partial": {
+      "status": "not-applicable",
+      "reason": "Typography-only change; existing page data and form submission states are unchanged."
+    },
+    "permission": {
+      "status": "not-applicable",
+      "reason": "Typography-only change; existing page data and form submission states are unchanged."
+    },
+    "success": {
+      "status": "pass",
+      "evidence": "Browser font loading confirms primary and accent families; all 17 HTML pages reference shared CSS."
+    }
+  },
+  "renderedEvidence": [
+    {
+      "viewport": "1440x900",
+      "artifact": "type-desktop.jpg",
+      "observation": "Homepage people section with Silk heading, Switzer introduction and Mr Eaves navigation."
+    },
+    {
+      "viewport": "390x844",
+      "artifact": "type-mobile.jpg",
+      "observation": "Mobile footer with Silk heading, Quarto paragraphs and Futura submit label."
+    }
+  ]
+}

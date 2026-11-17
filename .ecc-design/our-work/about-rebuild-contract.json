@@ -1,0 +1,22 @@
+{
+  "surface": "About page",
+  "direction": "Editorial photographic biography, following reference hierarchy with original studio content",
+  "primaryAction": "Contact studio",
+  "hierarchy": [
+    "Photo opening with overlapping portraits",
+    "Studio introduction and pull quote",
+    "Harsha and Vijay profiles",
+    "Photographic contact invitation"
+  ],
+  "constraints": [
+    "Only About page",
+    "Existing real Drive portraits",
+    "No invented biographies",
+    "Native links and visible focus",
+    "Responsive portrait crops"
+  ],
+  "targetViewports": [
+    "1440x900",
+    "390x844"
+  ]
+}

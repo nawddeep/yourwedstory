@@ -1,0 +1,20 @@
+{
+  "surface": "Homepage studio introduction after hero",
+  "hierarchy": [
+    "The Studio label",
+    "Four-line mixed serif/sans headline",
+    "Script studio name",
+    "Centered bridal portrait",
+    "Portfolio link"
+  ],
+  "constraints": [
+    "Use Drive photograph",
+    "Existing fonts and charcoal palette",
+    "No changes to hero/navbar",
+    "Fit mobile and desktop"
+  ],
+  "targetViewports": [
+    "1440x900",
+    "390x844"
+  ]
+}

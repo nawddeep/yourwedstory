@@ -1,0 +1,13 @@
+{
+  "intent": "Reference-matched portfolio highlights: tall centre portrait with smaller flanking images, category browse links, album features and separate Weddings/Portraits/Editorial pages. Existing theme, real Drive imagery, no invented editorial commissions.",
+  "viewports": [
+    "1440x900",
+    "390x844"
+  ],
+  "constraints": [
+    "Scoped portfolio CSS",
+    "Native image links and existing viewer",
+    "Manual keyboard accessible highlight controls",
+    "Retain existing complete wedding albums"
+  ]
+}

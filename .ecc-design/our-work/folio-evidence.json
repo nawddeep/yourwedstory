@@ -1,0 +1,53 @@
+{
+  "contract": "portfolio-reference-contract.json",
+  "targetViewports": [
+    "1440x900",
+    "390x844"
+  ],
+  "accessibility": {
+    "status": "pass",
+    "evidence": "Manual Previous/Next buttons update the live counter. Highlight and Editorial images open the existing modal viewer. Native links, existing Close focus and keyboard controls retained."
+  },
+  "responsive": {
+    "status": "pass",
+    "evidence": "Highlights checked at 1440 and 390 pixels with no horizontal overflow. Side images have 2:3 proportions and centre 3:4. Editorial page at 390 also fits."
+  },
+  "contentStates": {
+    "loading": {
+      "status": "pass",
+      "evidence": "Viewer displays Loading photograph before full-resolution image loads; image dimensions reserve gallery space."
+    },
+    "empty": {
+      "status": "not-applicable",
+      "reason": "Static curated collection has no search/query or user-created dataset; no empty query state."
+    },
+    "error": {
+      "status": "pass",
+      "evidence": "Replaced viewer source with invalid image data; actual error message offered original link or another image."
+    },
+    "partial": {
+      "status": "pass",
+      "evidence": "After image error, Next loaded a different image successfully without closing viewer."
+    },
+    "success": {
+      "status": "pass",
+      "evidence": "Highlights Next changed counter to 2 of 6 and modal opened. Three category pages and all local source/navigation paths checked."
+    },
+    "permission": {
+      "status": "not-applicable",
+      "reason": "Images imported from the supplied publicly accessible Drive folders. Public static galleries require no account or runtime Drive access. Two website backup archives excluded."
+    }
+  },
+  "renderedEvidence": [
+    {
+      "viewport": "1440x900",
+      "artifact": "folio-desktop.jpg",
+      "observation": "Large central portrait and two smaller side portraits with category navigation."
+    },
+    {
+      "viewport": "390x844",
+      "artifact": "folio-mobile.jpg",
+      "observation": "Triptych and category navigation fit mobile."
+    }
+  ]
+}

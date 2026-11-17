@@ -1,0 +1,16 @@
+{
+  "surface": "Homepage navigation",
+  "trigger": "Hero bottom reaches viewport top",
+  "effect": "White panel fills upward, contents fade and rise after fill begins",
+  "constraints": [
+    "Original hero unchanged",
+    "Two line menu retained",
+    "No hidden tab stops",
+    "Reduced motion instant transition",
+    "Mobile fits screen"
+  ],
+  "targetViewports": [
+    "1440x900",
+    "390x844"
+  ]
+}

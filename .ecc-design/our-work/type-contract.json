@@ -1,0 +1,15 @@
+{
+  "surface": "Site typography",
+  "primaryAction": "Browse work/contact studio",
+  "direction": "Reference font roles with restrained accents",
+  "constraints": [
+    "No colour or logo change",
+    "No photo or layout changes",
+    "Keep UI labels readable",
+    "No text overflow"
+  ],
+  "targetViewports": [
+    "1440x900",
+    "390x844"
+  ]
+}

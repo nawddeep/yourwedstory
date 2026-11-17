@@ -1,0 +1,13 @@
+{
+  "direction": "KT Merry inspired homepage: cinematic photo opening, restrained studio introduction, full-width photographic statement, three portrait story covers and an intimate studio spread. Use original Your Wed Stories copy and imported Drive images, existing cream/olive and EB Garamond.",
+  "constraints": [
+    "Preserve original homepage hero image and grain",
+    "Retain functional navigation, films and inquiry form",
+    "No unsupported awards or press claims",
+    "Natural portrait proportions; no masonry or fixed spanning gallery"
+  ],
+  "viewports": [
+    "1440x900",
+    "390x844"
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "contract": "contract.json: Caputo-inspired photographic portfolio in existing theme; 203 Drive photographs across five complete galleries; distinct Home/About selections, responsive assets and accessible viewer.",
+  "targetViewports": [
+    "1440x900",
+    "390x844"
+  ],
+  "accessibility": {
+    "status": "pass",
+    "evidence": "Native anchors remain usable without JavaScript. Text-only modal controls, initial Close focus, error announcement, Next recovery, and delayed focus restoration tested at 390px. All local image elements have alt text."
+  },
+  "responsive": {
+    "status": "pass",
+    "evidence": "Portfolio rendered at 1440x900 and 390x844 with no horizontal overflow. Gallery checked at both widths. Home and About checked at 390px. Large image versions and 700px responsive thumbnails are local."
+  },
+  "contentStates": {
+    "loading": {
+      "status": "pass",
+      "evidence": "Viewer displays Loading photograph before full-resolution image loads; image dimensions reserve gallery space."
+    },
+    "empty": {
+      "status": "not-applicable",
+      "reason": "Static curated collection has no search/query or user-created dataset; no empty query state."
+    },
+    "error": {
+      "status": "pass",
+      "evidence": "Replaced viewer source with invalid image data; actual error message offered original link or another image."
+    },
+    "partial": {
+      "status": "pass",
+      "evidence": "After image error, Next loaded a different image successfully without closing viewer."
+    },
+    "success": {
+      "status": "pass",
+      "evidence": "203 photographs imported: Nigel 43, Aditi 64, Pranav 60, Vatsala 26, Selected Frames 10. All local links, source images and responsive candidates resolve. Viewer open, Next, close, focus restoration and error recovery passed."
+    },
+    "permission": {
+      "status": "not-applicable",
+      "reason": "Images imported from the supplied publicly accessible Drive folders. Public static galleries require no account or runtime Drive access. Two website backup archives excluded."
+    }
+  },
+  "renderedEvidence": [
+    {
+      "viewport": "1440x900",
+      "artifact": "desktop.jpg",
+      "observation": "Wide cinematic cover above oversized EB Garamond Our Work masthead, existing cream and olive theme."
+    },
+    {
+      "viewport": "390x844",
+      "artifact": "mobile.jpg",
+      "observation": "Cover and oversized title fit narrow viewport; mobile navigation and stacked editorial layout."
+    },
+    {
+      "viewport": "1440x900",
+      "artifact": "collection.jpg",
+      "observation": "Individual Aditi and Xavier story with two-column gallery and shared site navigation."
+    }
+  ]
+}

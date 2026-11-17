@@ -1,0 +1,59 @@
+{
+  "contract": "contract.json: KT Merry reference layout recreated using original Your Wed Stories typography/colours and original creative copy. Drive source unavailable; project wedding photos temporarily fill image positions, not invented staff profiles.",
+  "targetViewports": [
+    "1440x900",
+    "390x844",
+    "320x740"
+  ],
+  "accessibility": {
+    "status": "pass",
+    "evidence": "One h1 with sequential section headings; descriptive image text, decorative hero background empty alt; link targets measured 46.6\u201348px; visible 2px focus outline; mobile menu initial close focus, Tab wrap and Escape closure confirmed. No new animation; About-scoped reduced-motion override retained."
+  },
+  "responsive": {
+    "status": "pass",
+    "evidence": "1440, 390 and 320px browser emulation: page width equals viewport width. Layered hero resizes to 250px inset on mobile and editorial columns stack without horizontal scrolling. Original EB Garamond/cream/olive theme retained."
+  },
+  "contentStates": {
+    "loading": {
+      "status": "pass",
+      "evidence": "Both hero images prioritized above the fold, remaining images lazy; explicit dimensions reserve image space."
+    },
+    "empty": {
+      "status": "not-applicable",
+      "reason": "Curated static page has no query or user-generated collection that can return zero results."
+    },
+    "error": {
+      "status": "pass",
+      "evidence": "Temporary invalid background image source preserved hero dimensions and the foreground image/text; original restored and decoded."
+    },
+    "partial": {
+      "status": "pass",
+      "evidence": "Decorative background failure leaves the colour portrait, heading, studio copy and all inquiry links available. Actual Drive-specific content remains explicitly pending outside the page."
+    },
+    "success": {
+      "status": "pass",
+      "evidence": "Both actual photographs loaded, studio text rendered and local route/asset checks passed."
+    },
+    "permission": {
+      "status": "not-applicable",
+      "reason": "Public static informational page requests no account permission and performs no form submission."
+    }
+  },
+  "renderedEvidence": [
+    {
+      "viewport": "1440x900",
+      "artifact": "desktop.jpg",
+      "observation": "Opening viewport inspected: monochrome full-width background, overlapping colour image and ABOUT title with original studio navigation."
+    },
+    {
+      "viewport": "390x844",
+      "artifact": "mobile.jpg",
+      "observation": "Mobile layered opening and start of studio introduction; no horizontal overflow. Narrative section also reviewed in a separate browser viewport."
+    },
+    {
+      "viewport": "320x740",
+      "artifact": "narrow.jpg",
+      "observation": "Narrow opening fits; heading and portrait remain centered without horizontal overflow."
+    }
+  ]
+}

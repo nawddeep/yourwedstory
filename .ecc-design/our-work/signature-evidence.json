@@ -1,0 +1,53 @@
+{
+  "contract": "signature-contract.json",
+  "targetViewports": [
+    "1440x900",
+    "390x844"
+  ],
+  "accessibility": {
+    "status": "pass",
+    "evidence": "Category anchors have accessible names and visible keyboard outlines; mobile labels remain visible."
+  },
+  "responsive": {
+    "status": "pass",
+    "evidence": "Browser measured document width equal to viewport at 390 and 1440 pixels; portrait pair and landscape retain aspect ratios."
+  },
+  "contentStates": {
+    "loading": {
+      "status": "not-applicable",
+      "reason": "Static section uses local photographs and normal page links; no asynchronous data or account permission."
+    },
+    "empty": {
+      "status": "not-applicable",
+      "reason": "Static section uses local photographs and normal page links; no asynchronous data or account permission."
+    },
+    "error": {
+      "status": "not-applicable",
+      "reason": "Static section uses local photographs and normal page links; no asynchronous data or account permission."
+    },
+    "partial": {
+      "status": "not-applicable",
+      "reason": "Static section uses local photographs and normal page links; no asynchronous data or account permission."
+    },
+    "permission": {
+      "status": "not-applicable",
+      "reason": "Static section uses local photographs and normal page links; no asynchronous data or account permission."
+    },
+    "success": {
+      "status": "pass",
+      "evidence": "All three photographs loaded; four portfolio destination files exist."
+    }
+  },
+  "renderedEvidence": [
+    {
+      "viewport": "1440x900",
+      "artifact": "signature-desktop.jpg",
+      "observation": "Centered diptych with overlapping portfolio masthead on charcoal."
+    },
+    {
+      "viewport": "390x844",
+      "artifact": "signature-mobile.jpg",
+      "observation": "Two portrait columns, visible labels, landscape below, no horizontal overflow."
+    }
+  ]
+}

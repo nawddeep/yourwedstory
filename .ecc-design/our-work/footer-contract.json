@@ -1,0 +1,12 @@
+{
+  "intent": "KT Merry reference footer: balanced brand/navigation and newsletter columns, five small photos across the content width, understated follow and legal row. Existing palette; no invented links.",
+  "viewports": [
+    "1440x900",
+    "390x844"
+  ],
+  "constraints": [
+    "Keep existing newsletter handler and email id",
+    "Accessible labelled name/email",
+    "Small images; responsive spacing"
+  ]
+}

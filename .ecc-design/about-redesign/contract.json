@@ -1,0 +1,18 @@
+{
+  "surface": "About Us: reference-matched editorial layout",
+  "job": "Understand studio approach, browse photographs/films, inquire",
+  "primaryAction": "Existing ../#contact link",
+  "constraints": [
+    "Preserve EB Garamond, cream #f0e8de, ink and olive theme",
+    "Layered hero image and inset portrait, two-column narrative and quote, full-width statement, alternating photography/film panels, image CTA",
+    "Original creative copy only; do not invent people or business history",
+    "Drive link not located; existing own project photos used pending user link",
+    "No added motion, libraries or slideshow controls; this is a scrolling web page"
+  ],
+  "reference": "https://ktmerry.com/about#/: rendered desktop inspected at opening, narrative/quote, full-width quote and alternating profile sections",
+  "viewports": [
+    "1440x900",
+    "390x844",
+    "320x740"
+  ]
+}

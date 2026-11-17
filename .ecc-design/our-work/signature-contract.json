@@ -1,0 +1,14 @@
+{
+  "intent": "Supplied KT Merry signature work reference: charcoal full-width background, large partly concealed serif portfolio masthead, central flush portrait diptych, editorial landscape below and links to three existing categories.",
+  "constraints": [
+    "No changes outside section",
+    "Real Drive photographs",
+    "Keyboard visible category names",
+    "Mobile content fits viewport",
+    "No new dependencies"
+  ],
+  "viewports": [
+    "1440x900",
+    "390x844"
+  ]
+}

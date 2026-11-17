@@ -1,0 +1,1409 @@
+{
+  "rootInventory": [
+    {
+      "id": "1knwQ_XL_NTNAFcw2HqbLwRKvF1Z_fifT",
+      "name": "Bansri_yourwedstories.jpg",
+      "type": "image/jpeg",
+      "folder": "WEB"
+    },
+    {
+      "id": "1DuYbmKGw9QbrFZMezUDRyDIB9YBR5k1o",
+      "name": "Your wed stories_pranav and malini.jpg",
+      "type": "image/jpeg",
+      "folder": "WEB"
+    },
+    {
+      "id": "17GlxpItQbda5dX2cQBfGBdQYBfYnw_Ut",
+      "name": "Your wed stories_Rheema.jpg",
+      "type": "image/jpeg",
+      "folder": "WEB"
+    },
+    {
+      "id": "1BDVh9Z1Bmpye3rxrsScBdIGVdBZKwJ-o",
+      "name": "Your wed storiesBansri.jpg",
+      "type": "image/jpeg",
+      "folder": "WEB"
+    },
+    {
+      "id": "1t2PZL-IbeP3f9El7q2E8hmAKNan0GcTR",
+      "name": "YWS_LOGO_2024_W_L 2.png",
+      "type": "image/png",
+      "folder": "WEB"
+    },
+    {
+      "id": "1xSXOW-sOwdIB0yoqxKrIiQLuyN4DtKX6",
+      "name": "YWS_LOGO_2024_W_L ii.png",
+      "type": "image/png",
+      "folder": "WEB"
+    },
+    {
+      "id": "1YO2ENzcUzgZZazu-aOqNG7AMROsOpr7E",
+      "name": "YWS_LOGO_2024_W_web.png",
+      "type": "image/png",
+      "folder": "WEB"
+    },
+    {
+      "id": "1A4aXv3yPIMmcFK7uVyrV9Qhb7Jx8aiBa",
+      "name": "YWS_CP_VJ_D1_A00113.jpg",
+      "type": "image/jpeg",
+      "folder": "Zainab_Taher_Mumbai"
+    },
+    {
+      "id": "1Y65neLeCnVWo97CfbbjHOppkdaowLCJG",
+      "name": "YWS_CP_VJ_D1_A00229.jpg",
+      "type": "image/jpeg",
+      "folder": "Zainab_Taher_Mumbai"
+    },
+    {
+      "id": "1VVXrcf412MepD6gQ9qxi-dhHiH3cqT3V",
+      "name": "YWS_CP_VJ_D1_A00233.jpg",
+      "type": "image/jpeg",
+      "folder": "Zainab_Taher_Mumbai"
+    },
+    {
+      "id": "1NNGU5k92dj6jg8-EhMldkB7-f6xwcQ2j",
+      "name": "YWS_CP_VJ_D1_A00239.jpg",
+      "type": "image/jpeg",
+      "folder": "Zainab_Taher_Mumbai"
+    },
+    {
+      "id": "1yd8JKuTWDWwM0Wg27x_jCBDd7979iTqN",
+      "name": "YWS_CP_VJ_D1_A00248.jpg",
+      "type": "image/jpeg",
+      "folder": "Zainab_Taher_Mumbai"
+    },
+    {
+      "id": "1IdtkQWc2oDy52CcX0BeUU_BmDF40wOaM",
+      "name": "YWS_CP_VJ_D1_A00297.jpg",
+      "type": "image/jpeg",
+      "folder": "Zainab_Taher_Mumbai"
+    },
+    {
+      "id": "1EdVB9WIjKkjquFglJaCfNleU0ouiAPvN",
+      "name": "YWS_CP_VJ_D1_A00372.jpg",
+      "type": "image/jpeg",
+      "folder": "Zainab_Taher_Mumbai"
+    },
+    {
+      "id": "1j-rb2Ele4VNq7M8_R8LT2gTIzQmu7k5F",
+      "name": "YWS_CP_VJ_D1_A00448.jpg",
+      "type": "image/jpeg",
+      "folder": "Zainab_Taher_Mumbai"
+    },
+    {
+      "id": "1aypcloPN7uldBtwE-D8Md7q3_Nwmkl9C",
+      "name": "YWS_CP_VJ_D1_A00457.jpg",
+      "type": "image/jpeg",
+      "folder": "Zainab_Taher_Mumbai"
+    },
+    {
+      "id": "1Es9pZySPy5fBbPFmJtOa2DIS2KR_g5Dy",
+      "name": "YWS_CP_VJ_D1_A00472.jpg",
+      "type": "image/jpeg",
+      "folder": "Zainab_Taher_Mumbai"
+    },
+    {
+      "id": "1bbPRjnDAEwV_gZRfCNf75cpWOj4o--Cm",
+      "name": "YWS_CP_VJ_D1_A00496.jpg",
+      "type": "image/jpeg",
+      "folder": "Zainab_Taher_Mumbai"
+    },
+    {
+      "id": "181mcQYSosNzrklFEy6Vr30asyyj3Xlmf",
+      "name": "YWS_CP_VJ_D1_A00514.jpg",
+      "type": "image/jpeg",
+      "folder": "Zainab_Taher_Mumbai"
+    },
+    {
+      "id": "1eJ-k6tWXQ2mCEDQsO7f4SxHpx6uCrLLK",
+      "name": "YWS_CP_VJ_D1_A00649.jpg",
+      "type": "image/jpeg",
+      "folder": "Zainab_Taher_Mumbai"
+    },
+    {
+      "id": "1RsL7IXRWZ4ESyJMTvd47UqCbuUKJ_HcJ",
+      "name": "YWS_CP_VJ_D1_A00660.jpg",
+      "type": "image/jpeg",
+      "folder": "Zainab_Taher_Mumbai"
+    },
+    {
+      "id": "1f98T1OX3K_IoH9cGrGtk1vDE7ArtmEtj",
+      "name": "YWS_CP_VJ_D1_A00686.jpg",
+      "type": "image/jpeg",
+      "folder": "Zainab_Taher_Mumbai"
+    },
+    {
+      "id": "1tNN07cW_PhHF-CfasaCbJBDGYLjaeSYS",
+      "name": "YWS_CP_VJ_D1_A00802.jpg",
+      "type": "image/jpeg",
+      "folder": "Zainab_Taher_Mumbai"
+    },
+    {
+      "id": "1P0esMFSHNcq1aF9GOs5a7J6_BI5uwg3d",
+      "name": "YWS_CP_VJ_D1_A01095.jpg",
+      "type": "image/jpeg",
+      "folder": "Zainab_Taher_Mumbai"
+    },
+    {
+      "id": "1qivd9mjTIrHWaeJxYc6eFxU9UZJhVrow",
+      "name": "YWS_CP_VJ_D1_A01100.jpg",
+      "type": "image/jpeg",
+      "folder": "Zainab_Taher_Mumbai"
+    },
+    {
+      "id": "1eO9MRRCTYWkY2E8B_JRnsHlgtbP7wjWj",
+      "name": "wp.26_89479.2026-02-11_07-18-59.tar",
+      "type": "application/x-tar",
+      "folder": "VijaySawnani"
+    },
+    {
+      "id": "18Cw5RteBumAd8rMocjJ1HgNwVc13g7Oo",
+      "name": "Harsha_sawnani.jpg",
+      "type": "image/jpeg",
+      "folder": "Vijay_Harsha_Pic"
+    },
+    {
+      "id": "1B8f024KprI2dkXsWGm287W5T5OodE8il",
+      "name": "Vijay_sawnani_23.jpg",
+      "type": "image/jpeg",
+      "folder": "Vijay_Harsha_Pic"
+    },
+    {
+      "id": "1B2gRQkq_54qwx6vRLawSWd1qZqVGQVGK",
+      "name": "EXTV0005_CC.jpg",
+      "type": "image/jpeg",
+      "folder": "Vatsala_Aayush_Mumbai"
+    },
+    {
+      "id": "1JBzFAH1RK3OUPmRJYK6v8MhYOMq5pDB4",
+      "name": "EXTV0125_CC.jpg",
+      "type": "image/jpeg",
+      "folder": "Vatsala_Aayush_Mumbai"
+    },
+    {
+      "id": "1RqzbgEjMAbgrlUTnhuGrjAWsdj2r9a1n",
+      "name": "EXTV0141_CC.jpg",
+      "type": "image/jpeg",
+      "folder": "Vatsala_Aayush_Mumbai"
+    },
+    {
+      "id": "1MTnYVimBj7_eL9Jmp0ezx6bUnPXO5pEv",
+      "name": "EXTV0166_CC.jpg",
+      "type": "image/jpeg",
+      "folder": "Vatsala_Aayush_Mumbai"
+    },
+    {
+      "id": "1ygWRGOonyRF7Pk_7-0rcZ5lqMZAF-cQ-",
+      "name": "EXTV0181_CC.jpg",
+      "type": "image/jpeg",
+      "folder": "Vatsala_Aayush_Mumbai"
+    },
+    {
+      "id": "1A0H8kj9T43-Csb71baujuBcQglDxO-Ne",
+      "name": "EXTV0195_CC.jpg",
+      "type": "image/jpeg",
+      "folder": "Vatsala_Aayush_Mumbai"
+    },
+    {
+      "id": "1fROuiPzWBd5cl8bCL8Qw2yd-s9iBEzFA",
+      "name": "EXTV0211_CC.jpg",
+      "type": "image/jpeg",
+      "folder": "Vatsala_Aayush_Mumbai"
+    },
+    {
+      "id": "1V24MgAzp9qS9MzO0tc21uP8lG9X48Ofb",
+      "name": "EXTV0236_CC.jpg",
+      "type": "image/jpeg",
+      "folder": "Vatsala_Aayush_Mumbai"
+    },
+    {
+      "id": "1Rvw4AgB2TrXzk4S8k1Wy9rtqsNWM0qij",
+      "name": "EXTV0253_CC.jpg",
+      "type": "image/jpeg",
+      "folder": "Vatsala_Aayush_Mumbai"
+    },
+    {
+      "id": "1ZPlJT3Wg4CeB1Z0SoNJJQJzY7bl94mg5",
+      "name": "EXTV0262_CC.jpg",
+      "type": "image/jpeg",
+      "folder": "Vatsala_Aayush_Mumbai"
+    },
+    {
+      "id": "1qZk6afHowtF2AVbxv9mwuaLLL--eJnU9",
+      "name": "XHVJ0071_CC.jpg",
+      "type": "image/jpeg",
+      "folder": "Vatsala_Aayush_Mumbai"
+    },
+    {
+      "id": "1w6McYWhV-bNxg9GQN625f7h0TYo1DaZW",
+      "name": "XHVJ0194_CC.jpg",
+      "type": "image/jpeg",
+      "folder": "Vatsala_Aayush_Mumbai"
+    },
+    {
+      "id": "1nZS4XHG_RYUgf9jjhWvjnJVYAgarXnMT",
+      "name": "XHVJ0251_CC.jpg",
+      "type": "image/jpeg",
+      "folder": "Vatsala_Aayush_Mumbai"
+    },
+    {
+      "id": "1E0zdKJnRvrQB3rHFsstgynVUnJU4bdQd",
+      "name": "XHVJ0255_CC.jpg",
+      "type": "image/jpeg",
+      "folder": "Vatsala_Aayush_Mumbai"
+    },
+    {
+      "id": "10M9zJOr7RSyOSsSJsK7bRQORbT5Bcoqm",
+      "name": "XHVJ0308_CC.jpg",
+      "type": "image/jpeg",
+      "folder": "Vatsala_Aayush_Mumbai"
+    },
+    {
+      "id": "1GZd23bEUO_Nn-DmuHAeediZYTnxasQhZ",
+      "name": "XHVJ0330_CC.jpg",
+      "type": "image/jpeg",
+      "folder": "Vatsala_Aayush_Mumbai"
+    },
+    {
+      "id": "1QTlQrCQrGh6m-POPRb6XOxpXaE294a2V",
+      "name": "XHVJ0720.jpg",
+      "type": "image/jpeg",
+      "folder": "Vatsala_Aayush_Mumbai"
+    },
+    {
+      "id": "1cDNPJtOB-y2crYVIIeLAbc6UwOCCQsbx",
+      "name": "XHVJ0750.jpg",
+      "type": "image/jpeg",
+      "folder": "Vatsala_Aayush_Mumbai"
+    },
+    {
+      "id": "1h68GB1cdXfU74t_OmbCIKY80NUbvg5RU",
+      "name": "XHVJ0811_CC.jpg",
+      "type": "image/jpeg",
+      "folder": "Vatsala_Aayush_Mumbai"
+    },
+    {
+      "id": "1iQahAiUlrgn1GDxA_qoIr6IJMGXFF5_J",
+      "name": "XHVJ0819.jpg",
+      "type": "image/jpeg",
+      "folder": "Vatsala_Aayush_Mumbai"
+    },
+    {
+      "id": "1Dpf9qtZtWBP-Gm2rKv_Z4nTPouRbnq0V",
+      "name": "XHVJ0857_CC.jpg",
+      "type": "image/jpeg",
+      "folder": "Vatsala_Aayush_Mumbai"
+    },
+    {
+      "id": "10aiHJhUQ9HFCc44_eoMj8gQnIwoDdIu9",
+      "name": "XHVJ0960.jpg",
+      "type": "image/jpeg",
+      "folder": "Vatsala_Aayush_Mumbai"
+    },
+    {
+      "id": "10rtmOqPBWzjTpi3nqWRuOms0BfiB1Via",
+      "name": "XHVJ0964.jpg",
+      "type": "image/jpeg",
+      "folder": "Vatsala_Aayush_Mumbai"
+    },
+    {
+      "id": "1yFTB0VLqfssoxmKODN03ohUPVY72PM1U",
+      "name": "XHVJ1022_CC.jpg",
+      "type": "image/jpeg",
+      "folder": "Vatsala_Aayush_Mumbai"
+    },
+    {
+      "id": "1qqTLjCvpOb11swetUdLyRFsN1-XwweuQ",
+      "name": "XHVJ1131.jpg",
+      "type": "image/jpeg",
+      "folder": "Vatsala_Aayush_Mumbai"
+    },
+    {
+      "id": "1TMpVdKRz9-ETk3GFKHPmFVMZ0qRo_C3n",
+      "name": "XHVJ1170_CC.jpg",
+      "type": "image/jpeg",
+      "folder": "Vatsala_Aayush_Mumbai"
+    },
+    {
+      "id": "13EksrwOuYNiLB-9tmcAH1uZNPuIOv0NA",
+      "name": "DSCF2658.jpg",
+      "type": "image/jpeg",
+      "folder": "Pranav_Malini_Web_2023_Final_Grain"
+    },
+    {
+      "id": "1GEACMJgMVHEXJNIyXUA8McDfvRE00dRb",
+      "name": "DSCF2717.jpg",
+      "type": "image/jpeg",
+      "folder": "Pranav_Malini_Web_2023_Final_Grain"
+    },
+    {
+      "id": "10pFcNlkJRid-333wvFRiXwZEhE_8mGKa",
+      "name": "DSCF2854.jpg",
+      "type": "image/jpeg",
+      "folder": "Pranav_Malini_Web_2023_Final_Grain"
+    },
+    {
+      "id": "1ttpOJHSOInyAz7C67O3SlDftLcgYSBpc",
+      "name": "DSCF2918.jpg",
+      "type": "image/jpeg",
+      "folder": "Pranav_Malini_Web_2023_Final_Grain"
+    },
+    {
+      "id": "1ctrq0nfhAuOYoCgicHk-B7Mm5BFJGpEa",
+      "name": "DSCF2939.jpg",
+      "type": "image/jpeg",
+      "folder": "Pranav_Malini_Web_2023_Final_Grain"
+    },
+    {
+      "id": "1XJuG0u3Gtb8MmCLFv0HHhF-GfqbA21_K",
+      "name": "DSCF2945.jpg",
+      "type": "image/jpeg",
+      "folder": "Pranav_Malini_Web_2023_Final_Grain"
+    },
+    {
+      "id": "1Npka5jdN0VuGm5UNpKxfaeEV9TZZCGBv",
+      "name": "DSCF3127.jpg",
+      "type": "image/jpeg",
+      "folder": "Pranav_Malini_Web_2023_Final_Grain"
+    },
+    {
+      "id": "186DGmyv8WM1VH28l7S33sPRrkL6-DRmr",
+      "name": "DSCF3133.jpg",
+      "type": "image/jpeg",
+      "folder": "Pranav_Malini_Web_2023_Final_Grain"
+    },
+    {
+      "id": "13FdnoykmKcXDUYgw68lDcZR8GGOzIe4h",
+      "name": "DSCF3144.jpg",
+      "type": "image/jpeg",
+      "folder": "Pranav_Malini_Web_2023_Final_Grain"
+    },
+    {
+      "id": "1lCoVFTHIkN3hbCu9z09nlwHCqa9Q_OM8",
+      "name": "DSCF3157.jpg",
+      "type": "image/jpeg",
+      "folder": "Pranav_Malini_Web_2023_Final_Grain"
+    },
+    {
+      "id": "1U3LTi5QSNIAtEJ_cmyDlQRAm9YC0vvZs",
+      "name": "DSCF3258.jpg",
+      "type": "image/jpeg",
+      "folder": "Pranav_Malini_Web_2023_Final_Grain"
+    },
+    {
+      "id": "1v8LisAfo-bhQSZMgXUJAWBbKD6vGwXW8",
+      "name": "DSCF3699.jpg",
+      "type": "image/jpeg",
+      "folder": "Pranav_Malini_Web_2023_Final_Grain"
+    },
+    {
+      "id": "1FnaPJryYGryPfRBKD-UVfbqS6k2V08UZ",
+      "name": "DSCF3998.jpg",
+      "type": "image/jpeg",
+      "folder": "Pranav_Malini_Web_2023_Final_Grain"
+    },
+    {
+      "id": "17dARyzkCDQeB8gZPQqN4KuyrZhbJAh6N",
+      "name": "DSCF6358.jpg",
+      "type": "image/jpeg",
+      "folder": "Pranav_Malini_Web_2023_Final_Grain"
+    },
+    {
+      "id": "1AQaQ6EtBVHnM0qnTL834dWKxgqTvaAFS",
+      "name": "DSCF6383.jpg",
+      "type": "image/jpeg",
+      "folder": "Pranav_Malini_Web_2023_Final_Grain"
+    },
+    {
+      "id": "1R7y0YIj3EoCJItLDpc6gS7pO-JVzkoDa",
+      "name": "DSCF6567.jpg",
+      "type": "image/jpeg",
+      "folder": "Pranav_Malini_Web_2023_Final_Grain"
+    },
+    {
+      "id": "1lBkGmjgWrPGI-RXDuKWUkczl3zCauOdC",
+      "name": "DSCF6600.jpg",
+      "type": "image/jpeg",
+      "folder": "Pranav_Malini_Web_2023_Final_Grain"
+    },
+    {
+      "id": "1PcUmjBBwK1h7dngF7Vx0Z9S2-UQ_LI0C",
+      "name": "DSCF7862.jpg",
+      "type": "image/jpeg",
+      "folder": "Pranav_Malini_Web_2023_Final_Grain"
+    },
+    {
+      "id": "17OY7009emqkJHy4M-TeT-wc8xxlGEY8W",
+      "name": "VJAP2583.jpg",
+      "type": "image/jpeg",
+      "folder": "Pranav_Malini_Web_2023_Final_Grain"
+    },
+    {
+      "id": "1L8I4vc-0NRRD4ZwzFVGU71BZ3UcdnNnh",
+      "name": "VJAP2590.jpg",
+      "type": "image/jpeg",
+      "folder": "Pranav_Malini_Web_2023_Final_Grain"
+    },
+    {
+      "id": "1vzzO5b_zskaKdNNARIJeSM5ZPjNu9bME",
+      "name": "VJAP2598.jpg",
+      "type": "image/jpeg",
+      "folder": "Pranav_Malini_Web_2023_Final_Grain"
+    },
+    {
+      "id": "1rNLP4ZrHzBTDZGoKsFNvRU4wkX-H0rN5",
+      "name": "VJAP2643.jpg",
+      "type": "image/jpeg",
+      "folder": "Pranav_Malini_Web_2023_Final_Grain"
+    },
+    {
+      "id": "1hyFvcnKZO8sAdVoY15U_6GaLqx4nabQb",
+      "name": "VJAP2889.jpg",
+      "type": "image/jpeg",
+      "folder": "Pranav_Malini_Web_2023_Final_Grain"
+    },
+    {
+      "id": "1mVdfMvdN0zRKbIK5aviKv5AUQ0y0vT5P",
+      "name": "VJAP3053.jpg",
+      "type": "image/jpeg",
+      "folder": "Pranav_Malini_Web_2023_Final_Grain"
+    },
+    {
+      "id": "1u1cLYQHrAVntyTxq8UMHtOlbd4qyERlv",
+      "name": "VJAP3228.jpg",
+      "type": "image/jpeg",
+      "folder": "Pranav_Malini_Web_2023_Final_Grain"
+    },
+    {
+      "id": "1TYG-7j1SfddVK_zsyK6VcNJzxuQnfmGN",
+      "name": "VJAP3231.jpg",
+      "type": "image/jpeg",
+      "folder": "Pranav_Malini_Web_2023_Final_Grain"
+    },
+    {
+      "id": "1wPAC2Y3ZzvXg7YoDe7DvsEtuuIlkX_Ki",
+      "name": "VJAP3354.jpg",
+      "type": "image/jpeg",
+      "folder": "Pranav_Malini_Web_2023_Final_Grain"
+    },
+    {
+      "id": "1V7iisf4NGzeAx8w05ofSml6KlkgymYaS",
+      "name": "VJAP3363.jpg",
+      "type": "image/jpeg",
+      "folder": "Pranav_Malini_Web_2023_Final_Grain"
+    },
+    {
+      "id": "1a71XPqb747LuDir3Rp6SbzTrTRe2kxpJ",
+      "name": "DSCF4219.jpg",
+      "type": "image/jpeg",
+      "folder": "Pranav_Malani_WEB_HOLI_CC_26"
+    },
+    {
+      "id": "1ZdfOIAPygnJgJuA8VFp7XLA4C3Tbptdn",
+      "name": "DSCF4257.jpg",
+      "type": "image/jpeg",
+      "folder": "Pranav_Malani_WEB_HOLI_CC_26"
+    },
+    {
+      "id": "1iQcm27AG2OhwIlwl4ESH8wcFXGMbZeXg",
+      "name": "DSCF4275.jpg",
+      "type": "image/jpeg",
+      "folder": "Pranav_Malani_WEB_HOLI_CC_26"
+    },
+    {
+      "id": "1A47tod6mI0A0ergeEZK5wUkC2b5wkazM",
+      "name": "DSCF4281.jpg",
+      "type": "image/jpeg",
+      "folder": "Pranav_Malani_WEB_HOLI_CC_26"
+    },
+    {
+      "id": "1k0KuR3780NcDuBz0jSCZKF1KmaDsAMu9",
+      "name": "DSCF4282.jpg",
+      "type": "image/jpeg",
+      "folder": "Pranav_Malani_WEB_HOLI_CC_26"
+    },
+    {
+      "id": "1GsusYrtRXLEWg62c8fiwmDZuJQY206Vi",
+      "name": "DSCF4339.jpg",
+      "type": "image/jpeg",
+      "folder": "Pranav_Malani_WEB_HOLI_CC_26"
+    },
+    {
+      "id": "1k9yTZIY8YxDT6S4a1_adM5OgJ9XUV2EZ",
+      "name": "DSCF4353.jpg",
+      "type": "image/jpeg",
+      "folder": "Pranav_Malani_WEB_HOLI_CC_26"
+    },
+    {
+      "id": "1u6ad4YDDy_14EvPfAZ8WW7lRp8_0X9TO",
+      "name": "DSCF4369.jpg",
+      "type": "image/jpeg",
+      "folder": "Pranav_Malani_WEB_HOLI_CC_26"
+    },
+    {
+      "id": "1RnBRdUydBc4UVrLJuU-rYG7w1sIWfdcJ",
+      "name": "DSCF4401.jpg",
+      "type": "image/jpeg",
+      "folder": "Pranav_Malani_WEB_HOLI_CC_26"
+    },
+    {
+      "id": "1xBXLOzRSuh7CE-GybMtBKRwP-xmACE4N",
+      "name": "DSCF4404.jpg",
+      "type": "image/jpeg",
+      "folder": "Pranav_Malani_WEB_HOLI_CC_26"
+    },
+    {
+      "id": "1iXALfGZVQcUC65QgY45lguOEyH6MJGwQ",
+      "name": "DSCF4406.jpg",
+      "type": "image/jpeg",
+      "folder": "Pranav_Malani_WEB_HOLI_CC_26"
+    },
+    {
+      "id": "1x2UCrca5x5NT53xkqZQIIc2so85_zjqx",
+      "name": "DSCF4407.jpg",
+      "type": "image/jpeg",
+      "folder": "Pranav_Malani_WEB_HOLI_CC_26"
+    },
+    {
+      "id": "10xIQvVlwOV5v2CiXA2LIjR7ANuMWEHuX",
+      "name": "DSCF4427.jpg",
+      "type": "image/jpeg",
+      "folder": "Pranav_Malani_WEB_HOLI_CC_26"
+    },
+    {
+      "id": "1YFpQoWwsKVtlYUYth8HmbY3pEm2072K6",
+      "name": "DSCF4442.jpg",
+      "type": "image/jpeg",
+      "folder": "Pranav_Malani_WEB_HOLI_CC_26"
+    },
+    {
+      "id": "1V7bICumzpn6S7l62a8_0vgovj4mJPKJD",
+      "name": "DSCF4466.jpg",
+      "type": "image/jpeg",
+      "folder": "Pranav_Malani_WEB_HOLI_CC_26"
+    },
+    {
+      "id": "1IiosmDTShZoKbkokqCOFvX8jU7sdlim2",
+      "name": "DSCF4468.jpg",
+      "type": "image/jpeg",
+      "folder": "Pranav_Malani_WEB_HOLI_CC_26"
+    },
+    {
+      "id": "1u-ce4UJLCV7GazEXe-fWnwyW943xwG1o",
+      "name": "DSCF4486.jpg",
+      "type": "image/jpeg",
+      "folder": "Pranav_Malani_WEB_HOLI_CC_26"
+    },
+    {
+      "id": "1DJHzsqeKw73evWR5RgvpG3nrkMvhkJwi",
+      "name": "DSCF4489.jpg",
+      "type": "image/jpeg",
+      "folder": "Pranav_Malani_WEB_HOLI_CC_26"
+    },
+    {
+      "id": "1UjoIeYT6itKwPS8X94TMLk0InWm6StOx",
+      "name": "DSCF4495.jpg",
+      "type": "image/jpeg",
+      "folder": "Pranav_Malani_WEB_HOLI_CC_26"
+    },
+    {
+      "id": "1RZVZO4eJiLrZJvIQzXAcJmSh-7sCdgsY",
+      "name": "DSCF4499.jpg",
+      "type": "image/jpeg",
+      "folder": "Pranav_Malani_WEB_HOLI_CC_26"
+    },
+    {
+      "id": "1Nb79TjwNA1WwqtkJxdUuAsW0o77zpVbZ",
+      "name": "DSCF4501.jpg",
+      "type": "image/jpeg",
+      "folder": "Pranav_Malani_WEB_HOLI_CC_26"
+    },
+    {
+      "id": "1WVgOXYzc3VC7r5Gt31-CDgBbkPPnzZlB",
+      "name": "DSCF4519.jpg",
+      "type": "image/jpeg",
+      "folder": "Pranav_Malani_WEB_HOLI_CC_26"
+    },
+    {
+      "id": "1AKHtzbSAtWMs4zdsrnvtHo_yo0ZC9Yst",
+      "name": "DSCF4531.jpg",
+      "type": "image/jpeg",
+      "folder": "Pranav_Malani_WEB_HOLI_CC_26"
+    },
+    {
+      "id": "1-XJ7TDYoWWzpZX0W7a9DSGZm56CGegwr",
+      "name": "DSCF4532.jpg",
+      "type": "image/jpeg",
+      "folder": "Pranav_Malani_WEB_HOLI_CC_26"
+    },
+    {
+      "id": "1K4gbAZNWJpIEdQho1TuOM7d5gwCto8hN",
+      "name": "DSCF4544.jpg",
+      "type": "image/jpeg",
+      "folder": "Pranav_Malani_WEB_HOLI_CC_26"
+    },
+    {
+      "id": "1LPaS1RQsjgzX52ZLW1EdeBdpTf142znO",
+      "name": "DSCF4620.jpg",
+      "type": "image/jpeg",
+      "folder": "Pranav_Malani_WEB_HOLI_CC_26"
+    },
+    {
+      "id": "11G5VVqUep6FsKZXPlCaSzOQmPQdiw60c",
+      "name": "DSCF4621.jpg",
+      "type": "image/jpeg",
+      "folder": "Pranav_Malani_WEB_HOLI_CC_26"
+    },
+    {
+      "id": "1kDgbVezG7shL7W7XKfv9z_EBz3OZDedJ",
+      "name": "DSCF4637.jpg",
+      "type": "image/jpeg",
+      "folder": "Pranav_Malani_WEB_HOLI_CC_26"
+    },
+    {
+      "id": "1JjZEq5w5Ls1coMexX8kaEJl6kPIC_cFq",
+      "name": "DSCF4657.jpg",
+      "type": "image/jpeg",
+      "folder": "Pranav_Malani_WEB_HOLI_CC_26"
+    },
+    {
+      "id": "1qywEWZA5mZb3sUVYq7vA1VXTLC4QALNc",
+      "name": "DSCF4667.jpg",
+      "type": "image/jpeg",
+      "folder": "Pranav_Malani_WEB_HOLI_CC_26"
+    },
+    {
+      "id": "1brf7GF0zRFlQ1hFY1xH1gGeq8X4JqBhQ",
+      "name": "DSCF4669.jpg",
+      "type": "image/jpeg",
+      "folder": "Pranav_Malani_WEB_HOLI_CC_26"
+    },
+    {
+      "id": "1dNNkjt3kzPm9q7H1BxjQ--pcCGdDyqxn",
+      "name": "DSCF4677.jpg",
+      "type": "image/jpeg",
+      "folder": "Pranav_Malani_WEB_HOLI_CC_26"
+    },
+    {
+      "id": "1wFpsB3eyL5gCH-PerQTbQ3wL662ZD_R7",
+      "name": "DSCF4679.jpg",
+      "type": "image/jpeg",
+      "folder": "Pranav_Malani_WEB_HOLI_CC_26"
+    },
+    {
+      "id": "128GBWqo_U9Poy8yIt5lVyU1ZB51xFzEf",
+      "name": "DSCF4684.jpg",
+      "type": "image/jpeg",
+      "folder": "Pranav_Malani_WEB_HOLI_CC_26"
+    },
+    {
+      "id": "14ceLhWqB3J35QrjFsd6mJ8kLgStqSqDp",
+      "name": "DSCF4689.jpg",
+      "type": "image/jpeg",
+      "folder": "Pranav_Malani_WEB_HOLI_CC_26"
+    },
+    {
+      "id": "1FZ1a3KUkkOCgRI4beweOmYfva4jDmuX1",
+      "name": "DSCF4703.jpg",
+      "type": "image/jpeg",
+      "folder": "Pranav_Malani_WEB_HOLI_CC_26"
+    },
+    {
+      "id": "1gD4ppC05gf9PqEsNxMz0HJizDaSsdNbr",
+      "name": "DSCF4711_FF.jpg",
+      "type": "image/jpeg",
+      "folder": "Pranav_Malani_WEB_HOLI_CC_26"
+    },
+    {
+      "id": "1ajGUrKRZOWWDhdKg78unAifKwJRQjjhb",
+      "name": "DSCF4714_FF.jpg",
+      "type": "image/jpeg",
+      "folder": "Pranav_Malani_WEB_HOLI_CC_26"
+    },
+    {
+      "id": "1PBzR8tFfyNTK2wMMo6nGrUKglTwxBWt8",
+      "name": "DSCF4745.jpg",
+      "type": "image/jpeg",
+      "folder": "Pranav_Malani_WEB_HOLI_CC_26"
+    },
+    {
+      "id": "1u_DJVKirM-cGuTQa80iXBpHbgScGKO4H",
+      "name": "DSCF4770.jpg",
+      "type": "image/jpeg",
+      "folder": "Pranav_Malani_WEB_HOLI_CC_26"
+    },
+    {
+      "id": "1QmOB8lLx5RAYESm3dJQ7qSFq2qaRjMzA",
+      "name": "DSCF4771.jpg",
+      "type": "image/jpeg",
+      "folder": "Pranav_Malani_WEB_HOLI_CC_26"
+    },
+    {
+      "id": "1AI8h6-iytakll4ZtMm4yE6wW--ozwyFj",
+      "name": "DSCF4774.jpg",
+      "type": "image/jpeg",
+      "folder": "Pranav_Malani_WEB_HOLI_CC_26"
+    },
+    {
+      "id": "1z9zKMrg1tV8IizwalDH__3y7FDBMPJLn",
+      "name": "DSCF4775.jpg",
+      "type": "image/jpeg",
+      "folder": "Pranav_Malani_WEB_HOLI_CC_26"
+    },
+    {
+      "id": "1RJGIpO0KGQP6hQa-EqcGiH_hoVUMNW_r",
+      "name": "DSCF4777.jpg",
+      "type": "image/jpeg",
+      "folder": "Pranav_Malani_WEB_HOLI_CC_26"
+    },
+    {
+      "id": "13RnBlStujoOjA_wegstKdjk0Hve1wfV6",
+      "name": "DSCF4778.jpg",
+      "type": "image/jpeg",
+      "folder": "Pranav_Malani_WEB_HOLI_CC_26"
+    },
+    {
+      "id": "1A_EQ06vF22KSC3j33b_gQsqJ8lLsN1xa",
+      "name": "DSCF4779.jpg",
+      "type": "image/jpeg",
+      "folder": "Pranav_Malani_WEB_HOLI_CC_26"
+    },
+    {
+      "id": "1sOtHuCUh55bvUSUMEgRxl7GyCtYMZ__Z",
+      "name": "DSCF4780.jpg",
+      "type": "image/jpeg",
+      "folder": "Pranav_Malani_WEB_HOLI_CC_26"
+    },
+    {
+      "id": "1q6jM0Fv64jQCdddGUT8hI0YDxMItFPoP",
+      "name": "DSCF4785.jpg",
+      "type": "image/jpeg",
+      "folder": "Pranav_Malani_WEB_HOLI_CC_26"
+    },
+    {
+      "id": "1cNsgiYzZouycjjSlDmeenlUkzZWW6k8y",
+      "name": "DSCF4786.jpg",
+      "type": "image/jpeg",
+      "folder": "Pranav_Malani_WEB_HOLI_CC_26"
+    },
+    {
+      "id": "1j_tLQwpP4xqK_rbMnwgnW_avWb-rM6di",
+      "name": "DSCF4787.jpg",
+      "type": "image/jpeg",
+      "folder": "Pranav_Malani_WEB_HOLI_CC_26"
+    },
+    {
+      "id": "1_dKE0umARwSNjBqdxVLbV4w-fTMGWHpm",
+      "name": "Ocean Embrace_YOUR_WED_STORIES_Luxury_Cinematic_Couple_Mumbai_udaipur_VIJAY_SAWNANI_HARSHA_00001.jpg",
+      "type": "image/jpeg",
+      "folder": "Nigel and cynanada"
+    },
+    {
+      "id": "1XhHp2JB3byrwvqpfRfIrNYVmWzI3BI7I",
+      "name": "Ocean Embrace_YOUR_WED_STORIES_Luxury_Cinematic_Couple_Mumbai_udaipur_VIJAY_SAWNANI_HARSHA_00006.jpg",
+      "type": "image/jpeg",
+      "folder": "Nigel and cynanada"
+    },
+    {
+      "id": "1MgRCv5b200dDb9KrdQoQmFrLd1R1yGmx",
+      "name": "Ocean Embrace_YOUR_WED_STORIES_Luxury_Cinematic_Couple_Mumbai_udaipur_VIJAY_SAWNANI_HARSHA_00012.jpg",
+      "type": "image/jpeg",
+      "folder": "Nigel and cynanada"
+    },
+    {
+      "id": "1x8kJNDLLjBkPnJu-j_mMEGxkC_WRjndC",
+      "name": "Ocean Embrace_YOUR_WED_STORIES_Luxury_Cinematic_Couple_Mumbai_udaipur_VIJAY_SAWNANI_HARSHA_00015.jpg",
+      "type": "image/jpeg",
+      "folder": "Nigel and cynanada"
+    },
+    {
+      "id": "1nF46E2d4tYzxI00zxwuoRGFRuoyYFe1j",
+      "name": "Ocean Embrace_YOUR_WED_STORIES_Luxury_Cinematic_Couple_Mumbai_udaipur_VIJAY_SAWNANI_HARSHA_00021.jpg",
+      "type": "image/jpeg",
+      "folder": "Nigel and cynanada"
+    },
+    {
+      "id": "1eQ6UrAWQDDLmPbyIC2GgBOms6eBshpVn",
+      "name": "Ocean Embrace_YOUR_WED_STORIES_Luxury_Cinematic_Couple_Mumbai_udaipur_VIJAY_SAWNANI_HARSHA_00022.jpg",
+      "type": "image/jpeg",
+      "folder": "Nigel and cynanada"
+    },
+    {
+      "id": "1GAdFVRr8DyhBp3pCy5Yl0gbOHn4-w9cy",
+      "name": "Ocean Embrace_YOUR_WED_STORIES_Luxury_Cinematic_Couple_Mumbai_udaipur_VIJAY_SAWNANI_HARSHA_00023.jpg",
+      "type": "image/jpeg",
+      "folder": "Nigel and cynanada"
+    },
+    {
+      "id": "1jt6-8SUJamM-KzsY32SulqCvxnIg2eEy",
+      "name": "Ocean Embrace_YOUR_WED_STORIES_Luxury_Cinematic_Couple_Mumbai_udaipur_VIJAY_SAWNANI_HARSHA_00025.jpg",
+      "type": "image/jpeg",
+      "folder": "Nigel and cynanada"
+    },
+    {
+      "id": "1NrubDt8jvifz9pNN7-Q_v_Td5m8hD9Yz",
+      "name": "Ocean Embrace_YOUR_WED_STORIES_Luxury_Cinematic_Couple_Mumbai_udaipur_VIJAY_SAWNANI_HARSHA_00027.jpg",
+      "type": "image/jpeg",
+      "folder": "Nigel and cynanada"
+    },
+    {
+      "id": "1GXpY54x4g3LxcWsbJQWODRul_96_ttoY",
+      "name": "Ocean Embrace_YOUR_WED_STORIES_Luxury_Cinematic_Couple_Mumbai_udaipur_VIJAY_SAWNANI_HARSHA_00031.jpg",
+      "type": "image/jpeg",
+      "folder": "Nigel and cynanada"
+    },
+    {
+      "id": "1p5tLfCKPYknGBn0qmdXhRCKyqqctdi_6",
+      "name": "Ocean Embrace_YOUR_WED_STORIES_Luxury_Cinematic_Couple_Mumbai_udaipur_VIJAY_SAWNANI_HARSHA_00033.jpg",
+      "type": "image/jpeg",
+      "folder": "Nigel and cynanada"
+    },
+    {
+      "id": "1on1cB3i9NCZvRJMGQOZxkRHDNMkHg5Tq",
+      "name": "Ocean Embrace_YOUR_WED_STORIES_Luxury_Cinematic_Couple_Mumbai_udaipur_VIJAY_SAWNANI_HARSHA_00037.jpg",
+      "type": "image/jpeg",
+      "folder": "Nigel and cynanada"
+    },
+    {
+      "id": "1tpU2fhfvUhe-NODsPw251Hcz5RGyImP5",
+      "name": "Ocean Embrace_YOUR_WED_STORIES_Luxury_Cinematic_Couple_Mumbai_udaipur_VIJAY_SAWNANI_HARSHA_00038.jpg",
+      "type": "image/jpeg",
+      "folder": "Nigel and cynanada"
+    },
+    {
+      "id": "1H3bjJi6Hk0jkANwBHtfXcXGWHR1HazPQ",
+      "name": "Ocean Embrace_YOUR_WED_STORIES_Luxury_Cinematic_Couple_Mumbai_udaipur_VIJAY_SAWNANI_HARSHA_00042.jpg",
+      "type": "image/jpeg",
+      "folder": "Nigel and cynanada"
+    },
+    {
+      "id": "1D5Uqwie-CnAZfpfGPQOxBe03V8Hj9BW8",
+      "name": "Ocean Embrace_YOUR_WED_STORIES_Luxury_Cinematic_Couple_Mumbai_udaipur_VIJAY_SAWNANI_HARSHA_00043.jpg",
+      "type": "image/jpeg",
+      "folder": "Nigel and cynanada"
+    },
+    {
+      "id": "1l0b7kQ5K2-XsFwoB0WVH34QHRWIW2eMM",
+      "name": "Ocean Embrace_YOUR_WED_STORIES_Luxury_Cinematic_Couple_Mumbai_udaipur_VIJAY_SAWNANI_HARSHA_00002.jpg",
+      "type": "image/jpeg",
+      "folder": "DON"
+    },
+    {
+      "id": "1kGPr9NoH7I-AD_vm_BhcgImjLrDHhAbu",
+      "name": "Ocean Embrace_YOUR_WED_STORIES_Luxury_Cinematic_Couple_Mumbai_udaipur_VIJAY_SAWNANI_HARSHA_00003.jpg",
+      "type": "image/jpeg",
+      "folder": "DON"
+    },
+    {
+      "id": "18QhZPie32qeXzUUa38nBIy5oehPXFEqO",
+      "name": "Ocean Embrace_YOUR_WED_STORIES_Luxury_Cinematic_Couple_Mumbai_udaipur_VIJAY_SAWNANI_HARSHA_00004.jpg",
+      "type": "image/jpeg",
+      "folder": "DON"
+    },
+    {
+      "id": "1QTu6k0qZCBTY5fXoPDo88OgiIjiFBBMI",
+      "name": "Ocean Embrace_YOUR_WED_STORIES_Luxury_Cinematic_Couple_Mumbai_udaipur_VIJAY_SAWNANI_HARSHA_00005.jpg",
+      "type": "image/jpeg",
+      "folder": "DON"
+    },
+    {
+      "id": "1om3LSHswXrq-YTsokeqLjf-mfkaqU3vo",
+      "name": "Ocean Embrace_YOUR_WED_STORIES_Luxury_Cinematic_Couple_Mumbai_udaipur_VIJAY_SAWNANI_HARSHA_00007.jpg",
+      "type": "image/jpeg",
+      "folder": "DON"
+    },
+    {
+      "id": "18wwf3veHnNYBsIuxBvTliAWBzyuJiBei",
+      "name": "Ocean Embrace_YOUR_WED_STORIES_Luxury_Cinematic_Couple_Mumbai_udaipur_VIJAY_SAWNANI_HARSHA_00008.jpg",
+      "type": "image/jpeg",
+      "folder": "DON"
+    },
+    {
+      "id": "1RKAsBclIOatE1-bPD3AqVwmAGMzfmfIk",
+      "name": "Ocean Embrace_YOUR_WED_STORIES_Luxury_Cinematic_Couple_Mumbai_udaipur_VIJAY_SAWNANI_HARSHA_00009.jpg",
+      "type": "image/jpeg",
+      "folder": "DON"
+    },
+    {
+      "id": "1B4aDnYmwYy9a6F0qFmJ1Bw2N6Wplz0Yr",
+      "name": "Ocean Embrace_YOUR_WED_STORIES_Luxury_Cinematic_Couple_Mumbai_udaipur_VIJAY_SAWNANI_HARSHA_00010.jpg",
+      "type": "image/jpeg",
+      "folder": "DON"
+    },
+    {
+      "id": "1BV7JDfdC1Gy4NxVSsLRCmszllJ2rjHz8",
+      "name": "Ocean Embrace_YOUR_WED_STORIES_Luxury_Cinematic_Couple_Mumbai_udaipur_VIJAY_SAWNANI_HARSHA_00011.jpg",
+      "type": "image/jpeg",
+      "folder": "DON"
+    },
+    {
+      "id": "1EP_9r8FuvQ5ox6EBqSlAfhfb2lgXj7_S",
+      "name": "Ocean Embrace_YOUR_WED_STORIES_Luxury_Cinematic_Couple_Mumbai_udaipur_VIJAY_SAWNANI_HARSHA_00013.jpg",
+      "type": "image/jpeg",
+      "folder": "DON"
+    },
+    {
+      "id": "1MeTLvzkKWbB7b48eL7_IBwCGd4gefN_C",
+      "name": "Ocean Embrace_YOUR_WED_STORIES_Luxury_Cinematic_Couple_Mumbai_udaipur_VIJAY_SAWNANI_HARSHA_00014.jpg",
+      "type": "image/jpeg",
+      "folder": "DON"
+    },
+    {
+      "id": "1bI40ypBj1_-LE6nmyuiyoK_dm89Wr2Co",
+      "name": "Ocean Embrace_YOUR_WED_STORIES_Luxury_Cinematic_Couple_Mumbai_udaipur_VIJAY_SAWNANI_HARSHA_00016.jpg",
+      "type": "image/jpeg",
+      "folder": "DON"
+    },
+    {
+      "id": "1L5n0y76kt4sMVs5EnJ8DgYyv-u2Cnlah",
+      "name": "Ocean Embrace_YOUR_WED_STORIES_Luxury_Cinematic_Couple_Mumbai_udaipur_VIJAY_SAWNANI_HARSHA_00017.jpg",
+      "type": "image/jpeg",
+      "folder": "DON"
+    },
+    {
+      "id": "1MtehWEHUs9Dqfz41IwesfVqwMX_XEyih",
+      "name": "Ocean Embrace_YOUR_WED_STORIES_Luxury_Cinematic_Couple_Mumbai_udaipur_VIJAY_SAWNANI_HARSHA_00018.jpg",
+      "type": "image/jpeg",
+      "folder": "DON"
+    },
+    {
+      "id": "10kJxTBbiApRKXJIDcaLLS-GQpDhqKBLJ",
+      "name": "Ocean Embrace_YOUR_WED_STORIES_Luxury_Cinematic_Couple_Mumbai_udaipur_VIJAY_SAWNANI_HARSHA_00019.jpg",
+      "type": "image/jpeg",
+      "folder": "DON"
+    },
+    {
+      "id": "1y2H0pOh2KBj_mYDw9uGfo9qoXZDlNz5l",
+      "name": "Ocean Embrace_YOUR_WED_STORIES_Luxury_Cinematic_Couple_Mumbai_udaipur_VIJAY_SAWNANI_HARSHA_00020.jpg",
+      "type": "image/jpeg",
+      "folder": "DON"
+    },
+    {
+      "id": "1zgCrgV4bAivKSLt7W2dXcig97CralfcH",
+      "name": "Ocean Embrace_YOUR_WED_STORIES_Luxury_Cinematic_Couple_Mumbai_udaipur_VIJAY_SAWNANI_HARSHA_00024.jpg",
+      "type": "image/jpeg",
+      "folder": "DON"
+    },
+    {
+      "id": "1EzDU5RNWmCpmMydla73LZG9_wFhZxbvU",
+      "name": "Ocean Embrace_YOUR_WED_STORIES_Luxury_Cinematic_Couple_Mumbai_udaipur_VIJAY_SAWNANI_HARSHA_00026.jpg",
+      "type": "image/jpeg",
+      "folder": "DON"
+    },
+    {
+      "id": "177_aegDKlmTGOzBHHvEhTOkS7WetQJe6",
+      "name": "Ocean Embrace_YOUR_WED_STORIES_Luxury_Cinematic_Couple_Mumbai_udaipur_VIJAY_SAWNANI_HARSHA_00028.jpg",
+      "type": "image/jpeg",
+      "folder": "DON"
+    },
+    {
+      "id": "1GhaOk2VFE8bWY0P5Tu567nzicW9MGwYZ",
+      "name": "Ocean Embrace_YOUR_WED_STORIES_Luxury_Cinematic_Couple_Mumbai_udaipur_VIJAY_SAWNANI_HARSHA_00029.jpg",
+      "type": "image/jpeg",
+      "folder": "DON"
+    },
+    {
+      "id": "1x8Rwe7Io_RE2V88xmHMKZeJ5MbicB1Xn",
+      "name": "Ocean Embrace_YOUR_WED_STORIES_Luxury_Cinematic_Couple_Mumbai_udaipur_VIJAY_SAWNANI_HARSHA_00030.jpg",
+      "type": "image/jpeg",
+      "folder": "DON"
+    },
+    {
+      "id": "1HAOjOkVCAFV4Ej7o_WgSb9N8RGSkON3R",
+      "name": "Ocean Embrace_YOUR_WED_STORIES_Luxury_Cinematic_Couple_Mumbai_udaipur_VIJAY_SAWNANI_HARSHA_00032.jpg",
+      "type": "image/jpeg",
+      "folder": "DON"
+    },
+    {
+      "id": "1-4mw8MChnxThzirjmTx_LAsi1u958Z8N",
+      "name": "Ocean Embrace_YOUR_WED_STORIES_Luxury_Cinematic_Couple_Mumbai_udaipur_VIJAY_SAWNANI_HARSHA_00034.jpg",
+      "type": "image/jpeg",
+      "folder": "DON"
+    },
+    {
+      "id": "1Y-PP7l840v2Yc3K4GOQVOgBpOEsfNLMu",
+      "name": "Ocean Embrace_YOUR_WED_STORIES_Luxury_Cinematic_Couple_Mumbai_udaipur_VIJAY_SAWNANI_HARSHA_00035.jpg",
+      "type": "image/jpeg",
+      "folder": "DON"
+    },
+    {
+      "id": "1TYK7L_KeDLxkkxkIuBkZBbivhmvxcWVW",
+      "name": "Ocean Embrace_YOUR_WED_STORIES_Luxury_Cinematic_Couple_Mumbai_udaipur_VIJAY_SAWNANI_HARSHA_00036.jpg",
+      "type": "image/jpeg",
+      "folder": "DON"
+    },
+    {
+      "id": "1tHjegZsJjN6D-xdjQrFETer1gM1rNYfs",
+      "name": "Ocean Embrace_YOUR_WED_STORIES_Luxury_Cinematic_Couple_Mumbai_udaipur_VIJAY_SAWNANI_HARSHA_00039.jpg",
+      "type": "image/jpeg",
+      "folder": "DON"
+    },
+    {
+      "id": "1HjzQy7O3IdhIfMni8bnQK20jnfW9ipGe",
+      "name": "Ocean Embrace_YOUR_WED_STORIES_Luxury_Cinematic_Couple_Mumbai_udaipur_VIJAY_SAWNANI_HARSHA_00040.jpg",
+      "type": "image/jpeg",
+      "folder": "DON"
+    },
+    {
+      "id": "1ttMVmF1QmobyV3bB9W0zuVXCDpqPE4Dy",
+      "name": "Ocean Embrace_YOUR_WED_STORIES_Luxury_Cinematic_Couple_Mumbai_udaipur_VIJAY_SAWNANI_HARSHA_00041.jpg",
+      "type": "image/jpeg",
+      "folder": "DON"
+    },
+    {
+      "id": "1t0t_YJH7kosbnGCsO5dKZ5FTgOb0qF7q",
+      "name": "YWS_01.mp4",
+      "type": "video/mp4",
+      "folder": "HOME_VIDEO"
+    },
+    {
+      "id": "18GXjKvCtzqq-gSFYCP_bPI0ZerJXDx-N",
+      "name": "DSCF4531.jpg",
+      "type": "image/jpeg",
+      "folder": "COVER - SLIDER "
+    },
+    {
+      "id": "1X97fXt3bOKe652mEKxJVoZ8-bPv-inyl",
+      "name": "DSCF4797.jpg",
+      "type": "image/jpeg",
+      "folder": "COVER - SLIDER "
+    },
+    {
+      "id": "1GFAxL7CEZS5sUHknSneLEjzBR-lRL40u",
+      "name": "YOURWEDSTORIES_BESPOKE_WEDDING_PHOTOGRAPHER_UDAIPUR_INDIA.jpg",
+      "type": "image/jpeg",
+      "folder": "COVER - SLIDER "
+    },
+    {
+      "id": "1Uj3ZbXM41sRBpbF3XrQJhL0TfdelvHDb",
+      "name": "YOURWEDSTORIES_BESPOKE_WEDDING_PHOTOGRAPHER_UDAIPUR_INDIA.jpg.jpg",
+      "type": "image/jpeg",
+      "folder": "COVER - SLIDER "
+    },
+    {
+      "id": "1NNnIO67BS8XY03LRFP9e03D7vWh2h_h2",
+      "name": "YOURWEDSTORIES_BESPOKE_WEDDING_PHOTOGRAPHER_UDAIPUR_MUMBAI_INDIA.jpg.jpg",
+      "type": "image/jpeg",
+      "folder": "COVER - SLIDER "
+    },
+    {
+      "id": "1dMBQXIrVyzZiRyCV2Xfg7D1zlSnDdbxW",
+      "name": "YOURWEDSTORIES_BESPOKE_WEDDING_PHOTOGRAPHER_UDAIPUR_mUMBAI_INDIA.jpg.jpg",
+      "type": "image/jpeg",
+      "folder": "COVER - SLIDER "
+    },
+    {
+      "id": "1Lpz0Z8FdP7VjPcnfWkYBsJyaPxhXkJ3r",
+      "name": "wp.26_85635.2026-02-11_07-09-27.tar",
+      "type": "application/x-tar",
+      "folder": "CHITRA_JEWELS"
+    },
+    {
+      "id": "1eFNgsRWXQUC0T7IO0Pm207eIhR-8P5UC",
+      "name": "yourwedstories_Luxury destination wedding_mumbai_udaipur00001.jpg",
+      "type": "image/jpeg",
+      "folder": "Aditi and Xavier"
+    },
+    {
+      "id": "1rtxf0A1WLmC00N0QXTfXNCGUwbSpjBbD",
+      "name": "yourwedstories_Luxury destination wedding_mumbai_udaipur00002.jpg",
+      "type": "image/jpeg",
+      "folder": "Aditi and Xavier"
+    },
+    {
+      "id": "17uwMBvSLTbhMydFN2Rw9FOpQsLVeVMs_",
+      "name": "yourwedstories_Luxury destination wedding_mumbai_udaipur00003.jpg",
+      "type": "image/jpeg",
+      "folder": "Aditi and Xavier"
+    },
+    {
+      "id": "1SASnW7glGdfcSF1e_qdWK395KmXt6afg",
+      "name": "yourwedstories_Luxury destination wedding_mumbai_udaipur00004.jpg",
+      "type": "image/jpeg",
+      "folder": "Aditi and Xavier"
+    },
+    {
+      "id": "11dOvLwucZ3r_-LyiuVO2O6xo9SlyRbB0",
+      "name": "yourwedstories_Luxury destination wedding_mumbai_udaipur00005.jpg",
+      "type": "image/jpeg",
+      "folder": "Aditi and Xavier"
+    },
+    {
+      "id": "1wj_0WMecMSWhQsTkeaeqOgCtuGIp0b7X",
+      "name": "yourwedstories_Luxury destination wedding_mumbai_udaipur00006.jpg",
+      "type": "image/jpeg",
+      "folder": "Aditi and Xavier"
+    },
+    {
+      "id": "1Y2m2JmLs3cKhT2tvNPJmBXzt-xq46mGL",
+      "name": "yourwedstories_Luxury destination wedding_mumbai_udaipur00007.jpg",
+      "type": "image/jpeg",
+      "folder": "Aditi and Xavier"
+    },
+    {
+      "id": "1P2nv_wfq2nlYdss1vtgwxejSFCk6-Vh8",
+      "name": "yourwedstories_Luxury destination wedding_mumbai_udaipur00008.jpg",
+      "type": "image/jpeg",
+      "folder": "Aditi and Xavier"
+    },
+    {
+      "id": "1sULmFmpQl3JodlQ-vOn_aaFZnhFGDWwb",
+      "name": "yourwedstories_Luxury destination wedding_mumbai_udaipur00009.jpg",
+      "type": "image/jpeg",
+      "folder": "Aditi and Xavier"
+    },
+    {
+      "id": "1BmCw15pfDyFDBY-6OTjqM-6pFAWdfeAj",
+      "name": "yourwedstories_Luxury destination wedding_mumbai_udaipur00010.jpg",
+      "type": "image/jpeg",
+      "folder": "Aditi and Xavier"
+    },
+    {
+      "id": "1iCWzbf4KeeIaDc15VbiUvnD-_eeX5CcO",
+      "name": "yourwedstories_Luxury destination wedding_mumbai_udaipur00011.jpg",
+      "type": "image/jpeg",
+      "folder": "Aditi and Xavier"
+    },
+    {
+      "id": "1c8YGVvRxspEk_t_fl7g2OJEVt2d6cTAs",
+      "name": "yourwedstories_Luxury destination wedding_mumbai_udaipur00012.jpg",
+      "type": "image/jpeg",
+      "folder": "Aditi and Xavier"
+    },
+    {
+      "id": "1hk06YLy3KyAR6vDsqKvIh7emOxF8fgel",
+      "name": "yourwedstories_Luxury destination wedding_mumbai_udaipur00013.jpg",
+      "type": "image/jpeg",
+      "folder": "Aditi and Xavier"
+    },
+    {
+      "id": "1l7G5Be_UJZkwldphpDphXzSEsHG72rAI",
+      "name": "yourwedstories_Luxury destination wedding_mumbai_udaipur00014.jpg",
+      "type": "image/jpeg",
+      "folder": "Aditi and Xavier"
+    },
+    {
+      "id": "17Hsnn6-aTvNzY-9B5HYpjoFXVg-p7-2J",
+      "name": "yourwedstories_Luxury destination wedding_mumbai_udaipur00015.jpg",
+      "type": "image/jpeg",
+      "folder": "Aditi and Xavier"
+    },
+    {
+      "id": "1Cp089T6-JaIf6f6RTcP4I-o4njx0-jSc",
+      "name": "yourwedstories_Luxury destination wedding_mumbai_udaipur00016.jpg",
+      "type": "image/jpeg",
+      "folder": "Aditi and Xavier"
+    },
+    {
+      "id": "1OUYDHfInrKFyAsZS8cQqR9BPMddXFypH",
+      "name": "yourwedstories_Luxury destination wedding_mumbai_udaipur00017.jpg",
+      "type": "image/jpeg",
+      "folder": "Aditi and Xavier"
+    },
+    {
+      "id": "1CwDdoG1_aM7rbTwSdXbTJHoiHCpinTCB",
+      "name": "yourwedstories_Luxury destination wedding_mumbai_udaipur00018.jpg",
+      "type": "image/jpeg",
+      "folder": "Aditi and Xavier"
+    },
+    {
+      "id": "11P6uAq0rU08etgTW8lbTQwQ2FViA-mTK",
+      "name": "yourwedstories_Luxury destination wedding_mumbai_udaipur00019.jpg",
+      "type": "image/jpeg",
+      "folder": "Aditi and Xavier"
+    },
+    {
+      "id": "1JPkjz6XKdILwNEVV5Y7RXR418VDjJoRX",
+      "name": "yourwedstories_Luxury destination wedding_mumbai_udaipur00020.jpg",
+      "type": "image/jpeg",
+      "folder": "Aditi and Xavier"
+    },
+    {
+      "id": "1i0ywO7q93VAgNexQtZY2xL6tdshA7c4n",
+      "name": "yourwedstories_Luxury destination wedding_mumbai_udaipur00021.jpg",
+      "type": "image/jpeg",
+      "folder": "Aditi and Xavier"
+    },
+    {
+      "id": "1GI6uwDcrtRiwBiU-EWYZ2KH4lTwTZkn1",
+      "name": "yourwedstories_Luxury destination wedding_mumbai_udaipur00022.jpg",
+      "type": "image/jpeg",
+      "folder": "Aditi and Xavier"
+    },
+    {
+      "id": "15PWfOOvBN8S91L0SXlxXm-I8F0zNo1c4",
+      "name": "yourwedstories_Luxury destination wedding_mumbai_udaipur00023.jpg",
+      "type": "image/jpeg",
+      "folder": "Aditi and Xavier"
+    },
+    {
+      "id": "1YwlUzkRgca0_3jkS28lmKLTyuRpQO0sk",
+      "name": "yourwedstories_Luxury destination wedding_mumbai_udaipur00024.jpg",
+      "type": "image/jpeg",
+      "folder": "Aditi and Xavier"
+    },
+    {
+      "id": "1sjGiVADmeL-SpMY9sbJjVUvQU6PWiRh2",
+      "name": "yourwedstories_Luxury destination wedding_mumbai_udaipur00025.jpg",
+      "type": "image/jpeg",
+      "folder": "Aditi and Xavier"
+    },
+    {
+      "id": "1RWGf5u0wXmzGpHuUEwWCj71-l_rczixB",
+      "name": "yourwedstories_Luxury destination wedding_mumbai_udaipur00026.jpg",
+      "type": "image/jpeg",
+      "folder": "Aditi and Xavier"
+    },
+    {
+      "id": "1L-SXuSHcMVKHfJ4mIc4gzvFnCtzhC-RK",
+      "name": "yourwedstories_Luxury destination wedding_mumbai_udaipur00027.jpg",
+      "type": "image/jpeg",
+      "folder": "Aditi and Xavier"
+    },
+    {
+      "id": "1ckuirnhvY9AG1lq4hT_rp-jye5drb72I",
+      "name": "yourwedstories_Luxury destination wedding_mumbai_udaipur00028.jpg",
+      "type": "image/jpeg",
+      "folder": "Aditi and Xavier"
+    },
+    {
+      "id": "1PWvha3-z8xcTgz0qkSRBN9xT3OpU6Leo",
+      "name": "yourwedstories_Luxury destination wedding_mumbai_udaipur00029.jpg",
+      "type": "image/jpeg",
+      "folder": "Aditi and Xavier"
+    },
+    {
+      "id": "1MjnGKv7bOFx97bZsi_4Zi-d5TSD9orI-",
+      "name": "yourwedstories_Luxury destination wedding_mumbai_udaipur00030.jpg",
+      "type": "image/jpeg",
+      "folder": "Aditi and Xavier"
+    },
+    {
+      "id": "1I2FwE5FYpa9_DigC1F9BCUM9UV65FZIO",
+      "name": "yourwedstories_Luxury destination wedding_mumbai_udaipur00032.jpg",
+      "type": "image/jpeg",
+      "folder": "Aditi and Xavier"
+    },
+    {
+      "id": "1XdfwupLtyUIEjeOqlTcwhwkB2fE7RduC",
+      "name": "yourwedstories_Luxury destination wedding_mumbai_udaipur00033.jpg",
+      "type": "image/jpeg",
+      "folder": "Aditi and Xavier"
+    },
+    {
+      "id": "1MxJCBvOaEiG049wnkDsY57LRQQMt8ehk",
+      "name": "yourwedstories_Luxury destination wedding_mumbai_udaipur00034.jpg",
+      "type": "image/jpeg",
+      "folder": "Aditi and Xavier"
+    },
+    {
+      "id": "1j1K6DRVTU2JbVu87wpgb6F4zNt3yrNLp",
+      "name": "yourwedstories_Luxury destination wedding_mumbai_udaipur00035.jpg",
+      "type": "image/jpeg",
+      "folder": "Aditi and Xavier"
+    },
+    {
+      "id": "1hgyIW3bju5uOWemBifbzX7uCmfEzdUfU",
+      "name": "yourwedstories_Luxury destination wedding_mumbai_udaipur00036.jpg",
+      "type": "image/jpeg",
+      "folder": "Aditi and Xavier"
+    },
+    {
+      "id": "1NbXc-v6fw_L5Tg2B3dZrzcs7C8PSLPHu",
+      "name": "yourwedstories_Luxury destination wedding_mumbai_udaipur00037.jpg",
+      "type": "image/jpeg",
+      "folder": "Aditi and Xavier"
+    },
+    {
+      "id": "1HYtap5BMcc4azTW8_bBZ4xHkSdMB3iuA",
+      "name": "yourwedstories_Luxury destination wedding_mumbai_udaipur00038.jpg",
+      "type": "image/jpeg",
+      "folder": "Aditi and Xavier"
+    },
+    {
+      "id": "19SNq9bHgZsKku0VaDZRuFKL0lGLsIdVt",
+      "name": "yourwedstories_Luxury destination wedding_mumbai_udaipur00039.jpg",
+      "type": "image/jpeg",
+      "folder": "Aditi and Xavier"
+    },
+    {
+      "id": "1pfqVz7WXLPusjSlrD7JT8Uh_eA-rA6qq",
+      "name": "yourwedstories_Luxury destination wedding_mumbai_udaipur00040.jpg",
+      "type": "image/jpeg",
+      "folder": "Aditi and Xavier"
+    },
+    {
+      "id": "1YJnU7LOd463on_J7eiGzZ6MfC3Qw74yn",
+      "name": "yourwedstories_Luxury destination wedding_mumbai_udaipur00041.jpg",
+      "type": "image/jpeg",
+      "folder": "Aditi and Xavier"
+    },
+    {
+      "id": "1vgvAI3Rzm6AyM8Ckr9VgBuF62iK3RGKb",
+      "name": "yourwedstories_Luxury destination wedding_mumbai_udaipur00042.jpg",
+      "type": "image/jpeg",
+      "folder": "Aditi and Xavier"
+    },
+    {
+      "id": "1EPAL7D6hRaUNKHTJKquvRBHFZNGJC8nq",
+      "name": "yourwedstories_Luxury destination wedding_mumbai_udaipur00043.jpg",
+      "type": "image/jpeg",
+      "folder": "Aditi and Xavier"
+    },
+    {
+      "id": "1gdBn7RXFdZsBIV5dqNYfjRY9CnC8uSm4",
+      "name": "yourwedstories_Luxury destination wedding_mumbai_udaipur00044.jpg",
+      "type": "image/jpeg",
+      "folder": "Aditi and Xavier"
+    },
+    {
+      "id": "1x6e2oIBtNyzA1OyXelcZjInpJ7t26HSx",
+      "name": "yourwedstories_Luxury destination wedding_mumbai_udaipur00045.jpg",
+      "type": "image/jpeg",
+      "folder": "Aditi and Xavier"
+    },
+    {
+      "id": "1nycQxXJt22Okx3vH7W0S-DV6NLU759dq",
+      "name": "yourwedstories_Luxury destination wedding_mumbai_udaipur00046.jpg",
+      "type": "image/jpeg",
+      "folder": "Aditi and Xavier"
+    },
+    {
+      "id": "1D6Uz9g5xC1LKPECw2STWg_lVWQaT6taA",
+      "name": "yourwedstories_Luxury destination wedding_mumbai_udaipur00047.jpg",
+      "type": "image/jpeg",
+      "folder": "Aditi and Xavier"
+    },
+    {
+      "id": "1iahTuD5vb1h_8T_mYBk3Ei5sTq9pIggt",
+      "name": "yourwedstories_Luxury destination wedding_mumbai_udaipur00048.jpg",
+      "type": "image/jpeg",
+      "folder": "Aditi and Xavier"
+    },
+    {
+      "id": "13gihngnSrTPhyZdm-amjF2zLHWBqrewq",
+      "name": "yourwedstories_Luxury destination wedding_mumbai_udaipur00049.jpg",
+      "type": "image/jpeg",
+      "folder": "Aditi and Xavier"
+    },
+    {
+      "id": "1oBgdUdc8oolqfd6aU4DlHZ3-4HsNePpN",
+      "name": "yourwedstories_Luxury destination wedding_mumbai_udaipur00050.jpg",
+      "type": "image/jpeg",
+      "folder": "Aditi and Xavier"
+    },
+    {
+      "id": "1UuvQBlIYiNz5A-pxY34oQ68CxlLNSZiT",
+      "name": "yourwedstories_Luxury destination wedding_mumbai_udaipur00051.jpg",
+      "type": "image/jpeg",
+      "folder": "Aditi and Xavier"
+    }
+  ],
+  "newImages": 102,
+  "archivePhotographs": 305,
+  "pagination": "Arushi & Manoj verified at 56 images; Zainab & Taher 18; separate Pranav wedding 28. Prior Aditi 64 and Holi 60 retained.",
+  "excluded": [
+    "Two website-backup TAR files are not gallery photographs.",
+    "Logos and studio portraits stay in branding and About, not wedding albums."
+  ]
+}

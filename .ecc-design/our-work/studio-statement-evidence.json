@@ -1,0 +1,53 @@
+{
+  "contract": "studio-statement-contract.json",
+  "targetViewports": [
+    "1440x900",
+    "390x844"
+  ],
+  "accessibility": {
+    "status": "pass",
+    "evidence": "Semantic labelled section with h2, descriptive portrait alt, 48px native anchor and explicit focus outline. No new motion."
+  },
+  "responsive": {
+    "status": "pass",
+    "evidence": "Both viewports show no horizontal overflow; mobile headline does not clip and begins below revealed header."
+  },
+  "contentStates": {
+    "loading": {
+      "status": "not-applicable",
+      "reason": "Static studio section with a local photograph and standard portfolio link."
+    },
+    "empty": {
+      "status": "not-applicable",
+      "reason": "Static studio section with a local photograph and standard portfolio link."
+    },
+    "error": {
+      "status": "not-applicable",
+      "reason": "Static studio section with a local photograph and standard portfolio link."
+    },
+    "partial": {
+      "status": "not-applicable",
+      "reason": "Static studio section with a local photograph and standard portfolio link."
+    },
+    "permission": {
+      "status": "not-applicable",
+      "reason": "Static studio section with a local photograph and standard portfolio link."
+    },
+    "success": {
+      "status": "pass",
+      "evidence": "Reference font families rendered; portrait file exists and portfolio link targets our-work."
+    }
+  },
+  "renderedEvidence": [
+    {
+      "viewport": "1440x900",
+      "artifact": "studio-statement-desktop.jpg",
+      "observation": "Charcoal studio composition with mixed type and centered portrait."
+    },
+    {
+      "viewport": "390x844",
+      "artifact": "studio-statement-mobile.jpg",
+      "observation": "Four headline lines fit, with script name and full-width portrait."
+    }
+  ]
+}

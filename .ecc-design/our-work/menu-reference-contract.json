@@ -1,0 +1,13 @@
+{
+  "intent": "Match supplied KT Merry menu screenshot: 45% olive left drawer, visible original slideshow on right; close top-left, serif page links and studio identity below.",
+  "constraints": [
+    "Keep current homepage and slideshow unchanged",
+    "Only existing working destinations",
+    "Accessible focus trap and Escape retained",
+    "Mobile drawer fills width"
+  ],
+  "viewports": [
+    "1440x900",
+    "390x844"
+  ]
+}

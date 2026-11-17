@@ -1,0 +1,53 @@
+{
+  "contract": "shared-nav-contract.json",
+  "targetViewports": [
+    "1440x900",
+    "390x844"
+  ],
+  "accessibility": {
+    "status": "pass",
+    "evidence": "Album drawer opens with expanded=true, focuses Close and restores focus to trigger on closing. Dialog semantics and visible focus retained; active Our Work link marked."
+  },
+  "responsive": {
+    "status": "pass",
+    "evidence": "Portfolio desktop and nested album mobile show no horizontal overflow; interior body reserves the measured header height."
+  },
+  "contentStates": {
+    "loading": {
+      "status": "not-applicable",
+      "reason": "Shared static navigation; no network data, submissions or account permissions involved."
+    },
+    "empty": {
+      "status": "not-applicable",
+      "reason": "Shared static navigation; no network data, submissions or account permissions involved."
+    },
+    "error": {
+      "status": "not-applicable",
+      "reason": "Shared static navigation; no network data, submissions or account permissions involved."
+    },
+    "partial": {
+      "status": "not-applicable",
+      "reason": "Shared static navigation; no network data, submissions or account permissions involved."
+    },
+    "permission": {
+      "status": "not-applicable",
+      "reason": "Shared static navigation; no network data, submissions or account permissions involved."
+    },
+    "success": {
+      "status": "pass",
+      "evidence": "Sixteen interior headers updated; all local header destinations exist and page IDs remain unique."
+    }
+  },
+  "renderedEvidence": [
+    {
+      "viewport": "1440x900",
+      "artifact": "shared-nav-desktop.jpg",
+      "observation": "Our Work shares logo/menu/link/contact alignment."
+    },
+    {
+      "viewport": "390x844",
+      "artifact": "shared-nav-mobile.jpg",
+      "observation": "Nested album shows consistent two-row mobile navbar and focus restoration."
+    }
+  ]
+}

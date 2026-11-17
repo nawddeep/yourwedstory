@@ -1,0 +1,53 @@
+{
+  "contract": "about-rebuild-contract.json",
+  "targetViewports": [
+    "1440x900",
+    "390x844"
+  ],
+  "accessibility": {
+    "status": "pass",
+    "evidence": "Single h1 and sequential profile headings; image alt text; native links have visible 2px focus ring and at least 44px targets. Original mobile menu retained."
+  },
+  "responsive": {
+    "status": "pass",
+    "evidence": "1440px and 390px browser checks show no horizontal overflow. Desktop portraits extend 71px below hero; mobile profiles stack."
+  },
+  "contentStates": {
+    "loading": {
+      "status": "not-applicable",
+      "reason": "Static biography with local photographs and native navigation; no data fetching, permissions or submissions on this page."
+    },
+    "empty": {
+      "status": "not-applicable",
+      "reason": "Static biography with local photographs and native navigation; no data fetching, permissions or submissions on this page."
+    },
+    "error": {
+      "status": "not-applicable",
+      "reason": "Static biography with local photographs and native navigation; no data fetching, permissions or submissions on this page."
+    },
+    "partial": {
+      "status": "not-applicable",
+      "reason": "Static biography with local photographs and native navigation; no data fetching, permissions or submissions on this page."
+    },
+    "permission": {
+      "status": "not-applicable",
+      "reason": "Static biography with local photographs and native navigation; no data fetching, permissions or submissions on this page."
+    },
+    "success": {
+      "status": "pass",
+      "evidence": "About content rendered, image files exist, studio and portfolio links target existing pages."
+    }
+  },
+  "renderedEvidence": [
+    {
+      "viewport": "1440x900",
+      "artifact": "about-rebuilt-desktop.jpg",
+      "observation": "Photo background, staggered studio portraits and oversized About title."
+    },
+    {
+      "viewport": "390x844",
+      "artifact": "about-rebuilt-mobile.jpg",
+      "observation": "Portrait pair fits mobile viewport; studio introduction follows below."
+    }
+  ]
+}

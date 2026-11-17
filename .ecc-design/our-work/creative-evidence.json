@@ -1,0 +1,53 @@
+{
+  "contract": "creative-contract.json",
+  "targetViewports": [
+    "1440x900",
+    "390x844"
+  ],
+  "accessibility": {
+    "status": "pass",
+    "evidence": "Native links and buttons retained; desktop menu opens with Close focused; closing restores trigger focus. Manual slide selection changes active photograph and pauses autoplay. Reduced-motion styles disable fading; carousel starts paused when requested."
+  },
+  "responsive": {
+    "status": "pass",
+    "evidence": "Homepage at 1440 and 390 has scrollWidth equal to viewport. Mobile introduction wraps and contact strip displays uncropped images. Desktop olive menu visually inspected."
+  },
+  "contentStates": {
+    "loading": {
+      "status": "not-applicable",
+      "reason": "This static homepage redesign adds no remote data request or permission workflow; existing gallery recovery remains unchanged."
+    },
+    "empty": {
+      "status": "not-applicable",
+      "reason": "This static homepage redesign adds no remote data request or permission workflow; existing gallery recovery remains unchanged."
+    },
+    "error": {
+      "status": "not-applicable",
+      "reason": "This static homepage redesign adds no remote data request or permission workflow; existing gallery recovery remains unchanged."
+    },
+    "partial": {
+      "status": "not-applicable",
+      "reason": "This static homepage redesign adds no remote data request or permission workflow; existing gallery recovery remains unchanged."
+    },
+    "success": {
+      "status": "pass",
+      "evidence": "Local asset paths checked, menu opening/closing and manual slide change exercised; layouts inspected."
+    },
+    "permission": {
+      "status": "not-applicable",
+      "reason": "This static homepage redesign adds no remote data request or permission workflow; existing gallery recovery remains unchanged."
+    }
+  },
+  "renderedEvidence": [
+    {
+      "viewport": "1440x900",
+      "artifact": "creative-desktop.jpg",
+      "observation": "Three-part editorial introduction and four photographic glimpses."
+    },
+    {
+      "viewport": "390x844",
+      "artifact": "creative-mobile.jpg",
+      "observation": "Stacked typography and two-column natural photographs fit mobile."
+    }
+  ]
+}
