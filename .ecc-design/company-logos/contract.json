@@ -1,0 +1,17 @@
+{
+  "surface": "Homepage publication and platform logos below founders",
+  "job": "Recognize company logos provided by user",
+  "primaryAction": "Read brand marks",
+  "hierarchy": "Founders followed by compact centered 3+2 logo arrangement",
+  "reference": "User screenshot of KT Merry founders section: small dark logos on cream with open spacing",
+  "constraints": [
+    "Use original five Drive PNGs",
+    "Preserve other sections",
+    "No invented endorsements or awards",
+    "Mobile two columns and centered final mark"
+  ],
+  "targetViewports": [
+    "1440x900",
+    "390x844"
+  ]
+}

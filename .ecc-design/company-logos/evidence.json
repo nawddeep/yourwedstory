@@ -1,0 +1,53 @@
+{
+  "contract": "contract.json",
+  "targetViewports": [
+    "1440x900",
+    "390x844"
+  ],
+  "accessibility": {
+    "status": "pass",
+    "evidence": "Named section, semantic list and descriptive company alt text on all five images. Static marks have no keyboard controls or animation."
+  },
+  "responsive": {
+    "status": "pass",
+    "evidence": "Inspected desktop 3+2 arrangement and mobile two-column arrangement with centered final logo; no horizontal overflow at either size."
+  },
+  "contentStates": {
+    "loading": {
+      "status": "not-applicable",
+      "reason": "Fixed local image list without data requests, form submissions, or authentication."
+    },
+    "empty": {
+      "status": "not-applicable",
+      "reason": "Fixed local image list without data requests, form submissions, or authentication."
+    },
+    "error": {
+      "status": "not-applicable",
+      "reason": "Fixed local image list without data requests, form submissions, or authentication."
+    },
+    "partial": {
+      "status": "not-applicable",
+      "reason": "Fixed local image list without data requests, form submissions, or authentication."
+    },
+    "permission": {
+      "status": "not-applicable",
+      "reason": "Fixed local image list without data requests, form submissions, or authentication."
+    },
+    "success": {
+      "status": "pass",
+      "evidence": "All five original Drive PNGs downloaded and natural dimensions verified in browser; names match source folder."
+    }
+  },
+  "renderedEvidence": [
+    {
+      "viewport": "1440x900",
+      "artifact": "desktop.jpg",
+      "observation": "Five compact charcoal company logos in centered three-plus-two layout below founders on cream."
+    },
+    {
+      "viewport": "390x844",
+      "artifact": "mobile.jpg",
+      "observation": "Two columns with centered final Fearless logo, all marks contained and legible."
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "contract": "contract.json",
+  "targetViewports": [
+    "1440x900",
+    "390x844"
+  ],
+  "accessibility": {
+    "status": "pass",
+    "evidence": "One H1, named sections, meaningful image alt text, visible focus outline. Mobile menu opens and closes with aria-expanded true then false and returns focus to the burger. Main contact and portfolio links resolve to existing destinations."
+  },
+  "responsive": {
+    "status": "pass",
+    "evidence": "Rendered hero and editorial layout at 1440x900 and 390x844, no horizontal overflow. Mobile founder rows stack photo above copy; desktop rows alternate."
+  },
+  "contentStates": {
+    "loading": {
+      "status": "not-applicable",
+      "reason": "Static About content; this edit adds no data service, account flow or form."
+    },
+    "empty": {
+      "status": "not-applicable",
+      "reason": "Static About content; this edit adds no data service, account flow or form."
+    },
+    "error": {
+      "status": "not-applicable",
+      "reason": "Static About content; this edit adds no data service, account flow or form."
+    },
+    "partial": {
+      "status": "not-applicable",
+      "reason": "Static About content; this edit adds no data service, account flow or form."
+    },
+    "permission": {
+      "status": "not-applicable",
+      "reason": "Static About content; this edit adds no data service, account flow or form."
+    },
+    "success": {
+      "status": "pass",
+      "evidence": "All five original About sections retained and restyled; founder photos load and portfolio/contact navigation preserved."
+    }
+  },
+  "renderedEvidence": [
+    {
+      "viewport": "1440x900",
+      "artifact": "desktop.jpg",
+      "observation": "Monochrome backdrop with white ABOUT heading, two staggered real founder portraits, and white editorial transition."
+    },
+    {
+      "viewport": "390x844",
+      "artifact": "mobile.jpg",
+      "observation": "Layered portraits and About title fit 390px; introduction follows without overlap."
+    },
+    {
+      "viewport": "1440x900",
+      "artifact": "desktop-profiles.jpg",
+      "observation": "Alternating founder portrait and text columns with generous margins and handwritten captions."
+    }
+  ]
+}

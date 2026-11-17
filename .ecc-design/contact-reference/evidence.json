@@ -1,0 +1,53 @@
+{
+  "contract": "contract.json",
+  "targetViewports": [
+    "1440x900",
+    "390x844"
+  ],
+  "accessibility": {
+    "status": "pass",
+    "evidence": "Every form field has an associated label and error description. Empty submit reports seven required fields and focuses name; invalid calendar date displays specific error. Visible focus outlines defined."
+  },
+  "responsive": {
+    "status": "pass",
+    "evidence": "Inspected desktop split and 390px stacked form. No horizontal overflow at either viewport; form controls fit narrow columns. Desktop duplicate Contact link hidden with separate active Contact CTA."
+  },
+  "contentStates": {
+    "loading": {
+      "status": "not-applicable",
+      "reason": "Static local page; images have explicit dimensions and fixed media container."
+    },
+    "empty": {
+      "status": "pass",
+      "evidence": "Initial blank inquiry form has labels, required indicators, date format and action explanation."
+    },
+    "error": {
+      "status": "pass",
+      "evidence": "Blank submit shows seven inline errors; 31/02/2027 rejected; prepared inquiry remains available as explicit WhatsApp link if popup cannot open."
+    },
+    "partial": {
+      "status": "pass",
+      "evidence": "Optional planner, referral and preference fields may be blank; completed test includes planner value in encoded message."
+    },
+    "permission": {
+      "status": "not-applicable",
+      "reason": "No login or permission API. WhatsApp sending remains user-controlled."
+    },
+    "success": {
+      "status": "pass",
+      "evidence": "Mocked window.open captures wa.me/918875005588 with encoded form values; UI says inquiry ready for review, not sent. No message sent during testing."
+    }
+  },
+  "renderedEvidence": [
+    {
+      "viewport": "1440x900",
+      "artifact": "desktop.jpg",
+      "observation": "42% full-height slideshow on left; serif heading and restrained italic-label underlined form on right."
+    },
+    {
+      "viewport": "390x844",
+      "artifact": "mobile.jpg",
+      "observation": "Form follows photo on mobile, labels fit and paired fields remain contained."
+    }
+  ]
+}

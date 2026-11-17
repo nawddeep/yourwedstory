@@ -1,0 +1,18 @@
+{
+  "contract": "contract.json",
+  "targetViewports": ["1440x900", "390x844"],
+  "accessibility": {"status":"pass","evidence":"Named region and buttons, descriptive alt text on all four loaded photos, manual slide announcements, visible keyboard focus. Next and ArrowLeft tested with wraparound; manual navigation pauses autoplay. Reduced-motion CSS and autoplay preference implemented."},
+  "responsive": {"status":"pass","evidence":"Inspected desktop and mobile renders; no horizontal overflow at either viewport. Mobile photograph is 350px wide within 20px side margins."},
+  "contentStates": {
+    "loading":{"status":"not-applicable","reason":"Static local image slideshow; no remote data request or loading UI."},
+    "empty":{"status":"not-applicable","reason":"Four fixed local photographs, with no user-editable collection."},
+    "error":{"status":"not-applicable","reason":"No service or submission in this section. Verified all four local images load."},
+    "partial":{"status":"not-applicable","reason":"Fixed static content; all four photographs verified loaded."},
+    "permission":{"status":"not-applicable","reason":"No authenticated data or browser permission required."},
+    "success":{"status":"pass","evidence":"Charcoal introduction and photo carousel render. Next wraps 04 to 01; ArrowLeft returns to 04 and pauses playback."}
+  },
+  "renderedEvidence": [
+    {"viewport":"1440x900","artifact":"desktop.jpg","observation":"Centered mixed serif/sans heading, tan handwritten studio name, portrait image against charcoal background below existing navbar."},
+    {"viewport":"390x844","artifact":"mobile.jpg","observation":"Four headline lines fit mobile, signature remains centered, portrait fills available content width without horizontal overflow."}
+  ]
+}

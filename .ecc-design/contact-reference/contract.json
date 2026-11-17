@@ -1,0 +1,18 @@
+{
+  "surface": "Dedicated Contact page",
+  "job": "Share wedding plans and prepare an inquiry for WhatsApp",
+  "primaryAction": "Continue to WhatsApp",
+  "reference": "KT Merry /contact: 42% full-height photo slideshow left and 58% white form panel right, serif introductory heading, thin underlines, shared footer",
+  "hierarchy": "Shared navbar, photo/form split, shared footer",
+  "constraints": [
+    "Local Drive photos only",
+    "Use verified studio WhatsApp 918875005588",
+    "Label every field and show validation",
+    "No claim of delivery before WhatsApp send",
+    "Two-second photo interval and reduced-motion support"
+  ],
+  "targetViewports": [
+    "1440x900",
+    "390x844"
+  ]
+}

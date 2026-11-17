@@ -1,0 +1,8 @@
+/* Central studio identity, independent of the hero slideshow and grain layer. */
+.home .hero .hero-brand { position:absolute; z-index:3; top:52%; left:50%; transform:translate(-50%,-50%); width:clamp(280px,54vw,960px); text-align:center; color:#fff; pointer-events:none; }
+.home .hero .hero-brand img { display:block; width:100%; height:auto; max-height:none; object-fit:contain; object-position:center; filter:brightness(0) invert(1) drop-shadow(0 2px 12px #17161420); }
+.home .hero .hero-brand p { margin:32px auto 0; font-family:'Mr Eaves Mod Regular',Arial,sans-serif !important; font-size:clamp(11px,1vw,15px); line-height:1.6; letter-spacing:.16em; text-transform:uppercase; text-shadow:0 1px 10px #17161470; }
+@media(max-width:767px) {
+ .home .hero .hero-brand { width:84vw; max-width:500px; top:52%; }
+ .home .hero .hero-brand p { max-width:290px; font-size:11px; letter-spacing:.12em; line-height:1.8; margin-top:24px; }
+}

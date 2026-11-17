@@ -1,0 +1,17 @@
+{
+  "surface": "About page",
+  "job": "Meet Harsha and Vijay and understand studio approach",
+  "primaryAction": "Contact the studio",
+  "hierarchy": "Layered photographic hero, editorial story, full-width quote image, alternating founder profiles, contact invitation, shared footer",
+  "reference": "KT Merry /about inspected at desktop: monochrome backdrop, overlapping portrait, serif headings, asymmetrical editorial text/image layout, reversed founder rows",
+  "constraints": [
+    "Keep actual names, existing local photographs and original studio copy",
+    "Preserve all existing About sections, shared navbar and footer",
+    "Do not add reference-specific charity, shop or biography claims",
+    "Narrow screens stack images and copy with no overlap"
+  ],
+  "targetViewports": [
+    "1440x900",
+    "390x844"
+  ]
+}

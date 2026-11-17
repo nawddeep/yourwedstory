@@ -1,0 +1,15 @@
+{
+  "surface": "Homepage studio introduction",
+  "reference": "Charcoal studio section on KT Merry homepage; mixed headline, handwritten studio name, centered portrait slideshow",
+  "primaryAction": "Browse selected studio photographs",
+  "constraints": [
+    "Retain existing hero logo and all other sections",
+    "Local Drive photographs only",
+    "Previous/next/pause, touch and keyboard access",
+    "Reduced motion disables autoplay and fades"
+  ],
+  "targetViewports": [
+    "1440x900",
+    "390x844"
+  ]
+}

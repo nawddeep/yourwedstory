@@ -1,0 +1,40 @@
+.home .company-logos {
+  background: #f9f7f4;
+  padding: 20px 24px 100px;
+}
+.company-logos__grid {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  align-items: center;
+  gap: 46px 64px;
+  max-width: 1000px;
+  padding: 0;
+  margin: 0 auto;
+  list-style: none;
+}
+.company-logos__grid li {
+  grid-column: span 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 72px;
+}
+.company-logos__grid li:nth-child(4) { grid-column: 2 / span 2; }
+.company-logos__grid img {
+  display: block;
+  width: 100%;
+  max-width: 210px;
+  height: 66px;
+  object-fit: contain;
+  mix-blend-mode: multiply;
+}
+.company-logos__grid .company-logos__fearless img { height: 88px; max-width: 105px; }
+@media (max-width: 767px) {
+  .home .company-logos { padding: 12px 28px 64px; }
+  .company-logos__grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 28px 30px; }
+  .company-logos__grid li,
+  .company-logos__grid li:nth-child(4) { grid-column: auto; min-height: 48px; }
+  .company-logos__grid li:last-child { grid-column: 1 / -1; }
+  .company-logos__grid img { height: 42px; max-width: 170px; }
+  .company-logos__grid .company-logos__fearless img { height: 72px; max-width: 88px; }
+}
