@@ -20,3 +20,5 @@ body.folio-landing.shared-nav-page { padding-top:0; }
 @media(max-width:767px) {
  .folio-landing.shared-nav-page > .masthead:not(.is-scrolled) .masthead__nav a:is([data-open-inquiry],[data-contact-page]) { font-size:10px; letter-spacing:.08em; }
 }
+/* Keep the cover navigation attached to the cover photograph. */
+.folio-landing.shared-nav-page > .masthead:not(.is-scrolled) { position:absolute; top:0; left:0; right:0; }

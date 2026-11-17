@@ -130,3 +130,74 @@
  .folio-landing .folio-albums h3 { font-size:11px; letter-spacing:.06em; min-height:38px; }
  .folio-landing .folio-albums p { font-size:9px; line-height:1.5; min-height:27px; }
 }
+/* Quiet arrow controls and curated cover previews. */
+.folio-highlights .folio-controls { display:flex; justify-content:space-between; align-items:center; }
+.folio-controls button { border:0; background:transparent; min-width:48px; min-height:48px; font:32px/1 Arial,sans-serif; color:#343432; padding:4px 12px; }
+.folio-controls button:hover { opacity:.6; }
+.folio-albums .album-preview { position:relative; overflow:hidden; aspect-ratio:3/4; }
+.folio-albums .album-preview img { width:100%; height:100%; object-fit:cover; }
+.folio-albums .album-preview__image { position:absolute; inset:0; opacity:0; transform:scale(1.03); transition:opacity .5s ease,transform .7s ease; }
+.folio-albums a:is(:hover,:focus-visible) .album-preview__image { opacity:1; transform:scale(1); }
+.folio-landing .folio-albums h3 { margin-top:18px; }
+@media(prefers-reduced-motion:reduce) { .folio-albums .album-preview__image { transition:none; transform:none; } }
+.folio-triptych a { position:relative; overflow:hidden; }
+.folio-triptych .highlight-outgoing { position:absolute; inset:0; width:100%; height:100%; object-fit:cover; pointer-events:none; z-index:1; }
+/* Reference Weddings & Engagements surface: rgba(52,52,52,1). */
+.folio-landing .folio-features { background:#343434; color:#fff; }
+.folio-landing .folio-features :is(h2,h3,p,a,span) { color:#fff !important; }
+.folio-landing .folio-features a:focus-visible { outline-color:#fff; }
+
+/* Two-gallery editorial spread, following the reference's staggered proportions. */
+.folio-editorial { background:#fff; padding:84px 0 80px; color:#666; }
+.folio-editorial > header { text-align:center; margin-bottom:52px; }
+.folio-editorial h2 { font-family:'Silk Serif Extra Light',Didot,serif !important; font-size:clamp(44px,5.5vw,80px); line-height:1; font-weight:400; margin:0; }
+.folio-editorial__albums { display:grid; grid-template-columns:34% 60%; gap:6%; align-items:start; width:calc(100% - 7.3vw); margin-left:7.3vw; }
+.folio-editorial__albums article:nth-child(2) { margin-top:40px; }
+.folio-editorial__albums a { display:block; color:inherit; text-align:center; text-decoration:none; }
+.folio-editorial__albums figure { position:relative; margin:0; overflow:hidden; }
+.folio-editorial__albums img { display:block; width:100%; height:auto; transition:transform .8s cubic-bezier(.22,1,.36,1); }
+.folio-editorial__albums figure > span { position:absolute; top:16px; right:16px; font:24px/1 Arial,sans-serif; color:#666; }
+.folio-editorial__albums a:hover img { transform:scale(1.025); }
+.folio-editorial__albums h3 { margin:22px 16px 8px; font:400 11px/1.7 var(--font-label),Arial,sans-serif; letter-spacing:.16em; text-transform:uppercase; }
+.folio-editorial__albums p { margin:0; font-family:'Silk Serif Light Italic',Georgia,serif !important; font-size:18px; }
+@media(max-width:767px) {
+ .folio-editorial { padding-block:56px; }
+ .folio-editorial > header { margin-bottom:32px; }
+ .folio-editorial__albums { width:auto; margin:0 20px; grid-template-columns:1fr; gap:40px; }
+ .folio-editorial__albums article:first-child { width:76%; }
+ .folio-editorial__albums article:nth-child(2) { margin-top:0; width:100%; }
+}
+@media(prefers-reduced-motion:reduce) { .folio-editorial__albums img { transition:none; } }
+#editorial-title { scroll-margin-top:140px; }
+
+/* Coastal lifestyle photographs in two gently staggered columns. */
+.folio-lifestyle { background:#343434; color:#fff; padding:84px 0 76px; }
+.folio-lifestyle > header { text-align:center; margin-bottom:60px; }
+.folio-lifestyle #lifestyle-title { color:#fff !important; font-family:'Silk Serif Extra Light',Didot,serif !important; font-size:clamp(44px,5.5vw,80px); font-weight:400; line-height:1; margin:0; scroll-margin-top:140px; }
+.folio-lifestyle__grid { display:grid; grid-template-columns:1fr 1fr; column-gap:5.4vw; width:81%; max-width:1440px; margin:auto; align-items:start; }
+.folio-lifestyle__column { display:flex; flex-direction:column; gap:5.4vw; }
+.folio-lifestyle__column:first-child { padding-top:20px; }
+.folio-lifestyle__column:nth-child(2) a:first-child { margin-bottom:30px; }
+.folio-lifestyle__grid a { display:block; overflow:hidden; }
+.folio-lifestyle__grid img { display:block; width:100%; height:auto; transition:transform .9s cubic-bezier(.22,1,.36,1); }
+.folio-lifestyle__grid a:hover img { transform:scale(1.025); }
+.folio-lifestyle__album { display:block; margin:40px auto 0; width:fit-content; text-align:center; text-transform:uppercase; font:400 11px/1.7 var(--font-label),Arial,sans-serif; letter-spacing:.16em; color:#fff; }
+.folio-lifestyle__album span { display:block; margin-top:12px; font:18px/1.5 'Silk Serif Light Italic',Georgia,serif; text-transform:none; letter-spacing:0; }
+@media(max-width:767px) {
+ .folio-lifestyle { padding:56px 0; }
+ .folio-lifestyle > header { margin-bottom:32px; }
+ .folio-lifestyle__grid { width:calc(100% - 40px); gap:20px; }
+ .folio-lifestyle__column { gap:24px; }
+ .folio-lifestyle__column:nth-child(2) a:first-child { margin-bottom:12px; }
+}
+@media(prefers-reduced-motion:reduce) { .folio-lifestyle__grid img { transition:none; } }
+
+/* Reference travel spacing: aligned column tops and natural image proportions. */
+.folio-lifestyle__column:first-child { padding-top:0; }
+.folio-lifestyle__column:nth-child(2) a:first-child { margin-bottom:0; }
+.folio-lifestyle__column { gap:5.4vw; }
+.folio-lifestyle__grid { column-gap:5.4vw; }
+@media(max-width:767px) {
+ .folio-lifestyle__grid { width:81%; column-gap:5.4vw; }
+ .folio-lifestyle__column { gap:5.4vw; }
+}

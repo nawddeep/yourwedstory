@@ -220,13 +220,13 @@
 })();
 
 (function () {
- var header = document.querySelector('.home .masthead, .folio-landing .masthead');
+ var header = document.querySelector('.home .masthead, .shared-nav-page .masthead');
  var hero = document.querySelector('.home .hero, .folio-landing .folio-banner');
- if (!header || !hero) return;
+ if (!header) return;
  var scheduled = false;
  function updateHeader() {
   scheduled = false;
-  var show = hero.getBoundingClientRect().bottom <= 0;
+  var show = hero ? hero.getBoundingClientRect().bottom <= 100 : window.scrollY > 40;
   if (!show && header.classList.contains('is-scrolled')) {
    var active = document.activeElement;
    if (header.contains(active) && !active.closest('.masthead__burger')) {
@@ -242,6 +242,6 @@
  window.addEventListener('scroll', scheduleHeader, { passive: true });
  window.addEventListener('resize', scheduleHeader, { passive: true });
  window.addEventListener('pageshow', scheduleHeader);
- if ('ResizeObserver' in window) new ResizeObserver(scheduleHeader).observe(hero);
+ if (hero && 'ResizeObserver' in window) new ResizeObserver(scheduleHeader).observe(hero);
  updateHeader();
 })();

@@ -73,7 +73,7 @@
 .people-intro--home > .people-portrait--harsha { margin-top:clamp(200px,16.7vw,345px); }
 .people-intro--home > .people-portrait--vijay { margin-top:0; }
 .people-intro--home .people-portrait img { aspect-ratio: .695; object-fit:cover; object-position:center; }
-.people-intro--home .people-button { min-width:156px; }
+.people-intro--home .people-button { min-width:156px; background:#343432; color:#fff; }
 @media(max-width:767px) {
  .people-intro--home { grid-template-columns:1fr 1fr; padding:36px 20px 48px; column-gap:16px; scroll-margin-top:110px; }
  .people-intro--home .people-intro__words { grid-column:1 / -1; padding-top:0; }

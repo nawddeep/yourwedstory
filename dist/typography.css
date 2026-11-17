@@ -39,3 +39,6 @@ body .newsletter-status,body .inquiry-status { font-family:'Nunito',Arial,sans-s
 body .folio-albums span,body .folio-browse>span { font-family:'Quarto Light Italic',Georgia,serif !important; font-style:normal; }
 @media(max-width:767px){ body .about-profile figcaption { font-size:27px; } }
 body .atelier-spread h2 em { font-family:'Silk Serif Light Italic',Didot,serif !important; }
+
+/* Reference heading ink, preserving lettering over photos and dark sections. */
+body :is(h1,h2,h3,h4,h5,h6):not(:where(.hero *, .studio-showcase *, .signature-portfolio *, .story-film *, .atelier-panorama *, .folio-banner *, .about-opening *, .about-interlude *, .about-invitation *)) { color:#666666 !important; }

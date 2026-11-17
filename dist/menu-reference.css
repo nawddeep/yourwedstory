@@ -153,3 +153,15 @@
  .home .masthead.is-scrolled .masthead__cta { grid-column:3; }
  .home .masthead.is-scrolled .masthead__nav { grid-column:1 / -1; grid-row:2; }
 }
+
+/* Crossfade upright menu lettering into an italic accent on interaction. */
+.home .mobile-menu__nav a:not(.menu-secondary) { position:relative; display:grid; justify-items:start; transition:transform .4s cubic-bezier(.22,1,.36,1); }
+.home .mobile-menu__nav a:not(.menu-secondary) > span { grid-area:1 / 1; transition:opacity .3s ease,transform .4s cubic-bezier(.22,1,.36,1); }
+.home .mobile-menu__nav .menu-label { opacity:1; transform:translateX(0); }
+.home .mobile-menu__nav .menu-label-italic { font-family:'Silk Serif Light Italic',Didot,serif; font-style:normal; opacity:0; transform:translateX(-8px); }
+.home .mobile-menu__nav a:not(.menu-secondary):is(:hover,:focus-visible,:active) { opacity:1; transform:translateX(8px); }
+.home .mobile-menu__nav a:is(:hover,:focus-visible,:active) .menu-label { opacity:0; transform:translateX(8px); }
+.home .mobile-menu__nav a:is(:hover,:focus-visible,:active) .menu-label-italic { opacity:1; transform:translateX(0); }
+@media(prefers-reduced-motion:reduce) {
+ .home .mobile-menu__nav a,.home .mobile-menu__nav a > span { transition:none !important; transform:none !important; }
+}
