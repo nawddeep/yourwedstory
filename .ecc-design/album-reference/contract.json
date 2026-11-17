@@ -1,0 +1,16 @@
+{
+  "surface": "All individual album pages",
+  "job": "Browse a photographic story and open every original image",
+  "primaryAction": "View full story",
+  "reference": "KT Merry Palm Desert album: full-bleed cover with italic names, serif event title, editorial introduction, asymmetrical curated image sequence and horizontal full-story strip",
+  "constraints": [
+    "Retain every imported image and original album title/description",
+    "No fabricated venues, awards or suppliers",
+    "Shared navbar appears after hero",
+    "Responsive layout and keyboard/touch image viewer"
+  ],
+  "targetViewports": [
+    "1440x900",
+    "390x844"
+  ]
+}

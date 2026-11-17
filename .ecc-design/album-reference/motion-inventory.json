@@ -1,0 +1,47 @@
+{
+  "dist/our-work/nigel-cyananda/index.html": {
+    "photos": 43,
+    "parallax": 2,
+    "motionScript": 1
+  },
+  "dist/our-work/aditi-xavier/index.html": {
+    "photos": 64,
+    "parallax": 2,
+    "motionScript": 1
+  },
+  "dist/our-work/vatsala-aayush/index.html": {
+    "photos": 26,
+    "parallax": 2,
+    "motionScript": 1
+  },
+  "dist/our-work/selected-frames/index.html": {
+    "photos": 10,
+    "parallax": 2,
+    "motionScript": 1
+  },
+  "dist/our-work/pranav-malini-wedding/index.html": {
+    "photos": 28,
+    "parallax": 2,
+    "motionScript": 1
+  },
+  "dist/our-work/zainab-taher/index.html": {
+    "photos": 18,
+    "parallax": 2,
+    "motionScript": 1
+  },
+  "dist/our-work/arushi-manoj/index.html": {
+    "photos": 56,
+    "parallax": 2,
+    "motionScript": 1
+  },
+  "dist/our-work/pranav-malini/index.html": {
+    "photos": 60,
+    "parallax": 2,
+    "motionScript": 1
+  },
+  "dist/weddings/aditi-xavier/index.html": {
+    "photos": 64,
+    "parallax": 2,
+    "motionScript": 1
+  }
+}

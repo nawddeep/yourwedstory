@@ -1,0 +1,53 @@
+{
+  "contract": "alignment-contract.json",
+  "targetViewports": [
+    "1440x900",
+    "390x844"
+  ],
+  "accessibility": {
+    "status": "pass",
+    "evidence": "Named image links and dialog controls. ArrowRight advances original collection; closing returns focus and scroll to the curated opener. Full-story button works; manual strip controls have labels. Reduced-motion avoids smooth scrolling."
+  },
+  "responsive": {
+    "status": "pass",
+    "evidence": "Desktop matching landscape pair renders 530 by 353.56 pixels each with aligned edges; 390px mobile landscapes stack within 20px side margins. Neither viewport overflows."
+  },
+  "contentStates": {
+    "loading": {
+      "status": "pass",
+      "evidence": "Viewer reports Loading photograph on opening before image load."
+    },
+    "empty": {
+      "status": "not-applicable",
+      "reason": "All eight fixed albums have 10 to 64 existing photographs; no dynamic empty collection."
+    },
+    "partial": {
+      "status": "pass",
+      "evidence": "Curated selections and lazy thumbnail strip preserve all 305 original image links; full-resolution assets load only when opened."
+    },
+    "error": {
+      "status": "pass",
+      "evidence": "Dispatched image error shows recovery text and original-image link; advancing chooses the next photograph."
+    },
+    "success": {
+      "status": "pass",
+      "evidence": "Aditi viewer advances 1 to 2 of 64; Nigel advances 1 to 2 of 43. All nine album URLs, including legacy wedding URL, preserve image counts; no missing local assets or links."
+    },
+    "permission": {
+      "status": "not-applicable",
+      "reason": "Public static images require no account or permission."
+    }
+  },
+  "renderedEvidence": [
+    {
+      "viewport": "1440x900",
+      "artifact": "aligned-desktop.jpg",
+      "observation": "Consistent two-column landscape rows with even gutters and aligned top/bottom edges."
+    },
+    {
+      "viewport": "390x844",
+      "artifact": "aligned-mobile.jpg",
+      "observation": "Landscapes stack in one column with consistent width and margins."
+    }
+  ]
+}

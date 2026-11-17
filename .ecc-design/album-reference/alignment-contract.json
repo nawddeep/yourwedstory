@@ -1,0 +1,16 @@
+{
+  "surface": "Album image alignment",
+  "reference": "Existing editorial album design and user request to align pictures",
+  "primaryAction": "Browse images",
+  "constraints": [
+    "Consistent gutters and row edges",
+    "Pair matching image orientations",
+    "Show original proportions without cropping",
+    "Center standalone portraits",
+    "No horizontal page overflow"
+  ],
+  "targetViewports": [
+    "1440x900",
+    "390x844"
+  ]
+}

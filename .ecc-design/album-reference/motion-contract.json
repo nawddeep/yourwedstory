@@ -1,0 +1,17 @@
+{
+  "surface": "All album image motion",
+  "primaryAction": "Scroll the photographic story",
+  "reference": "Measured KT Merry wide highlight: scrolling 300px moves image transform by 150px while its container moves 300px; full-bleed section clips an oversized photograph. Other images fade in.",
+  "constraints": [
+    "Two full-width landscape highlights where album has landscape photographs",
+    "Preserve all images and curated order",
+    "Bound parallax inside clip to avoid blank edges",
+    "No persistent animation loop",
+    "Reduced motion disables parallax and fades",
+    "Touch, keyboard and focus restoration unchanged"
+  ],
+  "targetViewports": [
+    "1440x900",
+    "390x844"
+  ]
+}

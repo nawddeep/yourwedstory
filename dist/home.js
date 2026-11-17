@@ -221,7 +221,7 @@
 
 (function () {
  var header = document.querySelector('.home .masthead, .shared-nav-page .masthead');
- var hero = document.querySelector('.home .hero, .folio-landing .folio-banner');
+ var hero = document.querySelector('.home .hero, .folio-landing .folio-banner, .album-page .album-hero');
  if (!header) return;
  var scheduled = false;
  function updateHeader() {

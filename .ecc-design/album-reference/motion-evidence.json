@@ -1,0 +1,53 @@
+{
+  "contract": "motion-contract.json",
+  "targetViewports": [
+    "1440x900",
+    "390x844"
+  ],
+  "accessibility": {
+    "status": "pass",
+    "evidence": "Motion does not alter focus, links or dialog controls. Simulated prefers-reduced-motion JS preference disables all active parallax panels, yields transform none, and zero running gallery animations; CSS reduced-motion fallback is also present."
+  },
+  "responsive": {
+    "status": "pass",
+    "evidence": "1440px full-width highlight is 777.59px high; 390px highlight is 265.2px high with limited 80px overscan. Image covers frame at measured positions and neither viewport overflows."
+  },
+  "contentStates": {
+    "loading": {
+      "status": "pass",
+      "evidence": "Viewer reports Loading photograph on opening before image load."
+    },
+    "empty": {
+      "status": "not-applicable",
+      "reason": "All eight fixed albums have 10 to 64 existing photographs; no dynamic empty collection."
+    },
+    "partial": {
+      "status": "pass",
+      "evidence": "Curated selections and lazy thumbnail strip preserve all 305 original image links; full-resolution assets load only when opened."
+    },
+    "error": {
+      "status": "pass",
+      "evidence": "Dispatched image error shows recovery text and original-image link; advancing chooses the next photograph."
+    },
+    "success": {
+      "status": "pass",
+      "evidence": "Measured local image transform advances 100px for 200px scroll, matching reference 0.5 speed. Every album includes motion script; original image counts retained. No missing local assets."
+    },
+    "permission": {
+      "status": "not-applicable",
+      "reason": "Public static images require no account or permission."
+    }
+  },
+  "renderedEvidence": [
+    {
+      "viewport": "1440x900",
+      "artifact": "motion-desktop.jpg",
+      "observation": "Full-width parallax highlight separates the aligned image rows with clean clipping and no blank edges."
+    },
+    {
+      "viewport": "390x844",
+      "artifact": "motion-mobile.jpg",
+      "observation": "Edge-to-edge image fits mobile width, with a limited crop and white spacing before subsequent pictures."
+    }
+  ]
+}
