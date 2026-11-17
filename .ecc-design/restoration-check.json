@@ -1,0 +1,22 @@
+{
+  "rootCause": "Design assets were committed without the updated page integrations; older tracked HTML and styles remained active.",
+  "restored": [
+    "Hero logo",
+    "Studio carousel with hidden controls and 2000ms interval",
+    "Five company logos",
+    "About editorial layout",
+    "Contact page links",
+    "Portfolio overlay and navbar reveal",
+    "Shared footer alignment"
+  ],
+  "checks": {
+    "missingLocalAssets": [],
+    "heroAndStudioSlideChange": true,
+    "portfolioNavbarReveal": true,
+    "aboutSectionCount": 5,
+    "contactRequiredValidationErrors": 7,
+    "desktopOverflow": false,
+    "mobileHomepageOverflow": false
+  },
+  "preview": "http://127.0.0.1:5500/dist/"
+}

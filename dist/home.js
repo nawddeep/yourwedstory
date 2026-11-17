@@ -220,8 +220,8 @@
 })();
 
 (function () {
- var header = document.querySelector('.home .masthead');
- var hero = document.querySelector('.home .hero');
+ var header = document.querySelector('.home .masthead, .folio-landing .masthead');
+ var hero = document.querySelector('.home .hero, .folio-landing .folio-banner');
  if (!header || !hero) return;
  var scheduled = false;
  function updateHeader() {

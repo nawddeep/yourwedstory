@@ -24,14 +24,18 @@
       filter: brightness(0) !important;
     }
   </style>
-  <link rel="stylesheet" href="atelier.css?v=20261115-no-video-gap">
+  <link rel="stylesheet" href="atelier.css?v=restore-20261117">
   <link rel="stylesheet" href="menu-reference.css?v=5">
 <link rel="stylesheet" href="people.css?v=4">
-<link rel="stylesheet" href="footer.css?v=2">
+<link rel="stylesheet" href="footer.css?v=restore-20261117">
 <link rel="stylesheet" href="signature-work.css?v=4">
 <link rel="stylesheet" href="typography.css?v=1">
 <link rel="stylesheet" href="nav-reveal.css?v=2">
-<link rel="stylesheet" href="studio-statement.css?v=1">
+
+<link rel="stylesheet" href="hero-brand.css?v=restore-20261117">
+<link rel="stylesheet" href="studio-carousel.css?v=restore-20261117">
+<link rel="stylesheet" href="company-logos.css?v=restore-20261117">
+<link rel="stylesheet" href="palette.css?v=restore-20261117">
 </head>
 <body class="home" id="top">
   <a class="skip" href="#content">Skip to content</a>
@@ -46,7 +50,7 @@
         <a href="our-work/">Our Work</a>
         <a href="#films">Films</a>
         <a href="about/">About Us</a>
-        <a href="#contact" data-open-inquiry>Contact Us</a>
+        <a href="contact/" data-contact-page>Contact Us</a>
       </nav>
 
       <div class="masthead__social" aria-label="Social links">
@@ -61,7 +65,7 @@
         </a>
       </div>
 
-      <a class="masthead__cta" href="#contact" data-open-inquiry>Contact</a>
+      <a class="masthead__cta" href="contact/" data-contact-page>Contact</a>
       <button class="masthead__burger" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu"><span aria-hidden="true"></span><span aria-hidden="true"></span><b>MENU</b></button>
     </div>
   </header>
@@ -72,7 +76,7 @@
   <nav class="mobile-menu__nav" aria-label="Main menu">
    <a href="./">Home</a><a href="our-work/">Portfolio</a><a href="about/">About</a>
    <a class="menu-secondary" href="about/">ABOUT THE STUDIO</a>
-   <a href="#contact" data-open-inquiry>Inquire</a><a href="#films">Films</a>
+   <a href="contact/" data-contact-page>Inquire</a><a href="#films">Films</a>
   </nav>
   <div class="menu-studio"><img src="images/yourwedstories-logo.png" alt="Your Wed Stories" width="780" height="281"><p>Wedding photography and films.<br>The people, the places, and everything that makes your celebration yours.</p><div class="mobile-menu__social" aria-label="Social links">
         <a href="https://www.instagram.com/yourwedstories/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
@@ -91,20 +95,14 @@
     <h1 class="visually-hidden">Your Wed Stories</h1>
     <div class="hero hero-slider" role="region" aria-roledescription="carousel" aria-label="Selected wedding photographs">
       <img src="images/cover.jpg" srcset="images/cover-small.jpg 1000w, images/cover.jpg 2400w" sizes="100vw" width="2400" height="1600" alt="A couple embracing on coastal rocks above the sea" fetchpriority="high">
-<img class="hero-slide" src="images/collections/nigel-cyananda/005.jpg" width="1600" height="1067" alt="Nigel and Cyananda by the sea at sunset" loading="lazy" hidden><img class="hero-slide" src="images/collections/selected-frames/005.jpg" width="1600" height="1067" alt="A couple together in a palace garden" loading="lazy" hidden><div class="hero-slider__controls" hidden><button type="button" data-slide="0" aria-label="Show photograph 1" aria-pressed="true">01</button><button type="button" data-slide="1" aria-label="Show photograph 2" aria-pressed="false">02</button><button type="button" data-slide="2" aria-label="Show photograph 3" aria-pressed="false">03</button><button type="button" class="slider-play">Pause</button></div><p class="visually-hidden slider-status" aria-live="polite"></p>    </div>
+<img class="hero-slide" src="images/collections/nigel-cyananda/005.jpg" width="1600" height="1067" alt="Nigel and Cyananda by the sea at sunset" loading="lazy" hidden><img class="hero-slide" src="images/collections/selected-frames/005.jpg" width="1600" height="1067" alt="A couple together in a palace garden" loading="lazy" hidden><div class="hero-brand"><img src="images/yourwedstories-logo.png" width="780" height="281" alt="Your Wed Stories"><p>Wedding photography &amp; films · India &amp; worldwide</p></div><div class="hero-slider__controls" hidden><button type="button" data-slide="0" aria-label="Show photograph 1" aria-pressed="true">01</button><button type="button" data-slide="1" aria-label="Show photograph 2" aria-pressed="false">02</button><button type="button" data-slide="2" aria-label="Show photograph 3" aria-pressed="false">03</button><button type="button" class="slider-play">Pause</button></div><p class="visually-hidden slider-status" aria-live="polite"></p>    </div>
 
-<section class="studio-statement" aria-labelledby="studio-statement-title">
-<p class="studio-statement__eyebrow">THE STUDIO</p>
-<h2 id="studio-statement-title"><span>MASTERFUL</span><span>PHOTOGRAPHY</span><span class="studio-statement__modern"><em>in</em> SPECTACULAR</span><span class="studio-statement__modern">DESTINATIONS</span></h2>
-<p class="studio-statement__signature">Your Wed Stories</p>
-<figure><img src="images/collections/arushi-manoj/008.jpg" srcset="images/collections/arushi-manoj/008-small.jpg 700w, images/collections/arushi-manoj/008.jpg 1600w" sizes="(max-width:767px) 88vw, 40vw" width="1600" height="2400" alt="Arushi holding a red rose in a quiet bridal portrait" loading="lazy" decoding="async"></figure>
-<a class="studio-statement__link" href="our-work/">Browse our portfolio</a>
-</section>
+<section class="studio-showcase" aria-labelledby="studio-showcase-title"><p class="studio-showcase__eyebrow">THE STUDIO</p><h2 id="studio-showcase-title"><span>MASTERFUL</span><span>PHOTOGRAPHY</span><span class="studio-showcase__modern"><em>in</em> SPECTACULAR</span><span class="studio-showcase__modern">DESTINATIONS</span></h2><p class="studio-showcase__signature">Your Wed Stories</p><div class="studio-carousel" role="region" aria-roledescription="carousel" aria-label="Selected studio photographs"><div class="studio-carousel__viewport"><img class="studio-carousel__slide is-active" src="images/collections/arushi-manoj/008.jpg" width="1600" height="2400" alt="Arushi holding a red rose before her wedding" loading="lazy" decoding="async"><img class="studio-carousel__slide" src="images/collections/vatsala-aayush/003.jpg" width="1600" height="2400" alt="Vatsala in her evening gown beside a gold mirror" loading="lazy" decoding="async" hidden><img class="studio-carousel__slide" src="images/collections/pranav-malini-wedding/008.jpg" width="1600" height="2400" alt="Malini in her bridal attire" loading="lazy" decoding="async" hidden><img class="studio-carousel__slide" src="images/collections/nigel-cyananda/009.jpg" width="1600" height="2400" alt="Nigel and Cyananda embracing beside the sea in black and white" loading="lazy" decoding="async" hidden></div><div class="studio-carousel__controls" hidden><button type="button" data-studio-step="-1" aria-label="Previous studio photograph">Previous</button><span class="studio-carousel__count" aria-hidden="true">01 / 04</span><button type="button" data-studio-step="1" aria-label="Next studio photograph">Next</button><button type="button" data-studio-play>Pause slideshow</button></div><p class="visually-hidden" data-studio-status aria-live="polite" aria-atomic="true"></p></div></section>
 <section class="atelier-spread" aria-labelledby="studio-cta-title"><figure><img src="images/collections/aditi-xavier/034.jpg" width="1357" height="1000" alt="Aditi and Xavier together in a palace doorway" loading="lazy" decoding="async"><figcaption>Aditi &amp; Xavier</figcaption></figure><div><h2 id="studio-cta-title">Beautifully composed.<br><em>Entirely yourselves.</em></h2><p>There is room for a considered portrait and a completely unguarded laugh. We look for both, following the people and the small details that give a celebration its character.</p><a class="atelier-link" href="about/">Meet the studio</a></div><figure><img src="images/collections/vatsala-aayush/008.jpg" width="1600" height="2400" alt="Vatsala and Aayush on the staircase at their reception" loading="lazy" decoding="async"><figcaption>Vatsala &amp; Aayush</figcaption></figure></section><section class="signature-portfolio" id="our-work" aria-labelledby="work-title"><header><p>SIGNATURE WORK</p><h2 id="work-title">PORTFOLIO</h2></header><div class="signature-portfolio__grid"><a class="signature-portfolio__card" href="our-work/weddings/" aria-label="Browse weddings portfolio"><img class="signature-portfolio__cover" src="images/collections/pranav-malini-wedding/011.jpg" width="1600" height="2400" alt="Pranav and Malini beneath their wedding canopy" loading="lazy" decoding="async"><img class="signature-portfolio__preview" src="images/collections/pranav-malini-wedding/007.jpg" alt="" aria-hidden="true" loading="lazy" decoding="async"><span>Weddings<small>Browse portfolio</small></span></a><a class="signature-portfolio__card" href="our-work/portraits/" aria-label="Browse portraits portfolio"><img class="signature-portfolio__cover" src="images/collections/nigel-cyananda/001.jpg" width="1600" height="2400" alt="Nigel and Cyananda embracing beside the sea" loading="lazy" decoding="async"><img class="signature-portfolio__preview" src="images/collections/nigel-cyananda/009.jpg" alt="" aria-hidden="true" loading="lazy" decoding="async"><span>Portraits<small>Browse portfolio</small></span></a><a class="signature-portfolio__card signature-portfolio__card--wide" href="our-work/editorial/" aria-label="Browse editorial portfolio"><img class="signature-portfolio__cover" src="images/collections/arushi-manoj/020.jpg" width="1600" height="1067" alt="Arushi and Manoj together in the evening landscape" loading="lazy" decoding="async"><img class="signature-portfolio__preview" src="images/collections/arushi-manoj/016.jpg" alt="" aria-hidden="true" loading="lazy" decoding="async"><span>Editorial<small>Browse portfolio</small></span></a></div><a class="signature-portfolio__button" href="our-work/">View full portfolio</a></section><section class="story-film" id="places-we-go" aria-labelledby="story-film-title">
 <div class="story-film__media"><video autoplay muted loop playsinline preload="auto" poster="videos/wedding-story-poster.jpg" aria-label="Your Wed Stories wedding highlights"><source src="videos/wedding-story.mp4" type="video/mp4"></video></div>
 <div class="story-film__words"><h2 id="story-film-title">THE PEOPLE.<br>THE PLACES.<br><em>The memories.</em></h2></div>
 </section>
-<section class="people-intro people-intro--home" aria-labelledby="people-cta-title"><figure class="people-portrait people-portrait--harsha"><img src="images/studio/harsha-sawnani.jpg" width="1400" height="1866" alt="Portrait of Harsha Sawnani" loading="lazy" decoding="async"><figcaption>Harsha Sawnani</figcaption></figure><div class="people-intro__words"><p class="people-kicker">ABOUT HARSHA &amp; VIJAY</p><p class="people-home-introduction">Harsha Sawnani and Vijay Sawnani.<br>The people behind Your Wed Stories.</p><h2 id="people-cta-title">Boldly natural,<br>graceful,<br>honest,<br><em>and</em> entirely<br>captivating.</h2><a class="people-button" href="about/">Read more</a></div><figure class="people-portrait people-portrait--vijay"><img src="images/studio/vijay-sawnani.jpg" width="1400" height="1866" alt="Portrait of Vijay Sawnani" loading="lazy" decoding="async"><figcaption>Vijay Sawnani</figcaption></figure></section>
+<section class="people-intro people-intro--home" aria-labelledby="people-cta-title"><figure class="people-portrait people-portrait--harsha"><img src="images/studio/harsha-sawnani.jpg" width="1400" height="1866" alt="Portrait of Harsha Sawnani" loading="lazy" decoding="async"><figcaption>Harsha Sawnani</figcaption></figure><div class="people-intro__words"><p class="people-kicker">ABOUT HARSHA &amp; VIJAY</p><p class="people-home-introduction">Harsha Sawnani and Vijay Sawnani.<br>The people behind Your Wed Stories.</p><h2 id="people-cta-title">Boldly natural,<br>graceful,<br>honest,<br><em>and</em> entirely<br>captivating.</h2><a class="people-button" href="about/">Read more</a></div><figure class="people-portrait people-portrait--vijay"><img src="images/studio/vijay-sawnani.jpg" width="1400" height="1866" alt="Portrait of Vijay Sawnani" loading="lazy" decoding="async"><figcaption>Vijay Sawnani</figcaption></figure></section><section class="company-logos" aria-labelledby="company-logos-title"><h2 class="visually-hidden" id="company-logos-title">Publications &amp; photography platforms</h2><ul class="company-logos__grid"><li><img src="images/press/vogue.png" width="1000" height="276" alt="Vogue" loading="lazy" decoding="async"></li><li><img src="images/press/harpers-bazaar.png" width="1000" height="276" alt="Harper’s Bazaar" loading="lazy" decoding="async"></li><li><img src="images/press/wezoree.png" width="1000" height="276" alt="Wezoree" loading="lazy" decoding="async"></li><li><img src="images/press/mywed.png" width="1000" height="276" alt="MyWed" loading="lazy" decoding="async"></li><li class="company-logos__fearless"><img src="images/press/fearless.png" width="319" height="276" alt="Fearless Photographers" loading="lazy" decoding="async"></li></ul></section>
 <section class="atelier-work" id="selected-stories" aria-labelledby="stories-title"><header><p class="atelier-eyebrow">SELECTED STORIES</p><h2 id="stories-title">Moments, honestly kept</h2><a class="atelier-link" href="our-work/">View Portfolio</a></header><div class="atelier-stories"><article><a href="our-work/aditi-xavier/"><img src="images/collections/aditi-xavier/040.jpg" srcset="images/collections/aditi-xavier/040-small.jpg 700w, images/collections/aditi-xavier/040.jpg 737w" sizes="(max-width: 767px) 100vw, 50vw" width="737" height="1000" alt="Aditi &amp; Xavier photographic story" loading="lazy" decoding="async"><h3>Aditi &amp; Xavier</h3><span class="atelier-link">Explore the story</span></a></article><article><a href="our-work/nigel-cyananda/"><img src="images/collections/nigel-cyananda/011.jpg" srcset="images/collections/nigel-cyananda/011-small.jpg 700w, images/collections/nigel-cyananda/011.jpg 1600w" sizes="(max-width: 767px) 100vw, 50vw" width="1600" height="2400" alt="Nigel &amp; Cyananda photographic story" loading="lazy" decoding="async"><h3>Nigel &amp; Cyananda</h3><span class="atelier-link">Explore the story</span></a></article><article><a href="our-work/vatsala-aayush/"><img src="images/collections/vatsala-aayush/013.jpg" srcset="images/collections/vatsala-aayush/013-small.jpg 700w, images/collections/vatsala-aayush/013.jpg 1600w" sizes="(max-width: 767px) 100vw, 50vw" width="1600" height="2400" alt="Vatsala &amp; Aayush photographic story" loading="lazy" decoding="async"><h3>Vatsala &amp; Aayush</h3><span class="atelier-link">Explore the story</span></a></article></div></section><section class="atelier-note"><figure><img src="images/collections/pranav-malini/017.jpg" srcset="images/collections/pranav-malini/017-small.jpg 700w, images/collections/pranav-malini/017.jpg 1600w" sizes="(max-width: 767px) 100vw, 50vw" width="1600" height="1067" alt="Friends embracing during a sunlit Holi celebration" loading="lazy" decoding="async"></figure><div><p class="atelier-eyebrow">MORE THAN THE PORTRAITS</p><h2>All the people<br><em>who make it yours.</em></h2><p>The friend who starts the dancing. The parent watching quietly. The joy that spills beyond the ceremony. Their place in your story matters as much as the two of you.</p><a class="atelier-link" href="about/">Our approach</a></div></section>
     <section class="frame section" id="films" aria-labelledby="films-title">
       <h2 id="films-title">WEDDING FILMS</h2>
@@ -223,7 +221,7 @@
               <li><a href="about/">About Us</a></li>
             </ul>
             <ul>
-              <li><a href="#contact" data-open-inquiry>Contact Us</a></li>
+              <li><a href="contact/" data-contact-page>Contact Us</a></li>
               <li><a href="https://www.instagram.com/yourwedstories/" target="_blank" rel="noopener noreferrer">Instagram</a></li>
               <li><a href="https://www.youtube.com/@yourwedstories" target="_blank" rel="noopener noreferrer">YouTube</a></li>
               <li><a href="https://www.behance.net/yourwedstories" target="_blank" rel="noopener noreferrer">Behance</a></li>
@@ -273,11 +271,12 @@
     </a>
   </footer>
   <script src="script.js" defer></script>
-  <script src="home.js?v=20261115-sticky" defer></script>
+  <script src="home.js?v=restore-20261117" defer></script>
   <script src="our-work.js?v=2" defer></script>
   <script src="hero-grain.js?v=1" defer></script>
-<script src="atelier-slider.js" defer></script>
+<script src="atelier-slider.js?v=restore-2sec" defer></script>
 <script src="scroll-motion.js?v=1" defer></script>
 <script src="story-film.js?v=4" defer></script>
+<script src="studio-carousel.js?v=restore-2sec" defer></script>
 </body>
 </html>
