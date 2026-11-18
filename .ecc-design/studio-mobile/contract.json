@@ -1,0 +1,17 @@
+{
+  "surface": "Homepage studio slideshow on mobile",
+  "primaryAction": "View and swipe photographs",
+  "constraints": [
+    "Retain desktop layout and reference proportions",
+    "Mobile headings and signature fit without overflow",
+    "Keep two-second autoplay after touch swipe",
+    "Touch must not trigger persistent mouse hover pause",
+    "Use responsive local image thumbnails",
+    "Respect reduced motion and support keyboard pause"
+  ],
+  "targetViewports": [
+    "320x720",
+    "390x844",
+    "1440x900"
+  ]
+}

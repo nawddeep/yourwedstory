@@ -10,11 +10,11 @@
  controls.querySelectorAll('[data-studio-step]').forEach(function(b){b.addEventListener('click',function(){show(index+Number(b.dataset.studioStep),true);});});
  play.addEventListener('click',function(){paused=!paused;schedule();});
  root.addEventListener('focusin',function(){paused=true;schedule();});
- root.addEventListener('mouseenter',function(){hovered=true;schedule();});root.addEventListener('mouseleave',function(){hovered=false;schedule();});
- root.addEventListener('keydown',function(e){if(e.key==='ArrowRight'||e.key==='ArrowLeft'){e.preventDefault();show(index+(e.key==='ArrowRight'?1:-1),true);}});
+ root.addEventListener('pointerenter',function(e){if(e.pointerType==='mouse'&&matchMedia('(hover: hover)').matches){hovered=true;schedule();}});root.addEventListener('pointerleave',function(){hovered=false;schedule();});
+ root.addEventListener('keydown',function(e){if(e.key==='ArrowRight'||e.key==='ArrowLeft'){e.preventDefault();show(index+(e.key==='ArrowRight'?1:-1),true);}else if(e.code==='Space'){e.preventDefault();paused=!paused;schedule();}});
  var down=null,viewport=root.querySelector('.studio-carousel__viewport');
- viewport.addEventListener('pointerdown',function(e){if(e.pointerType!=='mouse')down={x:e.clientX,y:e.clientY};});
- viewport.addEventListener('pointerup',function(e){if(!down)return;var dx=e.clientX-down.x,dy=e.clientY-down.y;down=null;if(Math.abs(dx)>45&&Math.abs(dx)>Math.abs(dy))show(index+(dx<0?1:-1),true);});viewport.addEventListener('pointercancel',function(){down=null;});
+ viewport.addEventListener('pointerdown',function(e){if(e.pointerType!=='mouse'){down={x:e.clientX,y:e.clientY};if(viewport.setPointerCapture)viewport.setPointerCapture(e.pointerId);}});
+ viewport.addEventListener('pointerup',function(e){if(!down)return;var dx=e.clientX-down.x,dy=e.clientY-down.y;down=null;if(Math.abs(dx)>45&&Math.abs(dx)>Math.abs(dy)){show(index+(dx<0?1:-1),true);paused=reduce.matches;schedule();}});viewport.addEventListener('pointercancel',function(){down=null;});
  document.addEventListener('visibilitychange',schedule);reduce.addEventListener('change',function(){paused=true;schedule();});
  if('IntersectionObserver' in window)new IntersectionObserver(function(entries){visible=entries[0].isIntersecting;schedule();},{threshold:.15}).observe(root);else{visible=true;schedule();}
 })();

@@ -83,3 +83,26 @@ body.folio-landing.shared-nav-page > .masthead:not(.is-scrolled) { position:abso
  font-size:10px; font-weight:400; line-height:1.4;
  letter-spacing:.14em; text-transform:uppercase;
 }
+
+/* Desktop reference: one balanced row of five text links. */
+@media (min-width:768px) {
+ .shared-nav-page .masthead.is-scrolled .masthead__inner {
+  grid-template-columns:28px clamp(160px,18vw,224px) minmax(0,1fr);
+ }
+ .shared-nav-page .masthead.is-scrolled .masthead__nav {
+  display:flex; justify-content:space-between; gap:clamp(16px,3vw,64px);
+  padding-inline:clamp(24px,5vw,96px) 0;
+ }
+ .shared-nav-page .masthead.is-scrolled .masthead__nav a {
+  display:inline-flex; align-items:center; justify-content:center; min-height:44px;
+  font-size:12px; line-height:1.4; letter-spacing:.16em; text-transform:none;
+  white-space:nowrap;
+ }
+ .shared-nav-page .masthead.is-scrolled .masthead__nav a[data-contact-page] { display:inline-flex; }
+ .shared-nav-page .masthead.is-scrolled .masthead__cta { display:none; }
+}
+@media (min-width:768px) and (max-width:950px) {
+ .shared-nav-page .masthead.is-scrolled .masthead__inner { grid-template-columns:24px 145px minmax(0,1fr); }
+ .shared-nav-page .masthead.is-scrolled .masthead__nav { gap:12px; padding-inline:12px 0; }
+ .shared-nav-page .masthead.is-scrolled .masthead__nav a { font-size:10px; letter-spacing:.1em; }
+}
